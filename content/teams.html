@@ -1,0 +1,138 @@
+<!-- teams.html – Individual Team page
+     Structured to match main.html style (uses .team-page-table)
+     Future tables can be added below, same style and layout.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Details</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="../js/teamLoad.js" defer></script>
+</head>
+<body>
+  <div class="team-layout">
+
+    <!-- LEFT SIDE -->
+   <div class="team-left">
+
+  <!-- NEW TOP TABLE -->
+  <table id="teamHeader" class="team-page-top">
+      <tr>
+        <td id="topMenu"></img></td>
+      </tr>
+  </table>
+
+      <!-- Team Header -->
+      <table id="teamHeader" class="team-page-table">
+        <tr>
+          <td class="logo-cell" rowspan="3" id="teamLogo">
+           
+          </td>
+          <td>
+            <div id="teamName" class="team-info"></div>
+            <div id="teamEmail" class="team-info"></div>
+            <div id="teamExtra" class="team-info"></div>
+          </td>
+          <td>
+            <table class="mini-table">
+              <tr>
+                <td>Nombre de joueurs :</td>
+                <td id="nbPlayersValue"></td>
+              </tr>
+              <tr>
+                <td>Masse salariale :</td>
+                <td id="capValue"></td>
+              </tr>
+              <tr>
+                <td id="Ajustement">Ajustement pour blessé(s) :</td>
+                <td id="capInjured"></td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table class="mini-table">
+              <tr>
+                <td>Lstes des blessés :</td>
+                <td id="Injured"></td>
+                <td></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+      <!-- LOWER ROW: Players + Picks/Archives -->
+      <div class="team-lower">
+        <!-- Player sections -->
+<!-- Player sections -->
+<table id="playerSections" class="team-page-table">
+  <thead>
+    <tr>
+      <th>Attaquants (<span id="forwardsTotal"></span>)</th>
+      <th>Défenseurs (<span id="defenseTotal"></span>)</th>
+      <th>Gardiens (<span id="goalersTotal"></span>)</th>
+      <th>Choix</th>
+      <th>Historique</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- Forwards -->
+      <td>
+        <table id="forwardsTable" class="mini-player-table">
+          <tbody id="forwardsList"></tbody>
+        </table>
+      </td>
+
+      <!-- Defense -->
+      <td>
+        <table id="defenseTable" class="mini-player-table">
+          <tbody id="defenseList"></tbody>
+        </table>
+      </td>
+
+      <!-- Goalers -->
+      <td>
+        <table id="goalersTable" class="mini-player-table">
+          <tbody id="goalersList"></tbody>
+        </table>
+      </td>
+      <!-- Picks -->
+      <td>
+        <table id="picksArchives" class="mini-player-table">            
+          <tbody id="picksList"></tbody>
+        </table>
+      </td>
+      <!-- Archive -->
+      <td>
+        <table id="archive" class="mini-player-table">            
+          <tbody id="archiveList"></tbody>
+        </table>
+      </td>
+
+    </tr>
+  </tbody>
+</table>
+
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE: Transactions -->
+    <div class="team-right">
+      <table id="tradesTable" class="team-page-table">
+        <thead><tr><th colspan="2">Transactions</th></tr></thead>
+        <tr></tr><select id="tradeYearFilter"></tr></select>
+        <tbody id="tradesList">
+          <tr><th>IN</th><th>OUT</th></tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>
+
