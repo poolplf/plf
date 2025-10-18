@@ -82,4 +82,3 @@ Promise.all([
   });
 })
 .catch(err => console.error('Error loading data:', err));
-
