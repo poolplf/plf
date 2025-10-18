@@ -3,57 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PLF Dashboard</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      background: linear-gradient(135deg, #0b1b38, #122b5a);
-      color: white;
-      font-family: 'Inter', sans-serif;
-    }
+  <title>Hockey Pool Dashboard</title>
+<link rel="stylesheet" href="style.css" type="text/css">
 
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-
-    a.launch-btn {
-      display: inline-block;
-      padding: 14px 28px;
-      font-size: 16px;
-      font-weight: 600;
-      color: white;
-      background: #2563eb;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background 0.25s;
-    }
-
-    a.launch-btn:hover {
-      background: #1e40af;
-    }
-
-    footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.85rem;
-      opacity: 0.8;
-    }
-  </style>
 </head>
 <body>
-  <h1>Welcome to PLF Dashboard</h1>
-  <a href="https://script.google.com/macros/s/AKfycbwYCKOWQMRGLZT9_wniu_T3lqWRdlBiWujmE2KQtrMc/dev" 
-     target="_blank" 
-     class="launch-btn">
-    🚀 Open App
-  </a>
 
-  <footer>© 2025 PLF — powered by Google Apps Script</footer>
+<script type="module" src="js/main.js"></script>
+
+  
+  <div class="sidebar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="files/logo.png" alt="Hockey Pool Logo">
+      </a>
+    </div>
+
+    <ul class="menu">
+  <li class="menu-item has-submenu">
+    <a href="#">Équipes ▸</a>
+    <ul class="submenu" id="teamsSubmenu">
+      <!-- Teams will be inserted here -->
+    </ul>
+  </li>
+  <li class="menu-item">
+    <a href="#" id="tradesMenu">Échanges</a>
+  </li>
+    <li class="menu-item">
+    <a href="#" id="StandingMenu">Classement</a>
+  </li>
+    <li class="menu-item">
+    <a href="#" id="InjuredMenu">Blessés</a>
+  </li>
+    <li class="menu-item">
+    <a href="#" id="DraftsMenu">Repêchages</a>
+  </li>
+    <li class="menu-item">
+    <a href="#" id="SalaryMenu">Salaires</a>
+  </li>
+    <li class="menu-item">
+    <a href="#" id="RulessMenu">Règlements</a>
+  </li>
+    <li class="menu-item">
+    <a href="#" id="ArchivesMenu">Archives</a>
+  </li>
+    <li class="menu-item">
+    <a href="#" id="StartMenu">Début</a>
+  </li>
+</ul>
+  </div>
+  </div>
+  <div class="main-content" id="mainContent">
+ 
+  </div>
+
+
+
+ 
+
 </body>
 </html>
