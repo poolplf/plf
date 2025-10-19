@@ -31,6 +31,7 @@ toggleBtn.textContent = "◀"; // open by default
 
 toggleBtn.addEventListener("click", () => {
   sidebar.classList.toggle("collapsed");
+  document.body.classList.toggle("sidebar-collapsed");
   toggleBtn.textContent = sidebar.classList.contains("collapsed") ? "▶" : "◀";
 });
 

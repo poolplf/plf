@@ -330,3 +330,12 @@ a:hover, a:focus {
     font-size: 0.8rem;
   }
 }
+
+.main-content {
+  margin-left: 230px;
+  transition: margin-left 0.3s ease;
+}
+
+body.sidebar-collapsed .main-content {
+  margin-left: 0;
+}
