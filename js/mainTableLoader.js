@@ -32,7 +32,7 @@ Promise.all([
     const logoCell = row.insertCell();
     if (eq && eq.Logo) {
       const img = document.createElement('img');
-      img.src = `/files/${eq.Logo}`;
+      img.src = `files/${eq.Logo}`;
       img.alt = pooler.Pooler;
       logoCell.appendChild(img);
     } else {
