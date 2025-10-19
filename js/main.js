@@ -59,9 +59,9 @@ function loadPage(url) {
 }
 
 // Example: attach clicks for menu items
-document.getElementById('tradesMenu').addEventListener('click', e => {
+document.getElementById('StandingMenu').addEventListener('click', e => {
   e.preventDefault();
-  loadPage('content/trades.html'); // or any other page
+  loadPage('content/standings.html'); // or any other page
 });
 
 

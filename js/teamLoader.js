@@ -187,12 +187,14 @@ loadData()
 
 function buildPicksList() {
   const picksList = document.getElementById("picksList");
-  if (!picksList) {
-    console.error("❌ picksList tbody not found");
+  const picksHeader = document.getElementById("picksHeader");
+  if (!picksList || !picksHeader) {
+    console.error("❌ picksList or picksHeader not found");
     return;
   }
 
-  picksList.innerHTML = ""; // clear everything
+  picksList.innerHTML = "";
+  picksHeader.innerHTML = "";
 
   const getPkAnnee = a => Number(a.PKAnnee ?? a.PkAnnee);
 
@@ -207,17 +209,17 @@ function buildPicksList() {
   if (!Number.isFinite(currentPk)) return;
 
   const anneesSorted = [...Annees].sort((x, y) => getPkAnnee(x) - getPkAnnee(y));
-  let startIndex = anneesSorted.findIndex(a => getPkAnnee(a) === currentPk) + 1;
+  const startIndex = anneesSorted.findIndex(a => getPkAnnee(a) === currentPk) + 1;
   const targetAnnees = anneesSorted.slice(startIndex, startIndex + 3);
   const targetIds = targetAnnees.map(a => getPkAnnee(a));
 
   // Filter Choix for selected team and those 3 years
-  const teamChoix = Choix.filter(c =>
+  const teamChoix = (Choix || []).filter(c =>
     Number(c.FKPLF_NEW_Owner) === Number(window.pkPLF) &&
     targetIds.includes(Number(c.FkAnnee ?? c.FKAnnee))
   );
 
-  // 🧩 Sort by round number
+  // Sort by round
   teamChoix.sort((a, b) => Number(a.Ronde) - Number(b.Ronde));
 
   // Group by year
@@ -245,35 +247,51 @@ function buildPicksList() {
     picksByYear[yearObj.Annee].push(`${rondeText} (${shortName})`);
   });
 
+  // === HEADER mini-table ===
+  const headerTable = document.createElement("table");
+  headerTable.className = "mini-player-table";
+  headerTable.style.width = "100%";
+  headerTable.style.tableLayout = "fixed";
+  const headerRow = document.createElement("tr");
+
+  const colWidth = `${100 / targetAnnees.length}%`; // dynamic width if 3 years or less
+  targetAnnees.forEach(a => {
+    const yearTh = document.createElement("th");
+    yearTh.textContent = a.Annee;
+    yearTh.style.width = colWidth;
+    headerRow.appendChild(yearTh);
+  });
+
+  headerTable.appendChild(headerRow);
+  picksHeader.appendChild(headerTable);
+
+  // === BODY mini-table ===
   const table = document.createElement("table");
   table.className = "mini-player-table";
+  table.style.width = "100%";
+  table.style.tableLayout = "fixed";
 
-  const thead = document.createElement("thead");
-  const headRow = document.createElement("tr");
-  targetAnnees.forEach(a => {
-    const th = document.createElement("th");
-    th.textContent = a.Annee;
-    headRow.appendChild(th);
-  });
-  thead.appendChild(headRow);
-  table.appendChild(thead);
-
-  const maxRows = Math.max(...Object.values(picksByYear).map(arr => arr.length), 0);
   const tbody = document.createElement("tbody");
-  for (let i = 0; i < maxRows; i++) {
+  const maxRows = Math.max(...Object.values(picksByYear).map(arr => arr.length), 0);
+
+  // If team has no picks, still show one empty row
+  const rowsToShow = Math.max(maxRows, 1);
+
+  for (let i = 0; i < rowsToShow; i++) {
     const tr = document.createElement("tr");
     targetAnnees.forEach(a => {
       const td = document.createElement("td");
-      td.textContent = picksByYear[a.Annee][i] || "";
+      td.style.width = colWidth;
+      td.textContent = picksByYear[a.Annee]?.[i] || "";
       tr.appendChild(td);
     });
     tbody.appendChild(tr);
   }
 
   table.appendChild(tbody);
-  picksList.innerHTML = "";
   picksList.appendChild(table);
 }
+
 
 
 function fillInjured(id, InjuredArray, JoueursArray, SalairesArray) {
@@ -589,8 +607,7 @@ function fillTradesTable() {
       mini.className = "mini-trade";
       mini.style.width = "100%";
       mini.style.margin = "8px 0";
-      mini.style.borderCollapse = "collapse";
-
+      
       // Row 1: Date + Other team
       const r1 = document.createElement("tr");
       const tdDate = document.createElement("td");
