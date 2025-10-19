@@ -4,62 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hockey Pool Dashboard</title>
-<link rel="stylesheet" href="style.css" type="text/css">
-
+  <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 
-<script type="module" src="js/main.js"></script>
+  <!-- Toggle button (hamburger) -->
+  <button id="toggleSidebar" class="toggle-btn"></button>
 
-  
-  <div class="sidebar">
-    <div class="logo">
-      <a href="index.html">
-        <img src="files/logo.png" alt="Hockey Pool Logo">
-      </a>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="files/logo.png" alt="Hockey Pool Logo">
+        </a>
+      </div>
+
+      <ul class="menu">
+        <li class="menu-item has-submenu">
+          <a href="#">Équipes ▸</a>
+          <ul class="submenu" id="teamsSubmenu">
+            <!-- Teams will be inserted here -->
+          </ul>
+        </li>
+        <li class="menu-item"><a href="#" id="tradesMenu">Échanges</a></li>
+        <li class="menu-item"><a href="#" id="StandingMenu">Classement</a></li>
+        <li class="menu-item"><a href="#" id="InjuredMenu">Blessés</a></li>
+        <li class="menu-item"><a href="#" id="DraftsMenu">Repêchages</a></li>
+        <li class="menu-item"><a href="#" id="SalaryMenu">Salaires</a></li>
+        <li class="menu-item"><a href="#" id="RulessMenu">Règlements</a></li>
+        <li class="menu-item"><a href="#" id="ArchivesMenu">Archives</a></li>
+        <li class="menu-item"><a href="#" id="StartMenu">Début</a></li>
+      </ul>
     </div>
 
-    <ul class="menu">
-  <li class="menu-item has-submenu">
-    <a href="#">Équipes ▸</a>
-    <ul class="submenu" id="teamsSubmenu">
-      <!-- Teams will be inserted here -->
-    </ul>
-  </li>
-  <li class="menu-item">
-    <a href="#" id="tradesMenu">Échanges</a>
-  </li>
-    <li class="menu-item">
-    <a href="#" id="StandingMenu">Classement</a>
-  </li>
-    <li class="menu-item">
-    <a href="#" id="InjuredMenu">Blessés</a>
-  </li>
-    <li class="menu-item">
-    <a href="#" id="DraftsMenu">Repêchages</a>
-  </li>
-    <li class="menu-item">
-    <a href="#" id="SalaryMenu">Salaires</a>
-  </li>
-    <li class="menu-item">
-    <a href="#" id="RulessMenu">Règlements</a>
-  </li>
-    <li class="menu-item">
-    <a href="#" id="ArchivesMenu">Archives</a>
-  </li>
-    <li class="menu-item">
-    <a href="#" id="StartMenu">Début</a>
-  </li>
-</ul>
-  </div>
-  </div>
-  <div class="main-content" id="mainContent">
- 
+    <!-- Main content -->
+    <div class="main-content" id="mainContent">
+      <!-- Dynamic content loads here -->
+    </div>
   </div>
 
-
-
- 
-
+  <!-- Your main JS -->
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>

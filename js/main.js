@@ -18,12 +18,20 @@ teamsMenuLink.addEventListener("click", (e) => {
   parentLi.classList.toggle("open"); // this will show/hide submenu
 });
 
-// Debug
-//console.log("Script loaded, starting menu load...");
 
 // Load Teams submenu
 loadTeamsMenu("data/PLF.json","data/Equipes.json", "teamsSubmenu", (key, name) => {
   const display = document.getElementById("selectedTeam");
+});
+
+const sidebar = document.getElementById("sidebar");
+const toggleBtn = document.getElementById("toggleSidebar");
+
+toggleBtn.textContent = "◀"; // open by default
+
+toggleBtn.addEventListener("click", () => {
+  sidebar.classList.toggle("collapsed");
+  toggleBtn.textContent = sidebar.classList.contains("collapsed") ? "▶" : "◀";
 });
 
 
@@ -56,24 +64,6 @@ document.getElementById('tradesMenu').addEventListener('click', e => {
 });
 
 
-// 🔹 Define loadTeams globally
-/*function loadTeams(pk) {
-  fetch(`content/teams.html?pk=${pk}`)
-    .then(res => res.text())
-    .then(html => {
-      const container = document.querySelector('#mainContent');
-      if (container) {
-        container.innerHTML = html;
-        window.currentPkPLF = pk;
-        const script = document.createElement('script');
-        script.src = 'js/teamLoader.js';
-        document.body.appendChild(script);
-      } else {
-        console.error('#mainContent not found');
-      }
-    })
-    .catch(err => console.error('Error loading teams.html:', err));
-}*/
 window.pkPLF = Number(window.currentPkPLF) || Number(window.pkPLF) || null;
 // 🔹 Make it accessible everywhere
 window.loadTeams = loadTeams;

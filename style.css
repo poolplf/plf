@@ -202,17 +202,6 @@ table img {
   display: inline-block;
 }
 
-/* ===== Sidebar ===== */
-/*.sidebar {
-  width: 200px;
-  background-color: #2f3542;
-  color: #f1f2f6;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0 12px 12px 0;
-  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
-}*/
-
 /* Sidebar fixed on the left */
 .sidebar {
   width: 230px;
@@ -226,7 +215,31 @@ table img {
   position: fixed;
   top: 0;
   left: 0;
+  transition: transform 0.3s ease;
+  transform: translateX(0); /* open on load */
+  z-index: 1000; /* lower than button */
+
 }
+
+/* Sidebar visible when toggled */
+.sidebar.collapsed {
+  transform: translateX(-100%);
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2001;
+}
+
+
 
 /* ===== Menu ===== */
 .menu {
