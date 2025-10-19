@@ -5,39 +5,62 @@
   box-sizing: border-box;
 }
 
-/*body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
-  color: #d8dce3;
-  background-color: #f4f5f7;
-  padding: 1rem;
-}*/
-
 /* ===== Layout Containers ===== */
 body {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;              /* permet le scroll si contenu > écran */
   font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   color: #d8dce3;
   background-color: #f4f5f7;
-  overflow: hidden;
+  overflow-y: auto;               /* réactive le scroll */
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+  width: 230px;
+  background-color: #2f3542;
+  color: #f1f2f6;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+  z-index: 1000;
+}
+
+.sidebar.collapsed {
+  transform: translateX(-100%);
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2001;
+}
+
+/* ===== Main Content Area ===== */
+.main-content {
+  flex: 1;
+  margin-left: 230px; /* largeur sidebar */
+  padding: 0 2rem 2rem 2rem;
+  overflow-y: auto;
 }
 
 /* ===== Tables Wrapper ===== */
-/*.tables-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-  width: 100%;
-  flex-wrap: wrap;
-}*/
-
-/* Tables side by side */
 .tables-wrapper {
   display: flex;
   justify-content: space-between;
@@ -74,7 +97,6 @@ body {
   white-space: nowrap;
 }
 
-/* ===== Headers ===== */
 .overview-table th,
 .plf-table th,
 .team-page-table th {
@@ -84,10 +106,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   border-bottom: 2px solid #004080;
-  white-space: nowrap;
 }
 
-/* ===== Rows ===== */
 .overview-table td,
 .plf-table td,
 .team-page-table td {
@@ -118,68 +138,7 @@ body {
   text-align: left;
 }
 
-/* ===== Logo Cell ===== */
-.logo-cell img {
-  height: 48px;
-  width: auto;
-  object-fit: contain;
-  vertical-align: middle;
-  transition: all 0.3s ease;
-}
-
-.logo-cell img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transform: translateY(-2px);
-}
-
-/* ===== Team Page Layout ===== */
-.team-page-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-/* ===== Compact spacing for player lists ===== */
-#playerSections td {
-  vertical-align: top;
-  padding: 0.3rem 0.5rem;
-}
-
-/* ===== Text ===== */
-.team-info {
-  text-align: left;
-  padding: 0.2rem 0;
-}
-
-/* ===== Links ===== */
-a,
-a:link,
-a:visited,
-a:active {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  text-decoration: underline;
-  color: #ffd700;
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 900px) {
-  .tables-wrapper {
-    flex-direction: column;
-    gap: 20px;
-  }
-  table {
-    font-size: 0.8rem;
-  }
-}
-
-/* ===== League / Header Logo ===== */
+/* ===== Logos ===== */
 .logo {
   padding: 0;
   text-align: center;
@@ -191,55 +150,21 @@ a:focus {
   height: auto;
 }
 
-/* ===== Team Logos in Tables ===== */
-.team-logo,
 .logo-cell img,
+.team-logo,
 table img {
   max-height: 22px;
   width: auto;
   object-fit: contain;
   vertical-align: middle;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 
-/* Sidebar fixed on the left */
-.sidebar {
-  width: 230px;
-  background-color: #2f3542;
-  color: #f1f2f6;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0 12px 12px 0;
-  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  transition: transform 0.3s ease;
-  transform: translateX(0); /* open on load */
-  z-index: 1000; /* lower than button */
-
+.logo-cell img:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
 }
-
-/* Sidebar visible when toggled */
-.sidebar.collapsed {
-  transform: translateX(-100%);
-}
-
-.toggle-btn {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  background: #444;
-  color: white;
-  border: none;
-  padding: 10px 14px;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 2001;
-}
-
-
 
 /* ===== Menu ===== */
 .menu {
@@ -294,149 +219,47 @@ table img {
   font-weight: bold;
 }
 
-/* ===== Main Content Area ===== */
-/*.content {
-  flex: 1;
-  padding: 2rem;
-  overflow-y: auto;
-}*/
-
-/* Main content area to the right of sidebar */
-.main-content {
-  flex: 1;
-  margin-left: 230px; /* same width as sidebar */
-  padding: 0 2rem 2rem 2rem;
-  overflow-y: auto;
+/* ===== Team Page Layout ===== */
+.team-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-/* === Tighter table rows === */
-.overview-table th,
-.plf-table th,
-.overview-table td,
-.plf-table td {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  line-height: 1.2;
-}
-
-/* === TEAM PAGE LAYOUT === */
 .team-layout {
   display: grid;
-  grid-template-columns: 2fr 1.2fr; /* left vs right width */
+  grid-template-columns: 3fr 1fr; /* players wider, picks thinner */
   gap: 20px;
   align-items: start;
   width: 100%;
 }
 
-.team-top {
-  display: flex;
-  flex-direction: column;
-}
-
-.team-left {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.team-lower {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
+.team-top,
+.team-left,
+.team-lower,
 .team-right {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* Optional: slightly bigger team logo */
 #teamHeader .logo-cell img {
   max-height: 100px;
   width: auto;
 }
 
-/* === Mini player tables inside playerSections === */
-.mini-player-table {
-  /*width: 100%;*/
-  border-collapse: collapse;
-  font-size: 0.8rem;
-}
-
-.mini-player-table th,
-.mini-player-table td {
-  /*padding: 0.2rem 0.4rem;*/
-  text-align: left;
-  border-bottom: 1px solid #444;
-}
-
-.mini-player-table th {
-  background-color: #2f3542;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-}
-
-/* Make the picks table adjust to its content instead of stretching */
-#picksArchives {
-  width: auto;
-  table-layout: auto;
-}
-
-#picksArchives th,
-#picksArchives td {
-  white-space: nowrap;
-}
-
-/* Fix width balance: make right table narrower */
-.team-layout {
-  grid-template-columns: 2fr 0.9fr; /* narrower right column */
-}
-
-/* Align player table columns */
-.mini-player-table td:nth-child(1) {
-  text-align: left;     /* Player name */
-}
-.mini-player-table td:nth-child(2),
-.mini-player-table td:nth-child(3) {
-  text-align: center;   /* Team + Salary */
-}
-
-/* 🧩 Make picks/archives column narrower */
-.team-layout {
-  grid-template-columns: 3fr 1fr; /* players wider, picks thinner */
-}
-
-/* 🧩 Tighten player table spacing */
-.mini-player-table td {
-  padding: 0.1rem 0.3rem; /* less vertical and horizontal padding */
-  line-height: 1.1;       /* compress line spacing */
-}
-
-/* 🧩 Reduce space between the three position tables */
-#playerSections td {
-  padding: 0 0.4rem;      /* tighter horizontal gap between columns */
-  vertical-align: top;
-}
-
-/* 🧩 Remove extra space under player tables */
-#playerSections {
-  margin-bottom: 0.5rem;
-}
-
-
-
-/* Compact mini-tables */
+/* ===== Mini player tables ===== */
 .mini-player-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.8rem;
 }
 
+.mini-player-table th,
 .mini-player-table td {
-  padding: 0.15rem 0.3rem;
-  line-height: 1.5;
+  text-align: left;
   border-bottom: 1px solid #444;
 }
 
@@ -449,19 +272,61 @@ table img {
   border-bottom: 2px solid #004080;
 }
 
-/* Column alignment */
-.mini-player-table td:nth-child(1) {
-  text-align: left;
+.mini-player-table td {
+  padding: 0.15rem 0.3rem;
+  line-height: 1.3;
 }
+
 .mini-player-table td:nth-child(2),
 .mini-player-table td:nth-child(3) {
   text-align: center;
 }
 
+/* ===== Picks Archives ===== */
+#picksArchives {
+  width: auto;
+  table-layout: auto;
+}
 
-/* Remove excess gaps globally */
+#picksArchives th,
+#picksArchives td {
+  white-space: nowrap;
+}
+
+/* ===== Compact spacing ===== */
+#playerSections td {
+  padding: 0 0.4rem;
+  vertical-align: top;
+}
+
+#playerSections {
+  margin-bottom: 0.5rem;
+}
+
 #teamHeader,
 #playerSections,
 .team-page-table {
   margin-bottom: 0.6rem;
+}
+
+/* ===== Links ===== */
+a, a:link, a:visited, a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #ffd700;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .tables-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  table {
+    font-size: 0.8rem;
+  }
 }
