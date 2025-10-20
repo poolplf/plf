@@ -436,8 +436,7 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
   margin-left: 8px;
   font-weight: 600;
 }
-
-/* === Filters bar for Joueurs === */
+/* === Filters bar (responsive) === */
 #filtersBar {
   background-color: #2f3542;
   border-bottom: 2px solid #004080;
@@ -445,43 +444,29 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
 
 .filters-container {
   display: flex;
+  flex-wrap: wrap;            /* ✅ allows wrapping on small screens */
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
   color: #f1f2f6;
   font-size: 0.9rem;
+  gap: 10px;                  /* space between wrapped rows */
 }
 
 .filters-left {
   display: flex;
   align-items: center;
-  gap: 15px;
+  flex-wrap: wrap;            /* ✅ wraps individual checkboxes */
+  gap: 12px;
+  row-gap: 6px;
 }
 
-.filter-label {
-  font-weight: 600;
-  color: #f1f2f6;
-}
-
-.filter-option {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  cursor: pointer;
-}
-
-.filter-option input[type="checkbox"] {
-  accent-color: #004080;
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
-}
-
-/* Search box styling */
 .filters-right {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-shrink: 0;
+  flex-wrap: wrap;            /* ✅ search box can drop under filters */
 }
 
 .filters-right input[type="text"] {
@@ -492,14 +477,10 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
   padding: 4px 8px;
   font-size: 0.9rem;
   width: 180px;
+  min-width: 140px;
 }
 
 .filters-right input[type="text"]:focus {
   outline: none;
   border-color: #ffd700;
-}
-
-.filter-option input[name="cbAll"] + span,
-.filter-option input[name="cbAll"] {
-  font-weight: 700;
 }
