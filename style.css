@@ -307,3 +307,75 @@ td {
 
 .main-content { margin-left: 230px; transition: margin-left 0.3s ease; }
 body.sidebar-collapsed .main-content { margin-left: 0; }
+
+/* === Drafts Page Specific === */
+.drafts-wrapper .tables-wrapper {
+  display: flex;
+  flex-direction: column;   /* stack years vertically */
+  align-items: stretch;
+  gap: 20px;
+  width: 100%;
+}
+
+.drafts-wrapper .mini-player-table {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Make year headers bold and clear */
+.drafts-wrapper .mini-player-table th[colspan="4"] {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 1rem;
+  background-color: #2f3542;
+}
+
+/* === Drafts page column widths === */
+.drafts-wrapper .mini-player-table th,
+.drafts-wrapper .mini-player-table td {
+  text-align: center;
+  padding: 0.2rem 0.3rem;  /* tighter padding */
+  white-space: nowrap;
+}
+
+/* 4 columns: OV | ORIG | NEW | JOUEURS */
+.drafts-wrapper .mini-player-table th:nth-child(1),
+.drafts-wrapper .mini-player-table td:nth-child(1) {
+  width: 45px;   /* Overall number */
+}
+
+.drafts-wrapper .mini-player-table th:nth-child(2),
+.drafts-wrapper .mini-player-table td:nth-child(2),
+.drafts-wrapper .mini-player-table th:nth-child(3),
+.drafts-wrapper .mini-player-table td:nth-child(3) {
+  width: 55px;   /* Orig / New short names */
+}
+
+.drafts-wrapper .mini-player-table th:nth-child(4),
+.drafts-wrapper .mini-player-table td:nth-child(4) {
+  width: 160px;  /* Player name */
+  text-align: left;
+  padding-left: 0.4rem;
+}
+
+/* Align Standings page with Drafts and Teams layout */
+.standings-wrapper .tables-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+
+  width: 100%;
+}
+
+.standings-wrapper table {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  background-color: #3b4251;
+  table-layout: fixed;
+  width: 300px;
+}

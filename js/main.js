@@ -58,10 +58,28 @@ function loadPage(url) {
     .catch(err => console.error('Error loading page:', err));
 }
 
-// Example: attach clicks for menu items
-document.getElementById('StandingMenu').addEventListener('click', e => {
+document.getElementById('DraftsMenu').addEventListener('click', e => {
   e.preventDefault();
-  loadPage('content/standings.html'); // or any other page
+
+  // Load the Drafts page into the container
+  loadPage('content/drafts.html');
+
+  // Wait briefly to ensure the content is inserted, then call the loader
+  setTimeout(() => {
+    const script = document.createElement("script");
+    script.src = "js/draftsLoader.js";
+    document.body.appendChild(script);
+  }, 300);
+});
+
+document.getElementById('StandingsMenu').addEventListener('click', e => {
+  e.preventDefault();
+  loadPage('content/standings.html');
+  setTimeout(() => {
+    const script = document.createElement("script");
+    script.src = "js/standingsLoader.js";
+    document.body.appendChild(script);
+  }, 300);
 });
 
 

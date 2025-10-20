@@ -213,11 +213,15 @@ function buildPicksList() {
   const targetAnnees = anneesSorted.slice(startIndex, startIndex + 3);
   const targetIds = targetAnnees.map(a => getPkAnnee(a));
 
-  // Filter Choix for selected team and those 3 years
-  const teamChoix = (Choix || []).filter(c =>
-    Number(c.FKPLF_NEW_Owner) === Number(window.pkPLF) &&
-    targetIds.includes(Number(c.FkAnnee ?? c.FKAnnee))
-  );
+  // 🧩 Filter Choix for selected team, target years, and Ronde 1–3 only
+  const teamChoix = (Choix || []).filter(c => {
+    const ronde = Number(c.Ronde);
+    return (
+      Number(c.FKPLF_NEW_Owner) === Number(window.pkPLF) &&
+      targetIds.includes(Number(c.FkAnnee ?? c.FKAnnee)) &&
+      [1, 2, 3].includes(ronde)
+    );
+  });
 
   // Sort by round
   teamChoix.sort((a, b) => Number(a.Ronde) - Number(b.Ronde));
@@ -227,7 +231,9 @@ function buildPicksList() {
   targetAnnees.forEach(a => { picksByYear[a.Annee] = []; });
 
   teamChoix.forEach(chx => {
-    const yearObj = Annees.find(a => Number(a.PKAnnee ?? a.PkAnnee) === Number(chx.FkAnnee ?? chx.FKAnnee));
+    const yearObj = Annees.find(a =>
+      Number(a.PKAnnee ?? a.PkAnnee) === Number(chx.FkAnnee ?? chx.FKAnnee)
+    );
     if (!yearObj) return;
 
     // find short name of original team
@@ -254,7 +260,7 @@ function buildPicksList() {
   headerTable.style.tableLayout = "fixed";
   const headerRow = document.createElement("tr");
 
-  const colWidth = `${100 / targetAnnees.length}%`; // dynamic width if 3 years or less
+  const colWidth = `${100 / targetAnnees.length}%`;
   targetAnnees.forEach(a => {
     const yearTh = document.createElement("th");
     yearTh.textContent = a.Annee;
@@ -273,8 +279,6 @@ function buildPicksList() {
 
   const tbody = document.createElement("tbody");
   const maxRows = Math.max(...Object.values(picksByYear).map(arr => arr.length), 0);
-
-  // If team has no picks, still show one empty row
   const rowsToShow = Math.max(maxRows, 1);
 
   for (let i = 0; i < rowsToShow; i++) {
