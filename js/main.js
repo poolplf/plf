@@ -82,6 +82,15 @@ document.getElementById('StandingsMenu').addEventListener('click', e => {
   }, 300);
 });
 
+document.getElementById('PlayersMenu').addEventListener('click', e => {
+  e.preventDefault();
+  loadPage('content/players.html');
+  setTimeout(() => {
+    const script = document.createElement("script");
+    script.src = "js/playersLoader.js";
+    document.body.appendChild(script);
+  }, 300);
+});
 
 window.pkPLF = Number(window.currentPkPLF) || Number(window.pkPLF) || null;
 // 🔹 Make it accessible everywhere

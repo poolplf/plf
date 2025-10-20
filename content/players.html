@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joueurs</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="joueurs-wrapper">
+    <div class="tables-wrapper">
+      
+      <!-- === 1st Table === -->
+      <table id="joueursOptions" class="mini-player-table">
+        <thead>
+          <tr><th colspan="5">Listes des Joueurs</th></tr>
+        </thead>
+<tbody id="filtersBar">
+  <tr>
+    <td colspan="7">
+      <div class="filters-container">
+        <div class="filters-left">
+          <span class="filter-label">Filtres :</span>
+
+          <label class="filter-option">
+            <input type="checkbox" name="cbAll" value="allPlayers"> Tous
+          </label>
+
+          <label class="filter-option">
+            <input type="checkbox" name="cbForwards" value="forward"> Avants
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" name="cbDefenses" value="defense"> Défenses
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" name="cbGoalies" value="goalie"> Gardiens
+          </label>
+        </div>
+
+        <div class="filters-right">
+          <label for="playerName" class="filter-label">Recherche :</label>
+          <input type="text" id="playerName" name="playerName" placeholder="Nom du joueur...">
+        </div>
+      </div>
+    </td>
+  </tr>
+
+  <!-- ✅ New row: Excel download link -->
+  <tr>
+    <td colspan="7" class="download-row">
+      <a href="data/ListeJoueurs.xlsx" download class="download-link">
+        📊 Télécharger la liste complète des joueurs (Excel)
+      </a>
+    </td>
+  </tr>
+</tbody>
+      </table>
+
+      <!-- === 2nd Table === -->
+      <table id="kistJoueurs" class="mini-player-table">
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Équipe</th>
+            <th>Age</th>
+            <th>Parties</th>
+            <th>Pts Pool</th>
+            <th>Salaire</th>
+            <th>Propriété</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- List of players will be inserted here -->
+           <tr><td>Players list here</td></tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="7" id="footerJoueurs">
+            <div class="footer-controls">
+                <span class="page-size-label">Afficher:</span>
+                <button id="btn50" class="page-size">50</button>
+                <button id="btn100" class="page-size active">100</button>
+
+                <button id="btnPrev" class="nav-btn">◀ </button>
+                <span id="pageInfo" class="page-info">Page 1 of 1</span>
+                <button id="btnNext" class="nav-btn"> ▶</button>
+
+                <span id="totalInfo" class="total-info">(Total: 0)</span>
+            </div>
+            </td>
+        </tr>
+        </tfoot>
+      </table>
+
+    </div>
+  </div>
+</body>
+</html>
