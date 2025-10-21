@@ -511,3 +511,46 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
   width: 380px; /* match your table width */
   margin-left: 2rem; /* same left alignment */
 }
+
+/* === Horizontal scroll for wide tables (players + footer) === */
+
+/* Wraps entire players table in a scroll container */
+.mini-player-table {
+  display: block;
+  overflow-x: auto;         /* ✅ enable horizontal scroll */
+  white-space: nowrap;      /* ✅ prevent wrapping of cells */
+  scrollbar-width: thin;
+  scrollbar-color: #004080 #2f3542;
+}
+
+/* Chrome / Edge scrollbar style */
+.mini-player-table::-webkit-scrollbar {
+  height: 6px;
+}
+.mini-player-table::-webkit-scrollbar-track {
+  background: #2f3542;
+}
+.mini-player-table::-webkit-scrollbar-thumb {
+  background-color: #004080;
+  border-radius: 4px;
+}
+
+/* Keep footer tables aligned and scrollable too */
+.footer-table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: #004080 #2f3542;
+}
+
+.footer-table::-webkit-scrollbar {
+  height: 6px;
+}
+.footer-table::-webkit-scrollbar-track {
+  background: #2f3542;
+}
+.footer-table::-webkit-scrollbar-thumb {
+  background-color: #004080;
+  border-radius: 4px;
+}
