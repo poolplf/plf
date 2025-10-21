@@ -502,36 +502,74 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
   border-color: #ffd700;
 }
 
-.joueurs-footer {
-  margin-top: 1.5rem;
+/* === Players Page Specific === */
+.players-wrapper .tables-wrapper {
+  display: flex;
+  flex-direction: column;   /* stack years vertically */
+  align-items: stretch;
+  gap: 20px;
+  width: 800px;
+}
+
+.players-wrapper .mini-player-table {
   width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
-.joueurs-footer .footer-table {
-  width: 380px; /* match your table width */
-  margin-left: 2rem; /* same left alignment */
+/* Make year headers bold and clear */
+.players-wrapper .mini-player-table th[colspan="4"] {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 1rem;
+  background-color: #2f3542;
 }
 
-/* === Players page specific table behavior === */
-.players-table {
-  width: max-content;          /* ✅ columns size to content */
-  min-width: 100%;             /* ✅ ensures it fills container */
-  overflow-x: auto;            /* ✅ horizontal scroll only when needed */
-  overflow-y: visible;         /* ✅ allow normal page scroll */
+/* === Drafts page column widths === */
+.players-wrapper .mini-player-table th,
+.players-wrapper .mini-player-table td {
+  text-align: center;
+  padding: 0.2rem 0.3rem;  /* tighter padding */
   white-space: nowrap;
-  display: block;              /* ✅ needed for horizontal scroll to work */
-  border-collapse: collapse;
-  scrollbar-width: thin;
-  scrollbar-color: #004080 #2f3542;
 }
 
-.players-table::-webkit-scrollbar {
-  height: 6px;
+/* 4 columns: OV | ORIG | NEW | JOUEURS */
+.players-wrapper .mini-player-table th:nth-child(1),
+.players-wrapper .mini-player-table td:nth-child(1) {
+  width: 45px;   /* Overall number */
 }
-.players-table::-webkit-scrollbar-track {
-  background: #2f3542;
+
+.players-wrapper .mini-player-table th:nth-child(2),
+.players-wrapper .mini-player-table td:nth-child(2),
+.players-wrapper .mini-player-table th:nth-child(3),
+.players-wrapper .mini-player-table td:nth-child(3) {
+  width: 55px;   /* Orig / New short names */
 }
-.players-table::-webkit-scrollbar-thumb {
-  background-color: #004080;
-  border-radius: 4px;
+
+.players-wrapper .mini-player-table th:nth-child(4),
+.players-wrapper .mini-player-table td:nth-child(4) {
+  width: 45px;  /* Player name */
+  text-align: center;
+  padding-left: 0.4rem;
 }
+.players-wrapper .mini-player-table th:nth-child(5),
+.players-wrapper .mini-player-table td:nth-child(5) {
+  width: 45px;  /* Player name */
+  text-align: center;
+  padding-left: 0.4rem;
+}
+.players-wrapper .mini-player-table th:nth-child(6),
+.players-wrapper .mini-player-table td:nth-child(6) {
+  width: 45px;  /* Player name */
+  text-align: center;
+  padding-left: 0.4rem;
+}
+.players-wrapper .mini-player-table th:nth-child(7),
+.players-wrapper .mini-player-table td:nth-child(7) {
+  width: 45px;  /* Player name */
+  text-align: center;
+  padding-left: 0.4rem;
+}
+

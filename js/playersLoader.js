@@ -180,7 +180,7 @@ function renderFooter() {
 }
 
     function renderTable(list) {
-      const tbody = document.querySelector("#kistJoueurs tbody");
+      const tbody = document.querySelector("#listJoueurs tbody");
       tbody.innerHTML = "";
       list.forEach(p => {
         const { j, teamShort, owner, age, games, points, salary } = p;
