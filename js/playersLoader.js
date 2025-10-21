@@ -161,13 +161,23 @@ playersData.sort((a, b) => {
       renderFooter();
     }
 
-    function renderFooter() {
-      const totalPages = Math.max(1, Math.ceil(filteredPlayers.length / PAGE_SIZE));
-      document.getElementById("pageInfo").textContent = `Page ${currentPage} of ${totalPages}`;
-      document.getElementById("totalInfo").textContent = `(Total: ${filteredPlayers.length})`;
-      document.getElementById("btnPrev").disabled = currentPage <= 1;
-      document.getElementById("btnNext").disabled = currentPage >= totalPages;
-    }
+function renderFooter() {
+  const totalPages = Math.max(1, Math.ceil(filteredPlayers.length / PAGE_SIZE));
+
+  document.querySelectorAll("#pageInfo, #pageInfo_2").forEach(el => {
+    el.textContent = `Page ${currentPage} of ${totalPages}`;
+  });
+  document.querySelectorAll("#totalInfo, #totalInfo_2").forEach(el => {
+    el.textContent = `(Total: ${filteredPlayers.length})`;
+  });
+
+  document.querySelectorAll("#btnPrev, #btnPrev_2").forEach(el => {
+    el.disabled = currentPage <= 1;
+  });
+  document.querySelectorAll("#btnNext, #btnNext_2").forEach(el => {
+    el.disabled = currentPage >= totalPages;
+  });
+}
 
     function renderTable(list) {
       const tbody = document.querySelector("#kistJoueurs tbody");
@@ -191,32 +201,84 @@ playersData.sort((a, b) => {
 
     // === Event bindings ===
     document.getElementById("playerName").addEventListener("input", filterPlayers);
-    document.querySelectorAll('input[type="checkbox"]').forEach(cb =>
-      cb.addEventListener("change", filterPlayers)
-    );
 
-    // pagination + page-size events (unchanged)
-    document.getElementById("btnPrev").addEventListener("click", () => {
-      if (currentPage > 1) { currentPage--; renderPage(); }
-    });
-    document.getElementById("btnNext").addEventListener("click", () => {
-      const totalPages = Math.max(1, Math.ceil(filteredPlayers.length / PAGE_SIZE));
-      if (currentPage < totalPages) { currentPage++; renderPage(); }
-    });
-    document.getElementById("btn50").addEventListener("click", () => {
-      PAGE_SIZE = 50;
-      document.getElementById("btn50").classList.add("active");
-      document.getElementById("btn100").classList.remove("active");
-      currentPage = 1;
+// ✅ Checkbox + Search synchronization logic
+const cbAll = document.querySelector('input[name="cbAll"]');
+const cbForwards = document.querySelector('input[name="cbForwards"]');
+const cbDefenses = document.querySelector('input[name="cbDefenses"]');
+const cbGoalies = document.querySelector('input[name="cbGoalies"]');
+const positionCheckboxes = [cbForwards, cbDefenses, cbGoalies];
+const searchBox = document.getElementById("playerName");
+
+// --- Checkbox logic ---
+cbAll.addEventListener("change", () => {
+  if (cbAll.checked) {
+    positionCheckboxes.forEach(cb => (cb.checked = false));
+  }
+  searchBox.value = "";  // ✅ clear text search
+  filterPlayers();
+});
+
+positionCheckboxes.forEach(cb => {
+  cb.addEventListener("change", () => {
+    if (positionCheckboxes.some(c => c.checked)) {
+      cbAll.checked = false;
+    }
+    searchBox.value = "";  // ✅ clear text search
+    filterPlayers();
+  });
+});
+
+// --- Search logic ---
+searchBox.addEventListener("input", () => {
+  // ✅ clear all checkboxes when typing
+  if (searchBox.value.trim() !== "") {
+    cbAll.checked = false;
+    positionCheckboxes.forEach(cb => (cb.checked = false));
+  }
+  filterPlayers();
+});
+
+// Handle both sets of pagination buttons
+document.querySelectorAll("#btnPrev, #btnPrev_2").forEach(btn =>
+  btn.addEventListener("click", () => {
+    if (currentPage > 1) {
+      currentPage--;
       renderPage();
-    });
-    document.getElementById("btn100").addEventListener("click", () => {
-      PAGE_SIZE = 100;
-      document.getElementById("btn100").classList.add("active");
-      document.getElementById("btn50").classList.remove("active");
-      currentPage = 1;
+    }
+  })
+);
+
+document.querySelectorAll("#btnNext, #btnNext_2").forEach(btn =>
+  btn.addEventListener("click", () => {
+    const totalPages = Math.max(1, Math.ceil(filteredPlayers.length / PAGE_SIZE));
+    if (currentPage < totalPages) {
+      currentPage++;
       renderPage();
-    });
+    }
+  })
+);
+
+// Handle both sets of page-size buttons
+document.querySelectorAll("#btn50, #btn50_2").forEach(btn =>
+  btn.addEventListener("click", () => {
+    PAGE_SIZE = 50;
+    document.querySelectorAll("#btn50, #btn50_2").forEach(b => b.classList.add("active"));
+    document.querySelectorAll("#btn100, #btn100_2").forEach(b => b.classList.remove("active"));
+    currentPage = 1;
+    renderPage();
+  })
+);
+
+document.querySelectorAll("#btn100, #btn100_2").forEach(btn =>
+  btn.addEventListener("click", () => {
+    PAGE_SIZE = 100;
+    document.querySelectorAll("#btn100, #btn100_2").forEach(b => b.classList.add("active"));
+    document.querySelectorAll("#btn50, #btn50_2").forEach(b => b.classList.remove("active"));
+    currentPage = 1;
+    renderPage();
+  })
+);
 
     // === Initial render ===
     renderPage();
