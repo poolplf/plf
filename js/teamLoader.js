@@ -573,8 +573,10 @@ function fillTradesTable() {
           if (choix) {
             // find trade → year
             let yearTxt = "";
-            const annee = (Annees || []).find(a => numEq(getNum(a, ["PkAnnee"]), getNum(trade, ["FkAnnee"])));
+            const annee = (Annees || []).find(a => numEq(getNum(a, ["PKAnnee"]), getNum(choix, ["FkAnnee"])));
+
             if (annee) yearTxt = annee.Annee;
+            yearTxt = yearTxt.slice(0, 4);
 
             // ronde
             const r = Number(choix.Ronde);
@@ -590,7 +592,7 @@ function fillTradesTable() {
               if (eq) shortName = eq.ShortName || eq.Shortname || eq.Nom || shortName;
             }
 
-            text = `${yearTxt} ${rondeTxt} (${shortName})`;
+            text = `${rondeTxt} ${yearTxt} (${shortName})`;
           } else {
             text = `Pick#${fkC}`;
           }
@@ -628,8 +630,8 @@ function fillTradesTable() {
       const r2 = document.createElement("tr");
       const tdIn = document.createElement("td");
       const tdOut = document.createElement("td");
-      tdIn.innerHTML = itemsIn.length ? itemsIn.join("<br>") : "— no items —";
-      tdOut.innerHTML = itemsOut.length ? itemsOut.join("<br>") : "— no items —";
+      tdIn.innerHTML = itemsIn.length ? itemsIn.join("<br>") : " ";
+      tdOut.innerHTML = itemsOut.length ? itemsOut.join("<br>") : " ";
       r2.appendChild(tdIn);
       r2.appendChild(tdOut);
       mini.appendChild(r2);

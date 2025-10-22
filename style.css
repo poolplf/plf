@@ -573,3 +573,31 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
   padding-left: 0.4rem;
 }
 
+.drafts-wrapper .mini-player-table tr.debutcell th,
+.drafts-wrapper .mini-player-table tr.debutcell td {
+  text-align: left !important;
+}
+
+/* === Freeze first column in horizontally scrollable tables === */
+.scroll-table {
+  overflow-x: auto;
+  width: 100%;
+  position: relative;
+}
+
+.scroll-table table {
+  border-collapse: collapse;
+  width: max-content; /* allows wide tables to scroll */
+}
+
+/* Make first column sticky (both th and td) */
+.scroll-table th:first-child,
+.scroll-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background-color: #2f3542 !important; /* match your theme’s header background */
+  color: #f1f2f6;
+  border-right: 2px solid #004080;
+}
+

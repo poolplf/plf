@@ -92,6 +92,16 @@ document.getElementById('PlayersMenu').addEventListener('click', e => {
   }, 300);
 });
 
+document.getElementById('RulesMenu').addEventListener('click', e => {
+  e.preventDefault();
+  loadPage('content/reglements.html');
+});
+
+document.getElementById('DebutMenu').addEventListener('click', e => {
+  e.preventDefault();
+  loadPage('content/debut.html');
+});
+
 window.pkPLF = Number(window.currentPkPLF) || Number(window.pkPLF) || null;
 // 🔹 Make it accessible everywhere
 window.loadTeams = loadTeams;

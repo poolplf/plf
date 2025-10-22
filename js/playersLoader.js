@@ -121,6 +121,7 @@ playersData.sort((a, b) => {
       const cbDef = document.querySelector('input[name="cbDefenses"]').checked;
       const cbG = document.querySelector('input[name="cbGoalies"]').checked;
       const cbAll = document.querySelector('input[name="cbAll"]').checked;
+      const cbFree = document.querySelector('input[name="cbFree"]').checked;
       const searchVal = document.getElementById("playerName").value.toLowerCase();
 
       const posMap = {
@@ -142,15 +143,19 @@ playersData.sort((a, b) => {
         }
       }
 
-      if (searchVal) {
-        list = list.filter(p =>
-          `${p.j.Prenom || ""} ${p.j.Nom || ""}`.toLowerCase().includes(searchVal)
-        );
-      }
+        if (searchVal) {
+          list = list.filter(p =>
+            `${p.j.Prenom || ""} ${p.j.Nom || ""}`.toLowerCase().includes(searchVal)
+          );
+        }
 
-      filteredPlayers = list;
-      currentPage = 1;
-      renderPage();
+        if (cbFree) {
+          list = list.filter(p => Number(p.j.FKPLF) === 27); // ✅ your new condition
+        }
+
+        filteredPlayers = list;
+        currentPage = 1;
+        renderPage();
     }
 
     function renderPage() {
@@ -207,6 +212,7 @@ const cbAll = document.querySelector('input[name="cbAll"]');
 const cbForwards = document.querySelector('input[name="cbForwards"]');
 const cbDefenses = document.querySelector('input[name="cbDefenses"]');
 const cbGoalies = document.querySelector('input[name="cbGoalies"]');
+const cbFreeBox = document.querySelector('input[name="cbFree"]');
 const positionCheckboxes = [cbForwards, cbDefenses, cbGoalies];
 const searchBox = document.getElementById("playerName");
 
@@ -218,6 +224,8 @@ cbAll.addEventListener("change", () => {
   searchBox.value = "";  // ✅ clear text search
   filterPlayers();
 });
+
+cbFreeBox.addEventListener("change", filterPlayers);
 
 positionCheckboxes.forEach(cb => {
   cb.addEventListener("change", () => {
