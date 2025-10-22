@@ -601,3 +601,7 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
   border-right: 2px solid #004080;
 }
 
+/* Align first column of mini-player-table to the left */
+.mini-player-table td:first-child {
+  text-align: left;
+}
