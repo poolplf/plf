@@ -102,6 +102,11 @@ document.getElementById('DebutMenu').addEventListener('click', e => {
   loadPage('content/debut.html');
 });
 
+document.getElementById('AideMenu').addEventListener('click', e => {
+  e.preventDefault();
+  loadPage('content/aide.html');
+});
+
 window.pkPLF = Number(window.currentPkPLF) || Number(window.pkPLF) || null;
 // 🔹 Make it accessible everywhere
 window.loadTeams = loadTeams;

@@ -601,7 +601,33 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
   border-right: 2px solid #004080;
 }
 
-/* Align first column of mini-player-table to the left */
-.mini-player-table td:first-child {
-  text-align: left;
+/* Align first column left in player mini-tables only */
+#forwardsTable td:first-child,
+#defenseTable td:first-child,
+#goalersTable td:first-child {
+  text-align: left !important;
 }
+
+/* === Main page Table precise column formatting === */
+.standings-wrapper .tables-wrapper #mainPoolerTable {
+  text-align: left !important;
+  white-space: nowrap !important;
+  width: fit-content;
+  table-layout: auto;
+
+}
+
+/* === Main Pooler Table (Standings Page) === */
+.standings-wrapper .tables-wrapper #mainPoolerTable td {
+  text-align: left !important;
+  white-space: nowrap !important;
+  width: fit-content;
+  table-layout: auto;
+  width:100px;
+}
+.standings-wrapper .tables-wrapper #mainPoolerTable td:nth-child(1) { text-align: center !important; }
+.standings-wrapper .tables-wrapper #mainPoolerTable td:nth-child(3) { text-align: center !important; }
+.standings-wrapper .tables-wrapper #mainPoolerTable td:nth-child(4){ text-align: center !important; }
+.standings-wrapper .tables-wrapper #mainPoolerTable td:nth-child(5){ text-align: center !important; }
+.standings-wrapper .tables-wrapper #mainPoolerTable td:nth-child(6){ text-align: center !important; }
+.standings-wrapper .tables-wrapper #mainPoolerTable td:nth-child(7){ text-align: center !important;}

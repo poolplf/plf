@@ -18,14 +18,12 @@ Promise.all([
   // Sort alphabetically
   plf.sort((a, b) => (a.LogoString || '').localeCompare(b.LogoString || ''));
 
-  const table = document.getElementById("plfTable");
-  if (!table) {
-    console.error("❌ Table element not found in main.html");
-    return;
-  }
+const tableBody = document.getElementById("plfTableBody");
+if (!tableBody) return console.error("❌ tbody not found");
+
 
   plf.forEach(pooler => {
-    const row = table.insertRow();
+    const row = tableBody.insertRow();
     const eq = equipes.find(e => e.PkEquipe === pooler.FkEquipe);
 
     // 1. Logo

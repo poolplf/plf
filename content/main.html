@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-  <div class="tables-wrapper">
-    
+   
     <!-- Static site info table
     <table class="overview-table">
       <thead>
@@ -42,7 +41,9 @@
     </table> -->
 
     <!-- Dynamic PLF summary table -->
-    <table id="plfTable" class="mini-player-table">
+       <div class="standings-wrapper">
+    <div class="tables-wrapper">
+    <table id="mainPoolerTable" class="mini-player-table">
       <thead>
         <tr>
           <th></th>
@@ -55,9 +56,10 @@
           <th>Courriel</th>
         </tr>
       </thead>
-      <tbody></tbody>
+      <tbody id="plfTableBody"></tbody>
     </table>
 
+  </div>
   </div>
 </body>
 </html>
