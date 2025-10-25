@@ -4,10 +4,10 @@
 */
 
 Promise.all([
-  fetch('./data/PLF.json').then(r => r.json()),
-  fetch('./data/Equipes.json').then(r => r.json()),
-  fetch('./data/Joueurs.json').then(r => r.json()),
-  fetch('./data/Salaires.json').then(r => r.json())
+  fetch('data/PLF.json').then(r => r.json()),
+  fetch('data/Equipes.json').then(r => r.json()),
+  fetch('data/Joueurs.json').then(r => r.json()),
+  fetch('data/Salaires.json').then(r => r.json())
 ])
 .then(([plf, equipes, joueurs, salaires]) => {
   //console.log("✅ JSONs loaded:", plf.length, equipes.length, joueurs.length, salaires.length);
@@ -30,7 +30,7 @@ if (!tableBody) return console.error("❌ tbody not found");
     const logoCell = row.insertCell();
     if (eq && eq.Logo) {
       const img = document.createElement('img');
-      img.src = `./files/${eq.Logo}`;
+      img.src = `files/${eq.Logo}`;
       img.alt = pooler.Pooler;
       logoCell.appendChild(img);
     } else {
@@ -86,19 +86,19 @@ function fillLeagueTrades() {
   if (!tbody) return;
 
   Promise.all([
-    fetch("./data/Echanges.json").then(r => r.json()),
-    fetch("./data/TradeItems.json").then(r => r.json()),
-    fetch("./data/PLF.json").then(r => r.json()),
-    fetch("./data/Equipes.json").then(r => r.json()),
-    fetch("./data/Choix.json").then(r => r.json()),
-    fetch("./data/Annees.json").then(r => r.json()),
-    fetch("./data/Joueurs.json").then(r => r.json())
+    fetch("data/Echanges.json").then(r => r.json()),
+    fetch("data/TradeItems.json").then(r => r.json()),
+    fetch("data/PLF.json").then(r => r.json()),
+    fetch("data/Equipes.json").then(r => r.json()),
+    fetch("data/Choix.json").then(r => r.json()),
+    fetch("data/Annees.json").then(r => r.json()),
+    fetch("data/Joueurs.json").then(r => r.json())
   ])
   .then(([Echanges, TradeItems, PLF, Equipes, Choix, Annees, Joueurs]) => {
-    tbody.innerHTML = "<tr><th>IN</th><th>OUT</th></tr>";
+    //tbody.innerHTML = "<tr><th>IN</th><th>OUT</th></tr>";
 
     // Sort all trades by date descending and take the last 20
-    console.table(Echanges);
+    //console.table(Echanges);
     //console.log(Echanges.length);
     
     const trades = Echanges.sort((a,b)=> new Date(b.DateEchange) - new Date(a.DateEchange)).slice(0,20);
