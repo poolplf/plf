@@ -57,7 +57,7 @@ export function loadTeamsMenu(plfPath, equipesPath, submenuId, onTeamClick) {
 
         // Add logo image
         const img = document.createElement("img");
-        img.src = "files/" + equipe.Logo;
+        img.src = "./files/" + equipe.Logo;
         img.alt = equipe.ShortName;
         img.classList.add("team-logo");
         img.style.width = "24px";

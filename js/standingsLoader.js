@@ -8,7 +8,7 @@ console.log("📊 Standings loader initialized");
 
     await Promise.all(
       files.map(async name => {
-        const res = await fetch(`data/${name}.json`);
+        const res = await fetch(`./data/${name}.json`);
         if (!res.ok) throw new Error(`Failed to load ${name}.json`);
         data[name] = await res.json();
       })

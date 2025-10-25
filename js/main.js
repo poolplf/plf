@@ -20,7 +20,7 @@ teamsMenuLink.addEventListener("click", (e) => {
 
 
 // Load Teams submenu
-loadTeamsMenu("data/PLF.json","data/Equipes.json", "teamsSubmenu", (key, name) => {
+loadTeamsMenu("./data/PLF.json","./data/Equipes.json", "teamsSubmenu", (key, name) => {
   const display = document.getElementById("selectedTeam");
 });
 
@@ -38,7 +38,7 @@ toggleBtn.addEventListener("click", () => {
 
 // Load main.html on page load
 document.addEventListener('DOMContentLoaded', () => {
-  loadPage('content/main.html');
+  loadPage('./content/main.html');
 });
 
 // Function to load any HTML file into #mainContent
@@ -51,7 +51,7 @@ function loadPage(url) {
       // 🟢 Only load mainTableLoader.js when loading main.html
       if (url.includes('main.html')) {
         const script = document.createElement('script');
-        script.src = 'js/mainTableLoader.js';
+        script.src = './js/mainTableLoader.js';
         document.body.appendChild(script);
       }
     })
@@ -62,49 +62,49 @@ document.getElementById('DraftsMenu').addEventListener('click', e => {
   e.preventDefault();
 
   // Load the Drafts page into the container
-  loadPage('content/drafts.html');
+  loadPage('./content/drafts.html');
 
   // Wait briefly to ensure the content is inserted, then call the loader
   setTimeout(() => {
     const script = document.createElement("script");
-    script.src = "js/draftsLoader.js";
+    script.src = "./js/draftsLoader.js";
     document.body.appendChild(script);
   }, 300);
 });
 
 document.getElementById('StandingsMenu').addEventListener('click', e => {
   e.preventDefault();
-  loadPage('content/standings.html');
+  loadPage('./content/standings.html');
   setTimeout(() => {
     const script = document.createElement("script");
-    script.src = "js/standingsLoader.js";
+    script.src = "./js/standingsLoader.js";
     document.body.appendChild(script);
   }, 300);
 });
 
 document.getElementById('PlayersMenu').addEventListener('click', e => {
   e.preventDefault();
-  loadPage('content/players.html');
+  loadPage('./content/players.html');
   setTimeout(() => {
     const script = document.createElement("script");
-    script.src = "js/playersLoader.js";
+    script.src = "./js/playersLoader.js";
     document.body.appendChild(script);
   }, 300);
 });
 
 document.getElementById('RulesMenu').addEventListener('click', e => {
   e.preventDefault();
-  loadPage('content/reglements.html');
+  loadPage('./content/reglements.html');
 });
 
 document.getElementById('DebutMenu').addEventListener('click', e => {
   e.preventDefault();
-  loadPage('content/debut.html');
+  loadPage('./content/debut.html');
 });
 
 document.getElementById('AideMenu').addEventListener('click', e => {
   e.preventDefault();
-  loadPage('content/aide.html');
+  loadPage('./content/aide.html');
 });
 
 window.pkPLF = Number(window.currentPkPLF) || Number(window.pkPLF) || null;
@@ -115,7 +115,7 @@ function loadTeams(pk) {
   window.currentPkPLF = pk; // store the selected team globally
   console.log("🏒 Selected team:", pk);
 
-  fetch("content/teams.html")
+  fetch("./content/teams.html")
     .then(res => res.text())
     .then(html => {
       const container = document.getElementById("mainContent");
@@ -124,7 +124,7 @@ function loadTeams(pk) {
 
         // after teams.html is loaded, run its script
         const script = document.createElement("script");
-        script.src = "js/teamLoader.js";
+        script.src = "./js/teamLoader.js";
         document.body.appendChild(script);
       }
     })

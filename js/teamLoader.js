@@ -39,8 +39,8 @@ async function loadData() {
   ];
 
   const promises = files.map(name =>
-    fetch(`data/${name}.json`).then(res => {
-      if (!res.ok) throw new Error(`Failed to load data/${name}.json`);
+    fetch(`./data/${name}.json`).then(res => {
+      if (!res.ok) throw new Error(`Failed to load ./data/${name}.json`);
       return res.json();
     })
   );
@@ -80,7 +80,7 @@ loadData()
         logoCell.innerHTML = "";
         if (currentPLF.LogoString) {
           const img = document.createElement("img");
-          img.src = `files/${currentPLF.LogoString}`;
+          img.src = `./files/${currentPLF.LogoString}`;
           img.alt = `${currentPLF.NomEquipe || currentPLF.Pooler || "Team"} Logo`;
           img.style.width = "100px";
           img.style.height = "100px";
@@ -427,7 +427,7 @@ function loadTopMenu(PLFArray, EquipeArray, topMenuID, onTeamClick) {
 
     // Add logo image
     const img = document.createElement("img");
-    img.src = "files/" + equipe.Logo;
+    img.src = "./files/" + equipe.Logo;
     img.alt = equipe.ShortName;
     img.classList.add("team-logo");
     img.style.width = "48px";
