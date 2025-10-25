@@ -10,40 +10,11 @@
 </head>
 <body>
    
-    <!-- Static site info table
-    <table class="overview-table">
-      <thead>
-        <tr><th>Contenu du site</th><th></th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Échanges</td><td></td></tr>
-        <tr><td>Classement</td><td></td></tr>
-        <tr><td>Liste des blessés</td><td></td></tr>
-        <tr><td>Joueurs libres</td><td></td></tr>
-        <tr><td>Repêchage</td><td></td></tr>
-        <tr><td>Tableau des salaires</td><td></td></tr>
-        <tr><td>Règlements</td><td></td></tr>
-        <tr><td>Archives</td><td></td></tr>
-        <tr><td>Début</td><td></td></tr>
-        <tr><td></td><td></td></tr>
-        <tr><td></td><td></td></tr>
-        <tr><td></td><td></td></tr>
-        <tr><td></td><td></td></tr>
-      </tbody>
+<div class="team-layout">
 
-      <thead>
-        <tr><th>Date importante</th><th></th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Ballottage</td><td>À venir</td></tr>
-        <tr><td>Fin des échanges</td><td>À venir</td></tr>
-      </tbody>
-    </table> -->
-
-    <!-- Dynamic PLF summary table -->
-       <div class="standings-wrapper">
-    <div class="tables-wrapper">
-    <table id="mainPoolerTable" class="mini-player-table">
+  <!-- LEFT: Poolers summary -->
+  <div class="team-left">
+    <table id="mainPoolerTable" class="mini-player-table team-page-table">
       <thead>
         <tr>
           <th></th>
@@ -58,8 +29,18 @@
       </thead>
       <tbody id="plfTableBody"></tbody>
     </table>
+  </div>
 
+  <!-- RIGHT: League transactions -->
+  <div class="team-right">
+    <table id="leagueTradesTable" class="team-page-table">
+      <thead><tr><th colspan="2">Dernières transactions (20)</th></tr></thead>
+      <tbody id="leagueTradesList">
+        <tr><th>IN</th><th>OUT</th></tr>
+      </tbody>
+    </table>
   </div>
-  </div>
+
+</div>
 </body>
 </html>
