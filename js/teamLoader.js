@@ -102,12 +102,9 @@ loadData()
     setText("teamEmail", currentPLF.Courriel || "");
 const extraDiv = document.getElementById("teamExtra");
 if (extraDiv) {
-  if (currentPLF.Titre === "Champion en titre") {
+  if (currentPLF.Titre  === "Champion en titre") {
     extraDiv.innerHTML = `
-      🏆 ${currentPLF.Titre}
-      <img src="./files/cup.webp" alt="Champion Cup" 
-           style="height:30px;vertical-align:middle;margin-left:6px;">
-    `;
+      🏆 ${currentPLF.Titre}`;
   } else {
     extraDiv.textContent = currentPLF.Titre || "";
   }
