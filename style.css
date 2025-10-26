@@ -638,4 +638,81 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
   background-color: #3b4251;
 }
 
+/* Dates */
+.trade-date {
+  background: linear-gradient(90deg, #57606f, #57606f);
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 8px;
+  padding: 4px 0;
+  margin: 12px 0 6px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Teams */
+.trade-teams {
+  display: flex;
+  justify-content: space-between;
+  color: #f4f5f7;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 4px;
+}
+
+/* Team name hover glow */
+.trade-teams span:hover {
+  color: #57606f;
+  text-shadow: 0 0 8px #74c0fc;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Player list */
+.trade-players {
+  color: #d8dce3;
+  font-size: 0.9em;
+  margin-left: 6px;
+}
+
+/* Optional subtle divider */
+.trade-block {
+  background-color: #3b4251;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease;
+}
+
+/* Trade header line (date + opponent, or both teams) */
+.trade-teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f3542;   /* same as table header */
+  color: #f1f2f6;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.trade-teams img {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+/* Keep hover subtle and consistent */
+.trade-teams span:hover {
+  color: #ffd700;
+  text-shadow: none;
+  transition: color 0.2s ease-in-out;
+}
 
