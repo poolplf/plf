@@ -10,7 +10,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pooler</title>
   <link rel="stylesheet" href="style.css" type="text/css">
-  <script src=".././js/teamLoad.js" defer></script>
 </head>
 <body>
   <div class="team-layout">
@@ -55,7 +54,7 @@
           <td>
             <table class="mini-table">
               <tr>
-                <td>Lstes des blessés :</td>
+                <td>Listes des blessés :</td>
                 <td id="Injured"></td>
                 <td></td>
               </tr>
@@ -121,16 +120,12 @@
     </div>
 
     <!-- RIGHT SIDE: Transactions -->
-    <div class="team-right">
-      <table id="tradesTable" class="team-page-table">
-        <thead><tr><th colspan="2">Transactions</th></tr></thead>
-        <tr></tr><select id="tradeYearFilter"></tr></select>
-        <tbody id="tradesList">
-          <tr><th>IN</th><th>OUT</th></tr>
-
-        </tbody>
-      </table>
-    </div>
+<div class="team-right">
+  <table id="tradesTable" class="team-page-table">
+    <thead><tr><th>Transactions</th></tr></thead>
+    <tbody id="tradesList"></tbody>
+  </table>
+</div>
 
   </div>
 </body>
