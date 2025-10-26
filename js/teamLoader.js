@@ -100,7 +100,18 @@ loadData()
 
     setText("teamName", currentPLF.Pooler || currentPLF.NomEquipe || "");
     setText("teamEmail", currentPLF.Courriel || "");
-    setText("teamExtra", currentPLF.Titre || "");
+const extraDiv = document.getElementById("teamExtra");
+if (extraDiv) {
+  if (currentPLF.Titre === "Champion en titre") {
+    extraDiv.innerHTML = `
+      🏆 ${currentPLF.Titre}
+      <img src="./files/cup.webp" alt="Champion Cup" 
+           style="height:30px;vertical-align:middle;margin-left:6px;">
+    `;
+  } else {
+    extraDiv.textContent = currentPLF.Titre || "";
+  }
+}
 
     // --- PROCESS PLAYERS ---
     const teamPlayers = (Joueurs || []).filter(
