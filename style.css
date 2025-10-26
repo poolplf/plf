@@ -61,6 +61,8 @@ body {
 .main-content {
   margin-left: 230px; /* sidebar width */
   padding: 0 2rem 2rem 2rem;
+    overflow-y: auto;
+  overflow-x: auto;
 }
 
 .tables-wrapper {
@@ -162,21 +164,23 @@ table img {
   margin: 0 auto;
 }
 
-.team-layout {
+/*.team-layout {
   display: grid;
-  grid-template-columns: 3fr 1fr; /* players wider, transactions thinner */
-  gap: 20px;
+  grid-template-columns: 3fr 1fr; 
   align-items: start;
   width: 100%;
-}
+}*/
 
-.team-top,
-.team-left,
-.team-lower,
-.team-right {
+.team-left {
+  flex: 3 1 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.team-right {
+  flex: 1 1 300px;
+  min-width: 280px;
 }
 
 #teamHeader .logo-cell img { max-height: 100px; width: auto; }
@@ -722,14 +726,14 @@ body.sidebar-collapsed .main-content { margin-left: 0; }
 }
 
 /* === Fix: Make team pages scroll like main === */
-.team-layout {
+/*.team-layout {
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 20px;
   align-items: start;
   width: 100%;
-  overflow: visible; /* allow expansion */
-}
+  overflow: visible; 
+}*/
 
 body, html {
   overflow-x: hidden;
@@ -743,3 +747,34 @@ body, html {
   min-height: 100vh;
 }
 
+.team-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Always allow scroll */
+html, body, .main-content {
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Optional: prevent cut-off if window too small */
+@media (max-width: 1100px) {
+  .team-layout {
+    overflow-x: auto;
+  }
+}
+
+.team-layout-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.team-layout-table td {
+  vertical-align: top;
+}
