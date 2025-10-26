@@ -115,18 +115,21 @@ function loadTeams(pk) {
   window.currentPkPLF = pk; // store the selected team globally
   console.log("🏒 Selected team:", pk);
 
-  fetch("./content/teams.html")
-    .then(res => res.text())
-    .then(html => {
-      const container = document.getElementById("mainContent");
-      if (container) {
-        container.innerHTML = html;
+fetch("./content/teams.html")
+  .then(res => res.text())
+  .then(html => {
+    const container = document.getElementById("mainContent");
+    if (container) {
+      container.innerHTML = html;
 
-        // after teams.html is loaded, run its script
-        const script = document.createElement("script");
-        script.src = "./js/teamLoader.js";
-        document.body.appendChild(script);
-      }
-    })
-    .catch(err => console.error("Error loading teams.html:", err));
+      // 🧹 Remove any previous teamLoader script
+      const oldScript = document.querySelector('script[src^="./js/teamLoader"]');
+      if (oldScript) oldScript.remove();
+
+      // 🆕 Add new one with a timestamp to bust cache
+      const script = document.createElement("script");
+      script.src = `./js/teamLoader.js?v=${Date.now()}`;
+      document.body.appendChild(script);
+    }
+  })
 }

@@ -474,6 +474,7 @@ function fillTradesTable() {
   select.id = "tradeYearFilter";
   select.style.marginLeft = "10px";
   select.style.padding = "0.2rem";
+  theadCell.appendChild(select);
 
   // sort Annees by numeric start year DESC
   const parseYear = val => {
@@ -495,177 +496,117 @@ function fillTradesTable() {
     opt.textContent = a.Annee ?? a.Name ?? opt.value;
     select.appendChild(opt);
   });
-  theadCell.appendChild(select);
-
-  // helper: get numeric prop from object trying many possible key names
-  function getNum(obj, names = []) {
-    if (!obj) return NaN;
-    for (const k of names) {
-      if (k in obj && obj[k] != null && obj[k] !== "") {
-        const n = Number(obj[k]);
-        if (!Number.isNaN(n)) return n;
-      }
-    }
-    return NaN;
-  }
 
   const numEq = (a, b) => Number(a) === Number(b);
+  const getNum = (o, keys) => {
+    for (const k of keys) {
+      if (o[k] != null && !isNaN(o[k])) return Number(o[k]);
+    }
+    return NaN;
+  };
 
-  // --- render trades as mini-tables ---
-  function renderTrades(trades, limit = null) {
+  // Render trades as blocks instead of mini-tables
+  function renderTrades(trades) {
     tbody.innerHTML = "";
-    const headerRow = document.createElement("tr");
-    const thIn = document.createElement("th");
-    const thOut = document.createElement("th");
-    thIn.textContent = "IN";
-    thOut.textContent = "OUT";
-    headerRow.appendChild(thIn);
-    headerRow.appendChild(thOut);
-    tbody.appendChild(headerRow);
 
-    const sorted = (trades || []).slice().sort((a, b) => new Date(b.DateEchange) - new Date(a.DateEchange));
-    const toShow = (limit && limit > 0) ? sorted.slice(0, limit) : sorted;
-
-    toShow.forEach(trade => {
-      const tradePk = getNum(trade, ["PkEchange", "id"]);
-      const items = (TradeItems || []).filter(it => numEq(getNum(it, ["FkTrade", "FkEchange"]), tradePk));
-
-      // find other team via PLF → Equipe.ShortName
-      const pooler1 = getNum(trade, ["FkPooler1"]);
-      const pooler2 = getNum(trade, ["FkPooler2"]);
-      const isPooler1 = numEq(pooler1, window.pkPLF);
-      const otherPk = isPooler1 ? pooler2 : pooler1;
-      let otherTeamName = `PLF#${otherPk}`;
-      const otherPLF = (PLF || []).find(p => numEq(getNum(p, ["PkPLF"]), otherPk));
-      if (otherPLF) {
-        const eq = (Equipes || []).find(e =>
-          numEq(getNum(e, ["PkEquipe"]), getNum(otherPLF, ["FkEquipe"]))
+    trades
+      .sort((a, b) => new Date(b.DateEchange) - new Date(a.DateEchange))
+      .forEach(trade => {
+        const tradePk = getNum(trade, ["PkEchange"]);
+        const items = (TradeItems || []).filter(it =>
+          numEq(getNum(it, ["FkTrade"]), tradePk)
         );
-        if (eq) otherTeamName = eq.ShortName || eq.Shortname || eq.Nom || otherTeamName;
-      }
 
-      // classify items into IN/OUT
-      const itemsIn = [];
-      const itemsOut = [];
-      items.forEach(it => {
-        let text = "";
+        const p1 = getNum(trade, ["FkPooler1"]);
+        const p2 = getNum(trade, ["FkPooler2"]);
+        const isPooler1 = numEq(p1, window.pkPLF);
+        const otherPk = isPooler1 ? p2 : p1;
 
-        // --- Player ---
-        const fkJ = getNum(it, ["FkJoueur"]);
-        if (!Number.isNaN(fkJ) && fkJ !== 0) {
-          const joueur = (Joueurs || []).find(j =>
-            numEq(getNum(j, ["PKJoueur", "PKJoueurs", "id"]), fkJ)
-          );
-          if (joueur) {
-            const initial = (joueur.Prenom || "").charAt(0)
-              ? joueur.Prenom.charAt(0) + ". "
-              : "";
-            text = `${initial}${joueur.Nom || joueur.LastName || ""}`;
-          } else {
-            text = `Joueur#${fkJ}`;
+        const otherPLF = PLF.find(p => numEq(getNum(p, ["PkPLF"]), otherPk));
+        const eq = otherPLF
+          ? Equipes.find(e => numEq(getNum(e, ["PkEquipe"]), getNum(otherPLF, ["FkEquipe"])))
+          : null;
+        const oppName = eq?.ShortName || eq?.Shortname || eq?.Nom || `PLF#${otherPk}`;
+        const oppLogo = otherPLF?.LogoString ? `files/${otherPLF.LogoString}` : null;
+
+        const itemsIn = [];
+        const itemsOut = [];
+
+        items.forEach(it => {
+          let text = "";
+          const fkJ = getNum(it, ["FkJoueur"]);
+          if (fkJ) {
+            const j = Joueurs.find(j => numEq(getNum(j, ["PkJoueur", "PKJoueurs"]), fkJ));
+            if (j) text = `${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}`;
           }
-        }
 
-        // --- Pick ---
-        const fkC = getNum(it, ["FkChoix"]);
-        if (!Number.isNaN(fkC) && fkC !== 0) {
-          const choix = (Choix || []).find(c => numEq(getNum(c, ["PkChoix"]), fkC));
-          if (choix) {
-            // find trade → year
-            let yearTxt = "";
-            const annee = (Annees || []).find(a => numEq(getNum(a, ["PKAnnee"]), getNum(choix, ["FkAnnee"])));
-
-            if (annee) yearTxt = annee.Annee;
-            yearTxt = yearTxt.slice(0, 4);
-
-            // ronde
-            const r = Number(choix.Ronde);
-            const rondeTxt = isNaN(r) ? "" : `${r}${r === 1 ? "er" : "e"}`;
-
-            // owner team shortname
-            const ownerPLF = (PLF || []).find(p => numEq(getNum(p, ["PkPLF"]), getNum(choix, ["FKPLF_OR_Owner"])));
-            let shortName = "?";
-            if (ownerPLF) {
-              const eq = (Equipes || []).find(e =>
-                numEq(getNum(e, ["PkEquipe"]), getNum(ownerPLF, ["FkEquipe"]))
+          const fkC = getNum(it, ["FkChoix"]);
+          if (fkC) {
+            const c = Choix.find(c => numEq(getNum(c, ["PkChoix"]), fkC));
+            if (c) {
+              const a = Annees.find(a =>
+                numEq(getNum(a, ["PkAnnee", "PKAnnee"]), getNum(c, ["FkAnnee"]))
               );
-              if (eq) shortName = eq.ShortName || eq.Shortname || eq.Nom || shortName;
+              const year = a?.Annee?.slice(0, 4) || "";
+              const r = Number(c.Ronde);
+              const rondeTxt = isNaN(r) ? "" : `${r}${r === 1 ? "er" : "e"}`;
+              text = `${rondeTxt} ${year}`;
             }
-
-            text = `${rondeTxt} ${yearTxt} (${shortName})`;
-          } else {
-            text = `Pick#${fkC}`;
           }
-        }
 
-        // --- Classification: IN or OUT ---
-        if (text) {
-          if (numEq(getNum(it, ["FkPooler"]), window.pkPLF)) {
-            itemsOut.push(text);
-          } else {
-            itemsIn.push(text);
+          if (text) {
+            const from = getNum(it, ["FkPooler"]);
+            if (numEq(from, window.pkPLF)) itemsOut.push(text);
+            else itemsIn.push(text);
           }
-        }
+        });
+
+        // Build visual block (date + opponent in same line)
+        const block = document.createElement("div");
+        block.className = "trade-block";
+
+        const header = document.createElement("div");
+        header.className = "trade-teams";
+        const logoHTML = oppLogo
+          ? `<img src="${oppLogo}" alt="${oppName}"
+               style="height:22px;width:22px;border-radius:50%;
+                      vertical-align:middle;margin-right:6px;">`
+          : "";
+
+        header.innerHTML = `
+          <span style="font-weight:600;">${trade.DateEchange}</span>
+          <span>${logoHTML}${oppName}</span>
+        `;
+
+        const playersDiv = document.createElement("div");
+        playersDiv.className = "trade-players";
+        playersDiv.innerHTML = `
+          <div style="display:flex;justify-content:space-between;">
+            <div>${itemsIn.join("<br>") || "&nbsp;"}</div>
+            <div style="text-align:right;">${itemsOut.join("<br>") || "&nbsp;"}</div>
+          </div>`;
+
+        block.appendChild(header);
+        block.appendChild(playersDiv);
+        tbody.appendChild(block);
       });
-
-      // Build mini-table
-      const mini = document.createElement("table");
-      mini.className = "mini-trade";
-      mini.style.width = "100%";
-      mini.style.margin = "8px 0";
-      
-      // Row 1: Date + Other team
-      const r1 = document.createElement("tr");
-      const tdDate = document.createElement("td");
-      const tdTeam = document.createElement("td");
-      tdDate.textContent = trade.DateEchange || "";
-      tdTeam.textContent = otherTeamName;
-      tdDate.style.fontWeight = "600";
-      tdTeam.style.fontWeight = "600";
-      r1.appendChild(tdDate);
-      r1.appendChild(tdTeam);
-      mini.appendChild(r1);
-
-      // Row 2: IN / OUT (each item on its own line)
-      const r2 = document.createElement("tr");
-      const tdIn = document.createElement("td");
-      const tdOut = document.createElement("td");
-      tdIn.innerHTML = itemsIn.length ? itemsIn.join("<br>") : " ";
-      tdOut.innerHTML = itemsOut.length ? itemsOut.join("<br>") : " ";
-      r2.appendChild(tdIn);
-      r2.appendChild(tdOut);
-      mini.appendChild(r2);
-
-      // Wrap mini table
-      const wrap = document.createElement("tr");
-      const wrapCell = document.createElement("td");
-      wrapCell.colSpan = 2;
-      wrapCell.appendChild(mini);
-      wrap.appendChild(wrapCell);
-      tbody.appendChild(wrap);
-    });
   }
 
-  // get relevant trades for the selected team
   const relevantTrades = (Echanges || []).filter(e => {
     const p1 = getNum(e, ["FkPooler1"]);
     const p2 = getNum(e, ["FkPooler2"]);
     return numEq(p1, window.pkPLF) || numEq(p2, window.pkPLF);
   });
 
-  // initial: show latest 10
-  renderTrades(relevantTrades, 10);
+  renderTrades(relevantTrades);
 
-  // on select change -> filter by FkAnnee
   select.addEventListener("change", () => {
     const year = Number(select.value);
     const filtered = relevantTrades.filter(e =>
       numEq(getNum(e, ["FkAnnee"]), year)
     );
-       renderTrades(filtered);
+    renderTrades(filtered);
   });
 
-  if (select.options.length > 0) {
-    select.selectedIndex = 0;
-  }
+  if (select.options.length > 0) select.selectedIndex = 0;
 }
