@@ -4118,7 +4118,7 @@
   {
     "PkTradeItems": "616",
     "FkChoix": "0",
-    "FkJoueur": "884",
+    "FkJoueur": "216",
     "FkTrade": "172",
     "FkPooler": "11"
   },
