@@ -1,1 +1,4104 @@
-﻿[{"PkTradeItems":"22","FkChoix":"365","FkJoueur":"0","FkTrade":"11","FkPooler":"4"},{"PkTradeItems":"23","FkChoix":"0","FkJoueur":"295","FkTrade":"11","FkPooler":"21"},{"PkTradeItems":"24","FkChoix":"0","FkJoueur":"1083","FkTrade":"12","FkPooler":"4"},{"PkTradeItems":"25","FkChoix":"117","FkJoueur":"0","FkTrade":"12","FkPooler":"16"},{"PkTradeItems":"26","FkChoix":"117","FkJoueur":"0","FkTrade":"13","FkPooler":"4"},{"PkTradeItems":"27","FkChoix":"0","FkJoueur":"1086","FkTrade":"13","FkPooler":"24"},{"PkTradeItems":"28","FkChoix":"0","FkJoueur":"635","FkTrade":"14","FkPooler":"5"},{"PkTradeItems":"29","FkChoix":"87","FkJoueur":"0","FkTrade":"14","FkPooler":"5"},{"PkTradeItems":"30","FkChoix":"116","FkJoueur":"0","FkTrade":"14","FkPooler":"16"},{"PkTradeItems":"31","FkChoix":"0","FkJoueur":"789","FkTrade":"15","FkPooler":"12"},{"PkTradeItems":"32","FkChoix":"106","FkJoueur":"0","FkTrade":"15","FkPooler":"12"},{"PkTradeItems":"33","FkChoix":"108","FkJoueur":"0","FkTrade":"15","FkPooler":"12"},{"PkTradeItems":"34","FkChoix":"0","FkJoueur":"323","FkTrade":"15","FkPooler":"15"},{"PkTradeItems":"35","FkChoix":"113","FkJoueur":"0","FkTrade":"15","FkPooler":"15"},{"PkTradeItems":"36","FkChoix":"0","FkJoueur":"102","FkTrade":"16","FkPooler":"16"},{"PkTradeItems":"37","FkChoix":"0","FkJoueur":"659","FkTrade":"16","FkPooler":"16"},{"PkTradeItems":"38","FkChoix":"87","FkJoueur":"0","FkTrade":"16","FkPooler":"16"},{"PkTradeItems":"39","FkChoix":"0","FkJoueur":"825","FkTrade":"16","FkPooler":"20"},{"PkTradeItems":"40","FkChoix":"125","FkJoueur":"0","FkTrade":"16","FkPooler":"20"},{"PkTradeItems":"41","FkChoix":"0","FkJoueur":"379","FkTrade":"17","FkPooler":"16"},{"PkTradeItems":"42","FkChoix":"0","FkJoueur":"115","FkTrade":"17","FkPooler":"12"},{"PkTradeItems":"43","FkChoix":"107","FkJoueur":"0","FkTrade":"17","FkPooler":"12"},{"PkTradeItems":"44","FkChoix":"131","FkJoueur":"0","FkTrade":"18","FkPooler":"22"},{"PkTradeItems":"45","FkChoix":"176","FkJoueur":"0","FkTrade":"18","FkPooler":"16"},{"PkTradeItems":"46","FkChoix":"113","FkJoueur":"0","FkTrade":"19","FkPooler":"12"},{"PkTradeItems":"47","FkChoix":"185","FkJoueur":"0","FkTrade":"19","FkPooler":"20"},{"PkTradeItems":"48","FkChoix":"0","FkJoueur":"27","FkTrade":"20","FkPooler":"18"},{"PkTradeItems":"49","FkChoix":"366","FkJoueur":"0","FkTrade":"20","FkPooler":"18"},{"PkTradeItems":"50","FkChoix":"0","FkJoueur":"8","FkTrade":"20","FkPooler":"22"},{"PkTradeItems":"51","FkChoix":"0","FkJoueur":"125","FkTrade":"20","FkPooler":"22"},{"PkTradeItems":"52","FkChoix":"130","FkJoueur":"0","FkTrade":"20","FkPooler":"22"},{"PkTradeItems":"53","FkChoix":"0","FkJoueur":"1079","FkTrade":"21","FkPooler":"16"},{"PkTradeItems":"54","FkChoix":"177","FkJoueur":"0","FkTrade":"21","FkPooler":"16"},{"PkTradeItems":"55","FkChoix":"126","FkJoueur":"0","FkTrade":"21","FkPooler":"20"},{"PkTradeItems":"56","FkChoix":"0","FkJoueur":"934","FkTrade":"22","FkPooler":"16"},{"PkTradeItems":"57","FkChoix":"0","FkJoueur":"1148","FkTrade":"22","FkPooler":"5"},{"PkTradeItems":"58","FkChoix":"0","FkJoueur":"1094","FkTrade":"23","FkPooler":"16"},{"PkTradeItems":"59","FkChoix":"184","FkJoueur":"0","FkTrade":"23","FkPooler":"20"},{"PkTradeItems":"60","FkChoix":"0","FkJoueur":"669","FkTrade":"24","FkPooler":"15"},{"PkTradeItems":"61","FkChoix":"0","FkJoueur":"18","FkTrade":"24","FkPooler":"25"},{"PkTradeItems":"62","FkChoix":"0","FkJoueur":"41","FkTrade":"25","FkPooler":"16"},{"PkTradeItems":"63","FkChoix":"0","FkJoueur":"376","FkTrade":"25","FkPooler":"10"},{"PkTradeItems":"64","FkChoix":"0","FkJoueur":"5","FkTrade":"26","FkPooler":"10"},{"PkTradeItems":"65","FkChoix":"160","FkJoueur":"0","FkTrade":"26","FkPooler":"10"},{"PkTradeItems":"66","FkChoix":"0","FkJoueur":"589","FkTrade":"26","FkPooler":"14"},{"PkTradeItems":"67","FkChoix":"0","FkJoueur":"57","FkTrade":"27","FkPooler":"5"},{"PkTradeItems":"68","FkChoix":"147","FkJoueur":"0","FkTrade":"27","FkPooler":"5"},{"PkTradeItems":"69","FkChoix":"0","FkJoueur":"657","FkTrade":"27","FkPooler":"23"},{"PkTradeItems":"70","FkChoix":"0","FkJoueur":"86","FkTrade":"28","FkPooler":"12"},{"PkTradeItems":"71","FkChoix":"0","FkJoueur":"976","FkTrade":"28","FkPooler":"12"},{"PkTradeItems":"72","FkChoix":"166","FkJoueur":"0","FkTrade":"28","FkPooler":"12"},{"PkTradeItems":"73","FkChoix":"367","FkJoueur":"0","FkTrade":"28","FkPooler":"12"},{"PkTradeItems":"74","FkChoix":"0","FkJoueur":"642","FkTrade":"28","FkPooler":"21"},{"PkTradeItems":"75","FkChoix":"189","FkJoueur":"0","FkTrade":"28","FkPooler":"21"},{"PkTradeItems":"76","FkChoix":"0","FkJoueur":"86","FkTrade":"29","FkPooler":"21"},{"PkTradeItems":"77","FkChoix":"0","FkJoueur":"715","FkTrade":"29","FkPooler":"21"},{"PkTradeItems":"78","FkChoix":"166","FkJoueur":"0","FkTrade":"29","FkPooler":"21"},{"PkTradeItems":"79","FkChoix":"0","FkJoueur":"868","FkTrade":"29","FkPooler":"11"},{"PkTradeItems":"80","FkChoix":"0","FkJoueur":"375","FkTrade":"30","FkPooler":"21"},{"PkTradeItems":"81","FkChoix":"188","FkJoueur":"0","FkTrade":"30","FkPooler":"21"},{"PkTradeItems":"82","FkChoix":"0","FkJoueur":"353","FkTrade":"30","FkPooler":"16"},{"PkTradeItems":"83","FkChoix":"0","FkJoueur":"755","FkTrade":"31","FkPooler":"15"},{"PkTradeItems":"84","FkChoix":"0","FkJoueur":"936","FkTrade":"31","FkPooler":"15"},{"PkTradeItems":"85","FkChoix":"174","FkJoueur":"0","FkTrade":"31","FkPooler":"15"},{"PkTradeItems":"86","FkChoix":"0","FkJoueur":"132","FkTrade":"31","FkPooler":"22"},{"PkTradeItems":"87","FkChoix":"0","FkJoueur":"282","FkTrade":"31","FkPooler":"22"},{"PkTradeItems":"88","FkChoix":"190","FkJoueur":"0","FkTrade":"31","FkPooler":"22"},{"PkTradeItems":"89","FkChoix":"0","FkJoueur":"282","FkTrade":"32","FkPooler":"15"},{"PkTradeItems":"90","FkChoix":"190","FkJoueur":"0","FkTrade":"32","FkPooler":"15"},{"PkTradeItems":"91","FkChoix":"172","FkJoueur":"0","FkTrade":"32","FkPooler":"15"},{"PkTradeItems":"92","FkChoix":"0","FkJoueur":"191","FkTrade":"32","FkPooler":"16"},{"PkTradeItems":"93","FkChoix":"236","FkJoueur":"0","FkTrade":"32","FkPooler":"16"},{"PkTradeItems":"94","FkChoix":"0","FkJoueur":"266","FkTrade":"33","FkPooler":"18"},{"PkTradeItems":"95","FkChoix":"179","FkJoueur":"0","FkTrade":"33","FkPooler":"18"},{"PkTradeItems":"96","FkChoix":"0","FkJoueur":"1069","FkTrade":"33","FkPooler":"25"},{"PkTradeItems":"97","FkChoix":"0","FkJoueur":"1149","FkTrade":"33","FkPooler":"25"},{"PkTradeItems":"98","FkChoix":"0","FkJoueur":"1073","FkTrade":"34","FkPooler":"20"},{"PkTradeItems":"99","FkChoix":"0","FkJoueur":"334","FkTrade":"34","FkPooler":"20"},{"PkTradeItems":"100","FkChoix":"0","FkJoueur":"1064","FkTrade":"34","FkPooler":"20"},{"PkTradeItems":"101","FkChoix":"0","FkJoueur":"863","FkTrade":"34","FkPooler":"20"},{"PkTradeItems":"102","FkChoix":"244","FkJoueur":"0","FkTrade":"34","FkPooler":"20"},{"PkTradeItems":"103","FkChoix":"0","FkJoueur":"877","FkTrade":"34","FkPooler":"16"},{"PkTradeItems":"104","FkChoix":"0","FkJoueur":"1030","FkTrade":"35","FkPooler":"15"},{"PkTradeItems":"105","FkChoix":"0","FkJoueur":"667","FkTrade":"35","FkPooler":"15"},{"PkTradeItems":"106","FkChoix":"173","FkJoueur":"0","FkTrade":"35","FkPooler":"15"},{"PkTradeItems":"107","FkChoix":"0","FkJoueur":"690","FkTrade":"35","FkPooler":"18"},{"PkTradeItems":"108","FkChoix":"0","FkJoueur":"125","FkTrade":"35","FkPooler":"18"},{"PkTradeItems":"109","FkChoix":"180","FkJoueur":"0","FkTrade":"35","FkPooler":"18"},{"PkTradeItems":"110","FkChoix":"0","FkJoueur":"376","FkTrade":"36","FkPooler":"16"},{"PkTradeItems":"111","FkChoix":"0","FkJoueur":"261","FkTrade":"36","FkPooler":"5"},{"PkTradeItems":"112","FkChoix":"0","FkJoueur":"1044","FkTrade":"36","FkPooler":"5"},{"PkTradeItems":"113","FkChoix":"0","FkJoueur":"1051","FkTrade":"36","FkPooler":"5"},{"PkTradeItems":"114","FkChoix":"0","FkJoueur":"566","FkTrade":"37","FkPooler":"12"},{"PkTradeItems":"115","FkChoix":"0","FkJoueur":"596","FkTrade":"37","FkPooler":"12"},{"PkTradeItems":"116","FkChoix":"0","FkJoueur":"1072","FkTrade":"37","FkPooler":"12"},{"PkTradeItems":"117","FkChoix":"226","FkJoueur":"0","FkTrade":"37","FkPooler":"12"},{"PkTradeItems":"118","FkChoix":"0","FkJoueur":"106","FkTrade":"37","FkPooler":"18"},{"PkTradeItems":"119","FkChoix":"240","FkJoueur":"0","FkTrade":"37","FkPooler":"18"},{"PkTradeItems":"120","FkChoix":"0","FkJoueur":"219","FkTrade":"38","FkPooler":"18"},{"PkTradeItems":"121","FkChoix":"0","FkJoueur":"18","FkTrade":"38","FkPooler":"15"},{"PkTradeItems":"122","FkChoix":"233","FkJoueur":"0","FkTrade":"38","FkPooler":"15"},{"PkTradeItems":"123","FkChoix":"0","FkJoueur":"594","FkTrade":"39","FkPooler":"7"},{"PkTradeItems":"124","FkChoix":"153","FkJoueur":"0","FkTrade":"39","FkPooler":"7"},{"PkTradeItems":"125","FkChoix":"0","FkJoueur":"447","FkTrade":"39","FkPooler":"20"},{"PkTradeItems":"126","FkChoix":"0","FkJoueur":"464","FkTrade":"39","FkPooler":"20"},{"PkTradeItems":"127","FkChoix":"0","FkJoueur":"562","FkTrade":"39","FkPooler":"20"},{"PkTradeItems":"128","FkChoix":"245","FkJoueur":"0","FkTrade":"39","FkPooler":"20"},{"PkTradeItems":"129","FkChoix":"0","FkJoueur":"326","FkTrade":"40","FkPooler":"8"},{"PkTradeItems":"130","FkChoix":"0","FkJoueur":"645","FkTrade":"40","FkPooler":"8"},{"PkTradeItems":"131","FkChoix":"0","FkJoueur":"649","FkTrade":"40","FkPooler":"8"},{"PkTradeItems":"132","FkChoix":"154","FkJoueur":"0","FkTrade":"40","FkPooler":"8"},{"PkTradeItems":"133","FkChoix":"0","FkJoueur":"4","FkTrade":"40","FkPooler":"14"},{"PkTradeItems":"134","FkChoix":"0","FkJoueur":"242","FkTrade":"40","FkPooler":"14"},{"PkTradeItems":"135","FkChoix":"0","FkJoueur":"490","FkTrade":"41","FkPooler":"12"},{"PkTradeItems":"136","FkChoix":"0","FkJoueur":"31","FkTrade":"41","FkPooler":"12"},{"PkTradeItems":"137","FkChoix":"185","FkJoueur":"0","FkTrade":"41","FkPooler":"12"},{"PkTradeItems":"138","FkChoix":"167","FkJoueur":"0","FkTrade":"41","FkPooler":"12"},{"PkTradeItems":"139","FkChoix":"227","FkJoueur":"0","FkTrade":"41","FkPooler":"12"},{"PkTradeItems":"140","FkChoix":"286","FkJoueur":"0","FkTrade":"41","FkPooler":"12"},{"PkTradeItems":"141","FkChoix":"288","FkJoueur":"0","FkTrade":"41","FkPooler":"12"},{"PkTradeItems":"142","FkChoix":"0","FkJoueur":"415","FkTrade":"41","FkPooler":"25"},{"PkTradeItems":"143","FkChoix":"0","FkJoueur":"266","FkTrade":"41","FkPooler":"25"},{"PkTradeItems":"144","FkChoix":"0","FkJoueur":"1006","FkTrade":"42","FkPooler":"16"},{"PkTradeItems":"145","FkChoix":"0","FkJoueur":"833","FkTrade":"42","FkPooler":"16"},{"PkTradeItems":"146","FkChoix":"244","FkJoueur":"0","FkTrade":"42","FkPooler":"16"},{"PkTradeItems":"147","FkChoix":"199","FkJoueur":"0","FkTrade":"42","FkPooler":"25"},{"PkTradeItems":"148","FkChoix":"0","FkJoueur":"543","FkTrade":"43","FkPooler":"9"},{"PkTradeItems":"149","FkChoix":"157","FkJoueur":"0","FkTrade":"43","FkPooler":"9"},{"PkTradeItems":"150","FkChoix":"0","FkJoueur":"105","FkTrade":"43","FkPooler":"11"},{"PkTradeItems":"151","FkChoix":"0","FkJoueur":"217","FkTrade":"44","FkPooler":"15"},{"PkTradeItems":"152","FkChoix":"234","FkJoueur":"0","FkTrade":"44","FkPooler":"15"},{"PkTradeItems":"153","FkChoix":"0","FkJoueur":"1073","FkTrade":"44","FkPooler":"16"},{"PkTradeItems":"154","FkChoix":"188","FkJoueur":"0","FkTrade":"44","FkPooler":"16"},{"PkTradeItems":"155","FkChoix":"0","FkJoueur":"217","FkTrade":"45","FkPooler":"16"},{"PkTradeItems":"156","FkChoix":"0","FkJoueur":"137","FkTrade":"45","FkPooler":"16"},{"PkTradeItems":"157","FkChoix":"190","FkJoueur":"0","FkTrade":"45","FkPooler":"16"},{"PkTradeItems":"158","FkChoix":"184","FkJoueur":"0","FkTrade":"45","FkPooler":"16"},{"PkTradeItems":"159","FkChoix":"234","FkJoueur":"0","FkTrade":"45","FkPooler":"16"},{"PkTradeItems":"160","FkChoix":"0","FkJoueur":"710","FkTrade":"45","FkPooler":"10"},{"PkTradeItems":"161","FkChoix":"0","FkJoueur":"672","FkTrade":"45","FkPooler":"10"},{"PkTradeItems":"162","FkChoix":"0","FkJoueur":"574","FkTrade":"45","FkPooler":"10"},{"PkTradeItems":"163","FkChoix":"0","FkJoueur":"718","FkTrade":"46","FkPooler":"10"},{"PkTradeItems":"164","FkChoix":"0","FkJoueur":"436","FkTrade":"46","FkPooler":"10"},{"PkTradeItems":"165","FkChoix":"190","FkJoueur":"0","FkTrade":"46","FkPooler":"10"},{"PkTradeItems":"166","FkChoix":"220","FkJoueur":"0","FkTrade":"46","FkPooler":"10"},{"PkTradeItems":"167","FkChoix":"234","FkJoueur":"0","FkTrade":"46","FkPooler":"10"},{"PkTradeItems":"168","FkChoix":"0","FkJoueur":"466","FkTrade":"46","FkPooler":"25"},{"PkTradeItems":"169","FkChoix":"0","FkJoueur":"322","FkTrade":"47","FkPooler":"25"},{"PkTradeItems":"170","FkChoix":"0","FkJoueur":"714","FkTrade":"47","FkPooler":"25"},{"PkTradeItems":"171","FkChoix":"0","FkJoueur":"372","FkTrade":"47","FkPooler":"8"},{"PkTradeItems":"172","FkChoix":"0","FkJoueur":"244","FkTrade":"47","FkPooler":"8"},{"PkTradeItems":"173","FkChoix":"0","FkJoueur":"1098","FkTrade":"47","FkPooler":"8"},{"PkTradeItems":"174","FkChoix":"214","FkJoueur":"0","FkTrade":"47","FkPooler":"8"},{"PkTradeItems":"175","FkChoix":"215","FkJoueur":"0","FkTrade":"47","FkPooler":"8"},{"PkTradeItems":"176","FkChoix":"274","FkJoueur":"0","FkTrade":"47","FkPooler":"8"},{"PkTradeItems":"177","FkChoix":"275","FkJoueur":"0","FkTrade":"47","FkPooler":"8"},{"PkTradeItems":"178","FkChoix":"276","FkJoueur":"0","FkTrade":"47","FkPooler":"8"},{"PkTradeItems":"179","FkChoix":"0","FkJoueur":"826","FkTrade":"48","FkPooler":"12"},{"PkTradeItems":"180","FkChoix":"183","FkJoueur":"0","FkTrade":"48","FkPooler":"19"},{"PkTradeItems":"181","FkChoix":"0","FkJoueur":"547","FkTrade":"49","FkPooler":"12"},{"PkTradeItems":"182","FkChoix":"0","FkJoueur":"720","FkTrade":"49","FkPooler":"12"},{"PkTradeItems":"183","FkChoix":"0","FkJoueur":"921","FkTrade":"49","FkPooler":"12"},{"PkTradeItems":"184","FkChoix":"0","FkJoueur":"651","FkTrade":"49","FkPooler":"12"},{"PkTradeItems":"185","FkChoix":"0","FkJoueur":"765","FkTrade":"49","FkPooler":"12"},{"PkTradeItems":"186","FkChoix":"0","FkJoueur":"103","FkTrade":"49","FkPooler":"12"},{"PkTradeItems":"187","FkChoix":"0","FkJoueur":"515","FkTrade":"49","FkPooler":"5"},{"PkTradeItems":"188","FkChoix":"0","FkJoueur":"781","FkTrade":"49","FkPooler":"5"},{"PkTradeItems":"189","FkChoix":"0","FkJoueur":"532","FkTrade":"49","FkPooler":"5"},{"PkTradeItems":"190","FkChoix":"146","FkJoueur":"0","FkTrade":"49","FkPooler":"5"},{"PkTradeItems":"191","FkChoix":"0","FkJoueur":"765","FkTrade":"50","FkPooler":"5"},{"PkTradeItems":"192","FkChoix":"0","FkJoueur":"103","FkTrade":"50","FkPooler":"5"},{"PkTradeItems":"193","FkChoix":"207","FkJoueur":"0","FkTrade":"50","FkPooler":"5"},{"PkTradeItems":"194","FkChoix":"0","FkJoueur":"303","FkTrade":"50","FkPooler":"25"},{"PkTradeItems":"195","FkChoix":"0","FkJoueur":"490","FkTrade":"51","FkPooler":"25"},{"PkTradeItems":"196","FkChoix":"0","FkJoueur":"1075","FkTrade":"51","FkPooler":"25"},{"PkTradeItems":"197","FkChoix":"0","FkJoueur":"225","FkTrade":"51","FkPooler":"25"},{"PkTradeItems":"198","FkChoix":"0","FkJoueur":"897","FkTrade":"51","FkPooler":"15"},{"PkTradeItems":"199","FkChoix":"232","FkJoueur":"0","FkTrade":"51","FkPooler":"15"},{"PkTradeItems":"200","FkChoix":"0","FkJoueur":"293","FkTrade":"52","FkPooler":"10"},{"PkTradeItems":"201","FkChoix":"0","FkJoueur":"518","FkTrade":"52","FkPooler":"23"},{"PkTradeItems":"202","FkChoix":"0","FkJoueur":"522","FkTrade":"53","FkPooler":"10"},{"PkTradeItems":"203","FkChoix":"0","FkJoueur":"814","FkTrade":"53","FkPooler":"10"},{"PkTradeItems":"204","FkChoix":"0","FkJoueur":"528","FkTrade":"53","FkPooler":"23"},{"PkTradeItems":"205","FkChoix":"195","FkJoueur":"0","FkTrade":"53","FkPooler":"23"},{"PkTradeItems":"206","FkChoix":"0","FkJoueur":"426","FkTrade":"54","FkPooler":"10"},{"PkTradeItems":"207","FkChoix":"305","FkJoueur":"0","FkTrade":"54","FkPooler":"20"},{"PkTradeItems":"208","FkChoix":"306","FkJoueur":"0","FkTrade":"54","FkPooler":"20"},{"PkTradeItems":"209","FkChoix":"0","FkJoueur":"1144","FkTrade":"55","FkPooler":"10"},{"PkTradeItems":"210","FkChoix":"177","FkJoueur":"0","FkTrade":"55","FkPooler":"16"},{"PkTradeItems":"211","FkChoix":"0","FkJoueur":"1093","FkTrade":"56","FkPooler":"11"},{"PkTradeItems":"212","FkChoix":"0","FkJoueur":"146","FkTrade":"56","FkPooler":"20"},{"PkTradeItems":"213","FkChoix":"195","FkJoueur":"0","FkTrade":"57","FkPooler":"10"},{"PkTradeItems":"214","FkChoix":"162","FkJoueur":"0","FkTrade":"57","FkPooler":"10"},{"PkTradeItems":"215","FkChoix":"204","FkJoueur":"0","FkTrade":"57","FkPooler":"4"},{"PkTradeItems":"216","FkChoix":"0","FkJoueur":"643","FkTrade":"58","FkPooler":"6"},{"PkTradeItems":"217","FkChoix":"0","FkJoueur":"1062","FkTrade":"58","FkPooler":"16"},{"PkTradeItems":"218","FkChoix":"193","FkJoueur":"0","FkTrade":"59","FkPooler":"23"},{"PkTradeItems":"219","FkChoix":"194","FkJoueur":"0","FkTrade":"59","FkPooler":"23"},{"PkTradeItems":"220","FkChoix":"0","FkJoueur":"710","FkTrade":"59","FkPooler":"16"},{"PkTradeItems":"221","FkChoix":"0","FkJoueur":"480","FkTrade":"59","FkPooler":"16"},{"PkTradeItems":"222","FkChoix":"175","FkJoueur":"0","FkTrade":"59","FkPooler":"16"},{"PkTradeItems":"223","FkChoix":"0","FkJoueur":"614","FkTrade":"60","FkPooler":"20"},{"PkTradeItems":"224","FkChoix":"177","FkJoueur":"0","FkTrade":"60","FkPooler":"20"},{"PkTradeItems":"225","FkChoix":"304","FkJoueur":"0","FkTrade":"60","FkPooler":"20"},{"PkTradeItems":"226","FkChoix":"0","FkJoueur":"1083","FkTrade":"60","FkPooler":"16"},{"PkTradeItems":"227","FkChoix":"0","FkJoueur":"82","FkTrade":"61","FkPooler":"12"},{"PkTradeItems":"228","FkChoix":"0","FkJoueur":"342","FkTrade":"61","FkPooler":"16"},{"PkTradeItems":"229","FkChoix":"297","FkJoueur":"0","FkTrade":"61","FkPooler":"16"},{"PkTradeItems":"230","FkChoix":"0","FkJoueur":"347","FkTrade":"62","FkPooler":"12"},{"PkTradeItems":"231","FkChoix":"0","FkJoueur":"159","FkTrade":"62","FkPooler":"25"},{"PkTradeItems":"232","FkChoix":"0","FkJoueur":"377","FkTrade":"62","FkPooler":"25"},{"PkTradeItems":"233","FkChoix":"0","FkJoueur":"1129","FkTrade":"62","FkPooler":"25"},{"PkTradeItems":"234","FkChoix":"185","FkJoueur":"0","FkTrade":"62","FkPooler":"25"},{"PkTradeItems":"235","FkChoix":"201","FkJoueur":"0","FkTrade":"62","FkPooler":"25"},{"PkTradeItems":"236","FkChoix":"246","FkJoueur":"0","FkTrade":"63","FkPooler":"20"},{"PkTradeItems":"237","FkChoix":"183","FkJoueur":"0","FkTrade":"63","FkPooler":"12"},{"PkTradeItems":"238","FkChoix":"0","FkJoueur":"438","FkTrade":"64","FkPooler":"21"},{"PkTradeItems":"239","FkChoix":"0","FkJoueur":"594","FkTrade":"64","FkPooler":"20"},{"PkTradeItems":"240","FkChoix":"0","FkJoueur":"495","FkTrade":"65","FkPooler":"9"},{"PkTradeItems":"241","FkChoix":"0","FkJoueur":"1133","FkTrade":"65","FkPooler":"9"},{"PkTradeItems":"242","FkChoix":"0","FkJoueur":"60","FkTrade":"65","FkPooler":"4"},{"PkTradeItems":"243","FkChoix":"264","FkJoueur":"0","FkTrade":"65","FkPooler":"4"},{"PkTradeItems":"244","FkChoix":"0","FkJoueur":"1113","FkTrade":"66","FkPooler":"10"},{"PkTradeItems":"245","FkChoix":"0","FkJoueur":"1044","FkTrade":"66","FkPooler":"16"},{"PkTradeItems":"246","FkChoix":"0","FkJoueur":"635","FkTrade":"67","FkPooler":"16"},{"PkTradeItems":"247","FkChoix":"194","FkJoueur":"0","FkTrade":"67","FkPooler":"16"},{"PkTradeItems":"248","FkChoix":"0","FkJoueur":"438","FkTrade":"67","FkPooler":"20"},{"PkTradeItems":"249","FkChoix":"0","FkJoueur":"1040","FkTrade":"68","FkPooler":"24"},{"PkTradeItems":"250","FkChoix":"0","FkJoueur":"959","FkTrade":"68","FkPooler":"24"},{"PkTradeItems":"251","FkChoix":"0","FkJoueur":"352","FkTrade":"68","FkPooler":"10"},{"PkTradeItems":"252","FkChoix":"184","FkJoueur":"0","FkTrade":"68","FkPooler":"10"},{"PkTradeItems":"253","FkChoix":"161","FkJoueur":"0","FkTrade":"68","FkPooler":"10"},{"PkTradeItems":"254","FkChoix":"143","FkJoueur":"0","FkTrade":"69","FkPooler":"4"},{"PkTradeItems":"255","FkChoix":"144","FkJoueur":"0","FkTrade":"69","FkPooler":"4"},{"PkTradeItems":"256","FkChoix":"237","FkJoueur":"0","FkTrade":"69","FkPooler":"10"},{"PkTradeItems":"257","FkChoix":"281","FkJoueur":"0","FkTrade":"69","FkPooler":"10"},{"PkTradeItems":"258","FkChoix":"0","FkJoueur":"66","FkTrade":"70","FkPooler":"16"},{"PkTradeItems":"259","FkChoix":"172","FkJoueur":"0","FkTrade":"70","FkPooler":"16"},{"PkTradeItems":"260","FkChoix":"0","FkJoueur":"518","FkTrade":"70","FkPooler":"10"},{"PkTradeItems":"261","FkChoix":"0","FkJoueur":"690","FkTrade":"71","FkPooler":"15"},{"PkTradeItems":"262","FkChoix":"188","FkJoueur":"0","FkTrade":"71","FkPooler":"15"},{"PkTradeItems":"263","FkChoix":"148","FkJoueur":"0","FkTrade":"71","FkPooler":"6"},{"PkTradeItems":"264","FkChoix":"0","FkJoueur":"421","FkTrade":"72","FkPooler":"16"},{"PkTradeItems":"265","FkChoix":"177","FkJoueur":"0","FkTrade":"72","FkPooler":"16"},{"PkTradeItems":"266","FkChoix":"296","FkJoueur":"0","FkTrade":"72","FkPooler":"16"},{"PkTradeItems":"267","FkChoix":"194","FkJoueur":"0","FkTrade":"72","FkPooler":"20"},{"PkTradeItems":"268","FkChoix":"186","FkJoueur":"0","FkTrade":"72","FkPooler":"20"},{"PkTradeItems":"269","FkChoix":"146","FkJoueur":"0","FkTrade":"73","FkPooler":"12"},{"PkTradeItems":"270","FkChoix":"296","FkJoueur":"0","FkTrade":"73","FkPooler":"20"},{"PkTradeItems":"271","FkChoix":"236","FkJoueur":"0","FkTrade":"74","FkPooler":"15"},{"PkTradeItems":"272","FkChoix":"293","FkJoueur":"0","FkTrade":"74","FkPooler":"15"},{"PkTradeItems":"273","FkChoix":"0","FkJoueur":"755","FkTrade":"74","FkPooler":"22"},{"PkTradeItems":"274","FkChoix":"0","FkJoueur":"1067","FkTrade":"75","FkPooler":"5"},{"PkTradeItems":"275","FkChoix":"0","FkJoueur":"1221","FkTrade":"75","FkPooler":"10"},{"PkTradeItems":"278","FkChoix":"0","FkJoueur":"877","FkTrade":"78","FkPooler":"27"},{"PkTradeItems":"279","FkChoix":"0","FkJoueur":"115","FkTrade":"78","FkPooler":"16"},{"PkTradeItems":"280","FkChoix":"0","FkJoueur":"859","FkTrade":"79","FkPooler":"27"},{"PkTradeItems":"281","FkChoix":"0","FkJoueur":"714","FkTrade":"80","FkPooler":"27"},{"PkTradeItems":"282","FkChoix":"0","FkJoueur":"98","FkTrade":"80","FkPooler":"25"},{"PkTradeItems":"283","FkChoix":"0","FkJoueur":"957","FkTrade":"81","FkPooler":"27"},{"PkTradeItems":"284","FkChoix":"0","FkJoueur":"110","FkTrade":"81","FkPooler":"7"},{"PkTradeItems":"285","FkChoix":"0","FkJoueur":"425","FkTrade":"82","FkPooler":"27"},{"PkTradeItems":"286","FkChoix":"0","FkJoueur":"468","FkTrade":"82","FkPooler":"18"},{"PkTradeItems":"287","FkChoix":"0","FkJoueur":"168","FkTrade":"83","FkPooler":"27"},{"PkTradeItems":"288","FkChoix":"0","FkJoueur":"962","FkTrade":"84","FkPooler":"27"},{"PkTradeItems":"289","FkChoix":"0","FkJoueur":"494","FkTrade":"84","FkPooler":"14"},{"PkTradeItems":"290","FkChoix":"0","FkJoueur":"758","FkTrade":"85","FkPooler":"27"},{"PkTradeItems":"291","FkChoix":"0","FkJoueur":"657","FkTrade":"85","FkPooler":"5"},{"PkTradeItems":"292","FkChoix":"0","FkJoueur":"267","FkTrade":"86","FkPooler":"27"},{"PkTradeItems":"293","FkChoix":"0","FkJoueur":"826","FkTrade":"87","FkPooler":"27"},{"PkTradeItems":"294","FkChoix":"0","FkJoueur":"90","FkTrade":"87","FkPooler":"12"},{"PkTradeItems":"295","FkChoix":"0","FkJoueur":"495","FkTrade":"88","FkPooler":"27"},{"PkTradeItems":"296","FkChoix":"0","FkJoueur":"672","FkTrade":"89","FkPooler":"27"},{"PkTradeItems":"297","FkChoix":"0","FkJoueur":"161","FkTrade":"89","FkPooler":"10"},{"PkTradeItems":"298","FkChoix":"0","FkJoueur":"683","FkTrade":"90","FkPooler":"27"},{"PkTradeItems":"299","FkChoix":"0","FkJoueur":"1084","FkTrade":"90","FkPooler":"20"},{"PkTradeItems":"300","FkChoix":"0","FkJoueur":"1158","FkTrade":"91","FkPooler":"27"},{"PkTradeItems":"301","FkChoix":"0","FkJoueur":"440","FkTrade":"92","FkPooler":"27"},{"PkTradeItems":"302","FkChoix":"0","FkJoueur":"1159","FkTrade":"93","FkPooler":"27"},{"PkTradeItems":"303","FkChoix":"0","FkJoueur":"125","FkTrade":"93","FkPooler":"15"},{"PkTradeItems":"304","FkChoix":"0","FkJoueur":"268","FkTrade":"94","FkPooler":"27"},{"PkTradeItems":"305","FkChoix":"0","FkJoueur":"830","FkTrade":"94","FkPooler":"6"},{"PkTradeItems":"306","FkChoix":"0","FkJoueur":"468","FkTrade":"95","FkPooler":"27"},{"PkTradeItems":"307","FkChoix":"0","FkJoueur":"645","FkTrade":"96","FkPooler":"27"},{"PkTradeItems":"308","FkChoix":"0","FkJoueur":"187","FkTrade":"96","FkPooler":"8"},{"PkTradeItems":"309","FkChoix":"0","FkJoueur":"665","FkTrade":"97","FkPooler":"15"},{"PkTradeItems":"310","FkChoix":"0","FkJoueur":"329","FkTrade":"97","FkPooler":"15"},{"PkTradeItems":"311","FkChoix":"0","FkJoueur":"494","FkTrade":"98","FkPooler":"22"},{"PkTradeItems":"312","FkChoix":"0","FkJoueur":"528","FkTrade":"98","FkPooler":"22"},{"PkTradeItems":"313","FkChoix":"0","FkJoueur":"919","FkTrade":"99","FkPooler":"19"},{"PkTradeItems":"314","FkChoix":"0","FkJoueur":"952","FkTrade":"99","FkPooler":"19"},{"PkTradeItems":"315","FkChoix":"0","FkJoueur":"759","FkTrade":"100","FkPooler":"9"},{"PkTradeItems":"316","FkChoix":"0","FkJoueur":"250","FkTrade":"100","FkPooler":"9"},{"PkTradeItems":"317","FkChoix":"0","FkJoueur":"166","FkTrade":"100","FkPooler":"9"},{"PkTradeItems":"318","FkChoix":"0","FkJoueur":"859","FkTrade":"100","FkPooler":"9"},{"PkTradeItems":"319","FkChoix":"0","FkJoueur":"102","FkTrade":"101","FkPooler":"20"},{"PkTradeItems":"320","FkChoix":"0","FkJoueur":"77","FkTrade":"102","FkPooler":"12"},{"PkTradeItems":"321","FkChoix":"0","FkJoueur":"908","FkTrade":"102","FkPooler":"12"},{"PkTradeItems":"322","FkChoix":"0","FkJoueur":"14","FkTrade":"103","FkPooler":"6"},{"PkTradeItems":"323","FkChoix":"0","FkJoueur":"672","FkTrade":"103","FkPooler":"6"},{"PkTradeItems":"324","FkChoix":"0","FkJoueur":"714","FkTrade":"103","FkPooler":"6"},{"PkTradeItems":"325","FkChoix":"0","FkJoueur":"953","FkTrade":"103","FkPooler":"6"},{"PkTradeItems":"326","FkChoix":"0","FkJoueur":"889","FkTrade":"103","FkPooler":"6"},{"PkTradeItems":"327","FkChoix":"0","FkJoueur":"1074","FkTrade":"103","FkPooler":"6"},{"PkTradeItems":"328","FkChoix":"0","FkJoueur":"63","FkTrade":"104","FkPooler":"4"},{"PkTradeItems":"329","FkChoix":"0","FkJoueur":"920","FkTrade":"104","FkPooler":"4"},{"PkTradeItems":"330","FkChoix":"0","FkJoueur":"519","FkTrade":"104","FkPooler":"4"},{"PkTradeItems":"331","FkChoix":"0","FkJoueur":"1054","FkTrade":"104","FkPooler":"4"},{"PkTradeItems":"332","FkChoix":"0","FkJoueur":"839","FkTrade":"104","FkPooler":"4"},{"PkTradeItems":"333","FkChoix":"0","FkJoueur":"444","FkTrade":"105","FkPooler":"5"},{"PkTradeItems":"334","FkChoix":"0","FkJoueur":"651","FkTrade":"105","FkPooler":"5"},{"PkTradeItems":"335","FkChoix":"0","FkJoueur":"934","FkTrade":"105","FkPooler":"5"},{"PkTradeItems":"336","FkChoix":"0","FkJoueur":"955","FkTrade":"105","FkPooler":"5"},{"PkTradeItems":"337","FkChoix":"0","FkJoueur":"310","FkTrade":"105","FkPooler":"5"},{"PkTradeItems":"338","FkChoix":"0","FkJoueur":"1142","FkTrade":"105","FkPooler":"5"},{"PkTradeItems":"339","FkChoix":"0","FkJoueur":"395","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"340","FkChoix":"0","FkJoueur":"268","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"341","FkChoix":"0","FkJoueur":"1118","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"342","FkChoix":"0","FkJoueur":"1154","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"343","FkChoix":"0","FkJoueur":"1156","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"344","FkChoix":"0","FkJoueur":"549","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"345","FkChoix":"0","FkJoueur":"1104","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"346","FkChoix":"0","FkJoueur":"1117","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"347","FkChoix":"0","FkJoueur":"1127","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"348","FkChoix":"0","FkJoueur":"1155","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"349","FkChoix":"0","FkJoueur":"817","FkTrade":"106","FkPooler":"6"},{"PkTradeItems":"350","FkChoix":"0","FkJoueur":"615","FkTrade":"107","FkPooler":"7"},{"PkTradeItems":"351","FkChoix":"0","FkJoueur":"447","FkTrade":"107","FkPooler":"7"},{"PkTradeItems":"352","FkChoix":"0","FkJoueur":"1078","FkTrade":"107","FkPooler":"7"},{"PkTradeItems":"353","FkChoix":"0","FkJoueur":"464","FkTrade":"107","FkPooler":"7"},{"PkTradeItems":"354","FkChoix":"0","FkJoueur":"562","FkTrade":"107","FkPooler":"7"},{"PkTradeItems":"355","FkChoix":"0","FkJoueur":"4","FkTrade":"108","FkPooler":"8"},{"PkTradeItems":"356","FkChoix":"0","FkJoueur":"329","FkTrade":"108","FkPooler":"8"},{"PkTradeItems":"357","FkChoix":"0","FkJoueur":"827","FkTrade":"108","FkPooler":"8"},{"PkTradeItems":"358","FkChoix":"0","FkJoueur":"215","FkTrade":"109","FkPooler":"9"},{"PkTradeItems":"359","FkChoix":"0","FkJoueur":"612","FkTrade":"109","FkPooler":"9"},{"PkTradeItems":"360","FkChoix":"0","FkJoueur":"751","FkTrade":"110","FkPooler":"10"},{"PkTradeItems":"361","FkChoix":"0","FkJoueur":"521","FkTrade":"111","FkPooler":"11"},{"PkTradeItems":"362","FkChoix":"0","FkJoueur":"777","FkTrade":"111","FkPooler":"11"},{"PkTradeItems":"363","FkChoix":"0","FkJoueur":"1048","FkTrade":"111","FkPooler":"11"},{"PkTradeItems":"364","FkChoix":"0","FkJoueur":"1058","FkTrade":"111","FkPooler":"11"},{"PkTradeItems":"365","FkChoix":"0","FkJoueur":"831","FkTrade":"111","FkPooler":"11"},{"PkTradeItems":"366","FkChoix":"0","FkJoueur":"342","FkTrade":"112","FkPooler":"12"},{"PkTradeItems":"367","FkChoix":"0","FkJoueur":"377","FkTrade":"112","FkPooler":"12"},{"PkTradeItems":"368","FkChoix":"0","FkJoueur":"1129","FkTrade":"112","FkPooler":"12"},{"PkTradeItems":"369","FkChoix":"0","FkJoueur":"645","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"370","FkChoix":"0","FkJoueur":"374","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"371","FkChoix":"0","FkJoueur":"5","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"372","FkChoix":"0","FkJoueur":"109","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"373","FkChoix":"0","FkJoueur":"668","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"374","FkChoix":"0","FkJoueur":"1085","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"375","FkChoix":"0","FkJoueur":"735","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"376","FkChoix":"0","FkJoueur":"649","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"377","FkChoix":"0","FkJoueur":"1147","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"378","FkChoix":"0","FkJoueur":"1056","FkTrade":"113","FkPooler":"14"},{"PkTradeItems":"379","FkChoix":"0","FkJoueur":"225","FkTrade":"114","FkPooler":"15"},{"PkTradeItems":"380","FkChoix":"0","FkJoueur":"1014","FkTrade":"114","FkPooler":"15"},{"PkTradeItems":"381","FkChoix":"0","FkJoueur":"1075","FkTrade":"114","FkPooler":"15"},{"PkTradeItems":"382","FkChoix":"0","FkJoueur":"996","FkTrade":"114","FkPooler":"15"},{"PkTradeItems":"383","FkChoix":"0","FkJoueur":"1076","FkTrade":"114","FkPooler":"15"},{"PkTradeItems":"384","FkChoix":"0","FkJoueur":"1073","FkTrade":"114","FkPooler":"15"},{"PkTradeItems":"385","FkChoix":"0","FkJoueur":"1159","FkTrade":"114","FkPooler":"15"},{"PkTradeItems":"386","FkChoix":"0","FkJoueur":"574","FkTrade":"115","FkPooler":"16"},{"PkTradeItems":"387","FkChoix":"0","FkJoueur":"334","FkTrade":"115","FkPooler":"16"},{"PkTradeItems":"388","FkChoix":"0","FkJoueur":"1064","FkTrade":"115","FkPooler":"16"},{"PkTradeItems":"389","FkChoix":"0","FkJoueur":"1063","FkTrade":"115","FkPooler":"16"},{"PkTradeItems":"390","FkChoix":"0","FkJoueur":"1148","FkTrade":"115","FkPooler":"16"},{"PkTradeItems":"391","FkChoix":"0","FkJoueur":"856","FkTrade":"115","FkPooler":"16"},{"PkTradeItems":"392","FkChoix":"0","FkJoueur":"863","FkTrade":"115","FkPooler":"16"},{"PkTradeItems":"393","FkChoix":"0","FkJoueur":"425","FkTrade":"116","FkPooler":"18"},{"PkTradeItems":"394","FkChoix":"0","FkJoueur":"304","FkTrade":"117","FkPooler":"19"},{"PkTradeItems":"395","FkChoix":"0","FkJoueur":"456","FkTrade":"117","FkPooler":"19"},{"PkTradeItems":"396","FkChoix":"0","FkJoueur":"819","FkTrade":"117","FkPooler":"19"},{"PkTradeItems":"397","FkChoix":"0","FkJoueur":"369","FkTrade":"118","FkPooler":"20"},{"PkTradeItems":"398","FkChoix":"0","FkJoueur":"166","FkTrade":"118","FkPooler":"20"},{"PkTradeItems":"399","FkChoix":"0","FkJoueur":"683","FkTrade":"118","FkPooler":"20"},{"PkTradeItems":"400","FkChoix":"0","FkJoueur":"254","FkTrade":"118","FkPooler":"20"},{"PkTradeItems":"401","FkChoix":"0","FkJoueur":"630","FkTrade":"118","FkPooler":"20"},{"PkTradeItems":"402","FkChoix":"0","FkJoueur":"886","FkTrade":"118","FkPooler":"20"},{"PkTradeItems":"403","FkChoix":"0","FkJoueur":"1071","FkTrade":"118","FkPooler":"20"},{"PkTradeItems":"404","FkChoix":"0","FkJoueur":"846","FkTrade":"118","FkPooler":"20"},{"PkTradeItems":"405","FkChoix":"0","FkJoueur":"689","FkTrade":"119","FkPooler":"21"},{"PkTradeItems":"406","FkChoix":"0","FkJoueur":"353","FkTrade":"119","FkPooler":"21"},{"PkTradeItems":"407","FkChoix":"0","FkJoueur":"391","FkTrade":"120","FkPooler":"22"},{"PkTradeItems":"408","FkChoix":"0","FkJoueur":"732","FkTrade":"120","FkPooler":"22"},{"PkTradeItems":"409","FkChoix":"0","FkJoueur":"936","FkTrade":"120","FkPooler":"22"},{"PkTradeItems":"410","FkChoix":"0","FkJoueur":"930","FkTrade":"120","FkPooler":"22"},{"PkTradeItems":"411","FkChoix":"0","FkJoueur":"84","FkTrade":"121","FkPooler":"23"},{"PkTradeItems":"412","FkChoix":"0","FkJoueur":"610","FkTrade":"121","FkPooler":"23"},{"PkTradeItems":"413","FkChoix":"0","FkJoueur":"198","FkTrade":"121","FkPooler":"23"},{"PkTradeItems":"414","FkChoix":"0","FkJoueur":"173","FkTrade":"121","FkPooler":"23"},{"PkTradeItems":"415","FkChoix":"0","FkJoueur":"67","FkTrade":"121","FkPooler":"23"},{"PkTradeItems":"416","FkChoix":"0","FkJoueur":"849","FkTrade":"121","FkPooler":"23"},{"PkTradeItems":"417","FkChoix":"0","FkJoueur":"618","FkTrade":"122","FkPooler":"24"},{"PkTradeItems":"418","FkChoix":"0","FkJoueur":"981","FkTrade":"122","FkPooler":"24"},{"PkTradeItems":"419","FkChoix":"0","FkJoueur":"280","FkTrade":"122","FkPooler":"24"},{"PkTradeItems":"420","FkChoix":"0","FkJoueur":"248","FkTrade":"123","FkPooler":"25"},{"PkTradeItems":"421","FkChoix":"0","FkJoueur":"436","FkTrade":"123","FkPooler":"25"},{"PkTradeItems":"422","FkChoix":"0","FkJoueur":"1020","FkTrade":"123","FkPooler":"25"},{"PkTradeItems":"423","FkChoix":"0","FkJoueur":"818","FkTrade":"123","FkPooler":"25"},{"PkTradeItems":"424","FkChoix":"0","FkJoueur":"1037","FkTrade":"124","FkPooler":"11"},{"PkTradeItems":"425","FkChoix":"0","FkJoueur":"575","FkTrade":"124","FkPooler":"16"},{"PkTradeItems":"426","FkChoix":"0","FkJoueur":"1226","FkTrade":"125","FkPooler":"27"},{"PkTradeItems":"427","FkChoix":"0","FkJoueur":"1255","FkTrade":"125","FkPooler":"27"},{"PkTradeItems":"428","FkChoix":"0","FkJoueur":"14","FkTrade":"125","FkPooler":"27"},{"PkTradeItems":"429","FkChoix":"0","FkJoueur":"1261","FkTrade":"126","FkPooler":"27"},{"PkTradeItems":"430","FkChoix":"0","FkJoueur":"264","FkTrade":"127","FkPooler":"27"},{"PkTradeItems":"431","FkChoix":"0","FkJoueur":"36","FkTrade":"127","FkPooler":"27"},{"PkTradeItems":"432","FkChoix":"0","FkJoueur":"1020","FkTrade":"127","FkPooler":"27"},{"PkTradeItems":"433","FkChoix":"0","FkJoueur":"1227","FkTrade":"128","FkPooler":"27"},{"PkTradeItems":"434","FkChoix":"0","FkJoueur":"1259","FkTrade":"128","FkPooler":"27"},{"PkTradeItems":"435","FkChoix":"0","FkJoueur":"612","FkTrade":"128","FkPooler":"27"},{"PkTradeItems":"436","FkChoix":"0","FkJoueur":"1244","FkTrade":"129","FkPooler":"27"},{"PkTradeItems":"437","FkChoix":"0","FkJoueur":"742","FkTrade":"129","FkPooler":"27"},{"PkTradeItems":"438","FkChoix":"0","FkJoueur":"581","FkTrade":"129","FkPooler":"27"},{"PkTradeItems":"439","FkChoix":"0","FkJoueur":"1222","FkTrade":"129","FkPooler":"27"},{"PkTradeItems":"440","FkChoix":"0","FkJoueur":"1247","FkTrade":"130","FkPooler":"27"},{"PkTradeItems":"441","FkChoix":"0","FkJoueur":"951","FkTrade":"130","FkPooler":"27"},{"PkTradeItems":"442","FkChoix":"0","FkJoueur":"1232","FkTrade":"131","FkPooler":"27"},{"PkTradeItems":"443","FkChoix":"0","FkJoueur":"1221","FkTrade":"131","FkPooler":"27"},{"PkTradeItems":"444","FkChoix":"0","FkJoueur":"1263","FkTrade":"131","FkPooler":"27"},{"PkTradeItems":"445","FkChoix":"0","FkJoueur":"1223","FkTrade":"131","FkPooler":"27"},{"PkTradeItems":"446","FkChoix":"0","FkJoueur":"1205","FkTrade":"131","FkPooler":"27"},{"PkTradeItems":"447","FkChoix":"0","FkJoueur":"1229","FkTrade":"132","FkPooler":"27"},{"PkTradeItems":"448","FkChoix":"0","FkJoueur":"1238","FkTrade":"132","FkPooler":"27"},{"PkTradeItems":"449","FkChoix":"0","FkJoueur":"1239","FkTrade":"132","FkPooler":"27"},{"PkTradeItems":"450","FkChoix":"0","FkJoueur":"1246","FkTrade":"132","FkPooler":"27"},{"PkTradeItems":"451","FkChoix":"0","FkJoueur":"1249","FkTrade":"132","FkPooler":"27"},{"PkTradeItems":"452","FkChoix":"0","FkJoueur":"1200","FkTrade":"133","FkPooler":"27"},{"PkTradeItems":"453","FkChoix":"0","FkJoueur":"94","FkTrade":"133","FkPooler":"27"},{"PkTradeItems":"454","FkChoix":"0","FkJoueur":"1186","FkTrade":"133","FkPooler":"27"},{"PkTradeItems":"455","FkChoix":"0","FkJoueur":"1183","FkTrade":"133","FkPooler":"27"},{"PkTradeItems":"456","FkChoix":"0","FkJoueur":"1231","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"457","FkChoix":"0","FkJoueur":"1242","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"458","FkChoix":"0","FkJoueur":"1250","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"459","FkChoix":"0","FkJoueur":"215","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"460","FkChoix":"0","FkJoueur":"4","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"461","FkChoix":"0","FkJoueur":"391","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"462","FkChoix":"0","FkJoueur":"1267","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"463","FkChoix":"0","FkJoueur":"1269","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"464","FkChoix":"0","FkJoueur":"1271","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"465","FkChoix":"0","FkJoueur":"1104","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"466","FkChoix":"0","FkJoueur":"494","FkTrade":"134","FkPooler":"27"},{"PkTradeItems":"467","FkChoix":"0","FkJoueur":"1228","FkTrade":"135","FkPooler":"27"},{"PkTradeItems":"468","FkChoix":"0","FkJoueur":"369","FkTrade":"135","FkPooler":"27"},{"PkTradeItems":"469","FkChoix":"0","FkJoueur":"1260","FkTrade":"135","FkPooler":"27"},{"PkTradeItems":"470","FkChoix":"0","FkJoueur":"722","FkTrade":"135","FkPooler":"27"},{"PkTradeItems":"471","FkChoix":"0","FkJoueur":"1225","FkTrade":"136","FkPooler":"27"},{"PkTradeItems":"472","FkChoix":"0","FkJoueur":"1224","FkTrade":"136","FkPooler":"27"},{"PkTradeItems":"473","FkChoix":"0","FkJoueur":"1251","FkTrade":"136","FkPooler":"27"},{"PkTradeItems":"474","FkChoix":"0","FkJoueur":"1266","FkTrade":"136","FkPooler":"27"},{"PkTradeItems":"475","FkChoix":"0","FkJoueur":"1258","FkTrade":"136","FkPooler":"27"},{"PkTradeItems":"476","FkChoix":"0","FkJoueur":"1175","FkTrade":"136","FkPooler":"27"},{"PkTradeItems":"477","FkChoix":"0","FkJoueur":"1117","FkTrade":"136","FkPooler":"27"},{"PkTradeItems":"478","FkChoix":"0","FkJoueur":"1237","FkTrade":"137","FkPooler":"27"},{"PkTradeItems":"479","FkChoix":"0","FkJoueur":"1262","FkTrade":"137","FkPooler":"27"},{"PkTradeItems":"480","FkChoix":"0","FkJoueur":"1235","FkTrade":"138","FkPooler":"27"},{"PkTradeItems":"481","FkChoix":"0","FkJoueur":"1248","FkTrade":"138","FkPooler":"27"},{"PkTradeItems":"482","FkChoix":"0","FkJoueur":"955","FkTrade":"138","FkPooler":"27"},{"PkTradeItems":"483","FkChoix":"0","FkJoueur":"1268","FkTrade":"138","FkPooler":"27"},{"PkTradeItems":"484","FkChoix":"0","FkJoueur":"1270","FkTrade":"138","FkPooler":"27"},{"PkTradeItems":"485","FkChoix":"0","FkJoueur":"804","FkTrade":"139","FkPooler":"27"},{"PkTradeItems":"486","FkChoix":"0","FkJoueur":"657","FkTrade":"139","FkPooler":"27"},{"PkTradeItems":"487","FkChoix":"0","FkJoueur":"1265","FkTrade":"139","FkPooler":"27"},{"PkTradeItems":"488","FkChoix":"0","FkJoueur":"982","FkTrade":"139","FkPooler":"27"},{"PkTradeItems":"489","FkChoix":"0","FkJoueur":"1240","FkTrade":"140","FkPooler":"27"},{"PkTradeItems":"490","FkChoix":"0","FkJoueur":"1241","FkTrade":"141","FkPooler":"27"},{"PkTradeItems":"491","FkChoix":"0","FkJoueur":"1253","FkTrade":"141","FkPooler":"27"},{"PkTradeItems":"492","FkChoix":"0","FkJoueur":"1264","FkTrade":"141","FkPooler":"27"},{"PkTradeItems":"493","FkChoix":"0","FkJoueur":"1252","FkTrade":"141","FkPooler":"27"},{"PkTradeItems":"494","FkChoix":"0","FkJoueur":"1230","FkTrade":"142","FkPooler":"27"},{"PkTradeItems":"495","FkChoix":"0","FkJoueur":"447","FkTrade":"142","FkPooler":"27"},{"PkTradeItems":"496","FkChoix":"0","FkJoueur":"1233","FkTrade":"143","FkPooler":"27"},{"PkTradeItems":"497","FkChoix":"0","FkJoueur":"1243","FkTrade":"143","FkPooler":"27"},{"PkTradeItems":"498","FkChoix":"0","FkJoueur":"1254","FkTrade":"143","FkPooler":"27"},{"PkTradeItems":"499","FkChoix":"0","FkJoueur":"759","FkTrade":"143","FkPooler":"27"},{"PkTradeItems":"500","FkChoix":"0","FkJoueur":"830","FkTrade":"143","FkPooler":"27"},{"PkTradeItems":"501","FkChoix":"0","FkJoueur":"1256","FkTrade":"144","FkPooler":"27"},{"PkTradeItems":"502","FkChoix":"0","FkJoueur":"1236","FkTrade":"144","FkPooler":"27"},{"PkTradeItems":"503","FkChoix":"0","FkJoueur":"1245","FkTrade":"144","FkPooler":"27"},{"PkTradeItems":"504","FkChoix":"0","FkJoueur":"1257","FkTrade":"144","FkPooler":"27"},{"PkTradeItems":"505","FkChoix":"0","FkJoueur":"1115","FkTrade":"145","FkPooler":"27"},{"PkTradeItems":"506","FkChoix":"0","FkJoueur":"1120","FkTrade":"145","FkPooler":"27"},{"PkTradeItems":"507","FkChoix":"0","FkJoueur":"1110","FkTrade":"145","FkPooler":"27"},{"PkTradeItems":"508","FkChoix":"0","FkJoueur":"519","FkTrade":"145","FkPooler":"27"},{"PkTradeItems":"509","FkChoix":"0","FkJoueur":"1097","FkTrade":"146","FkPooler":"27"},{"PkTradeItems":"510","FkChoix":"0","FkJoueur":"1131","FkTrade":"146","FkPooler":"27"},{"PkTradeItems":"511","FkChoix":"0","FkJoueur":"1142","FkTrade":"146","FkPooler":"27"},{"PkTradeItems":"512","FkChoix":"0","FkJoueur":"1148","FkTrade":"146","FkPooler":"27"},{"PkTradeItems":"513","FkChoix":"0","FkJoueur":"1104","FkTrade":"147","FkPooler":"27"},{"PkTradeItems":"514","FkChoix":"0","FkJoueur":"1117","FkTrade":"147","FkPooler":"27"},{"PkTradeItems":"515","FkChoix":"0","FkJoueur":"1118","FkTrade":"147","FkPooler":"27"},{"PkTradeItems":"516","FkChoix":"0","FkJoueur":"1127","FkTrade":"147","FkPooler":"27"},{"PkTradeItems":"517","FkChoix":"0","FkJoueur":"1154","FkTrade":"147","FkPooler":"27"},{"PkTradeItems":"518","FkChoix":"0","FkJoueur":"1155","FkTrade":"147","FkPooler":"27"},{"PkTradeItems":"519","FkChoix":"0","FkJoueur":"889","FkTrade":"147","FkPooler":"27"},{"PkTradeItems":"520","FkChoix":"0","FkJoueur":"1156","FkTrade":"147","FkPooler":"27"},{"PkTradeItems":"521","FkChoix":"0","FkJoueur":"1106","FkTrade":"148","FkPooler":"27"},{"PkTradeItems":"522","FkChoix":"0","FkJoueur":"1108","FkTrade":"148","FkPooler":"27"},{"PkTradeItems":"523","FkChoix":"0","FkJoueur":"1143","FkTrade":"148","FkPooler":"27"},{"PkTradeItems":"524","FkChoix":"0","FkJoueur":"1151","FkTrade":"148","FkPooler":"27"},{"PkTradeItems":"525","FkChoix":"0","FkJoueur":"1152","FkTrade":"148","FkPooler":"27"},{"PkTradeItems":"526","FkChoix":"0","FkJoueur":"1098","FkTrade":"149","FkPooler":"27"},{"PkTradeItems":"527","FkChoix":"0","FkJoueur":"329","FkTrade":"149","FkPooler":"27"},{"PkTradeItems":"528","FkChoix":"0","FkJoueur":"1133","FkTrade":"150","FkPooler":"27"},{"PkTradeItems":"529","FkChoix":"0","FkJoueur":"1112","FkTrade":"150","FkPooler":"27"},{"PkTradeItems":"530","FkChoix":"0","FkJoueur":"1113","FkTrade":"151","FkPooler":"27"},{"PkTradeItems":"531","FkChoix":"0","FkJoueur":"1140","FkTrade":"151","FkPooler":"27"},{"PkTradeItems":"532","FkChoix":"0","FkJoueur":"1144","FkTrade":"151","FkPooler":"27"},{"PkTradeItems":"533","FkChoix":"0","FkJoueur":"1150","FkTrade":"151","FkPooler":"27"},{"PkTradeItems":"534","FkChoix":"0","FkJoueur":"1153","FkTrade":"151","FkPooler":"27"},{"PkTradeItems":"535","FkChoix":"0","FkJoueur":"1095","FkTrade":"152","FkPooler":"27"},{"PkTradeItems":"536","FkChoix":"0","FkJoueur":"1128","FkTrade":"152","FkPooler":"27"},{"PkTradeItems":"537","FkChoix":"0","FkJoueur":"1123","FkTrade":"152","FkPooler":"27"},{"PkTradeItems":"538","FkChoix":"0","FkJoueur":"1137","FkTrade":"154","FkPooler":"27"},{"PkTradeItems":"539","FkChoix":"0","FkJoueur":"1130","FkTrade":"154","FkPooler":"27"},{"PkTradeItems":"540","FkChoix":"0","FkJoueur":"494","FkTrade":"154","FkPooler":"27"},{"PkTradeItems":"541","FkChoix":"0","FkJoueur":"1147","FkTrade":"154","FkPooler":"27"},{"PkTradeItems":"542","FkChoix":"0","FkJoueur":"1099","FkTrade":"155","FkPooler":"27"},{"PkTradeItems":"543","FkChoix":"0","FkJoueur":"1135","FkTrade":"155","FkPooler":"27"},{"PkTradeItems":"544","FkChoix":"0","FkJoueur":"1122","FkTrade":"155","FkPooler":"27"},{"PkTradeItems":"545","FkChoix":"0","FkJoueur":"667","FkTrade":"155","FkPooler":"27"},{"PkTradeItems":"546","FkChoix":"0","FkJoueur":"936","FkTrade":"155","FkPooler":"27"},{"PkTradeItems":"547","FkChoix":"0","FkJoueur":"1101","FkTrade":"156","FkPooler":"27"},{"PkTradeItems":"548","FkChoix":"0","FkJoueur":"1136","FkTrade":"156","FkPooler":"27"},{"PkTradeItems":"549","FkChoix":"0","FkJoueur":"1132","FkTrade":"156","FkPooler":"27"},{"PkTradeItems":"550","FkChoix":"0","FkJoueur":"1094","FkTrade":"156","FkPooler":"27"},{"PkTradeItems":"551","FkChoix":"0","FkJoueur":"1145","FkTrade":"156","FkPooler":"27"},{"PkTradeItems":"552","FkChoix":"0","FkJoueur":"1100","FkTrade":"157","FkPooler":"27"},{"PkTradeItems":"553","FkChoix":"0","FkJoueur":"1114","FkTrade":"157","FkPooler":"27"},{"PkTradeItems":"554","FkChoix":"0","FkJoueur":"1134","FkTrade":"157","FkPooler":"27"},{"PkTradeItems":"555","FkChoix":"0","FkJoueur":"420","FkTrade":"157","FkPooler":"27"},{"PkTradeItems":"556","FkChoix":"0","FkJoueur":"1102","FkTrade":"158","FkPooler":"27"},{"PkTradeItems":"557","FkChoix":"0","FkJoueur":"1121","FkTrade":"158","FkPooler":"27"},{"PkTradeItems":"558","FkChoix":"0","FkJoueur":"1111","FkTrade":"158","FkPooler":"27"},{"PkTradeItems":"559","FkChoix":"0","FkJoueur":"1138","FkTrade":"159","FkPooler":"27"},{"PkTradeItems":"560","FkChoix":"0","FkJoueur":"254","FkTrade":"159","FkPooler":"27"},{"PkTradeItems":"561","FkChoix":"0","FkJoueur":"863","FkTrade":"159","FkPooler":"27"},{"PkTradeItems":"562","FkChoix":"0","FkJoueur":"166","FkTrade":"159","FkPooler":"27"},{"PkTradeItems":"563","FkChoix":"0","FkJoueur":"1105","FkTrade":"160","FkPooler":"27"},{"PkTradeItems":"564","FkChoix":"0","FkJoueur":"1109","FkTrade":"160","FkPooler":"27"},{"PkTradeItems":"565","FkChoix":"0","FkJoueur":"1146","FkTrade":"161","FkPooler":"27"},{"PkTradeItems":"566","FkChoix":"0","FkJoueur":"1107","FkTrade":"162","FkPooler":"27"},{"PkTradeItems":"567","FkChoix":"0","FkJoueur":"1126","FkTrade":"162","FkPooler":"27"},{"PkTradeItems":"568","FkChoix":"0","FkJoueur":"528","FkTrade":"162","FkPooler":"27"},{"PkTradeItems":"569","FkChoix":"0","FkJoueur":"1096","FkTrade":"163","FkPooler":"27"},{"PkTradeItems":"570","FkChoix":"0","FkJoueur":"1141","FkTrade":"163","FkPooler":"27"},{"PkTradeItems":"571","FkChoix":"0","FkJoueur":"1119","FkTrade":"163","FkPooler":"27"},{"PkTradeItems":"572","FkChoix":"0","FkJoueur":"1124","FkTrade":"163","FkPooler":"27"},{"PkTradeItems":"573","FkChoix":"0","FkJoueur":"1103","FkTrade":"164","FkPooler":"27"},{"PkTradeItems":"574","FkChoix":"0","FkJoueur":"1139","FkTrade":"164","FkPooler":"27"},{"PkTradeItems":"575","FkChoix":"0","FkJoueur":"1116","FkTrade":"164","FkPooler":"27"},{"PkTradeItems":"576","FkChoix":"0","FkJoueur":"1125","FkTrade":"164","FkPooler":"27"},{"PkTradeItems":"577","FkChoix":"0","FkJoueur":"1149","FkTrade":"164","FkPooler":"27"},{"PkTradeItems":"578","FkChoix":"0","FkJoueur":"1129","FkTrade":"164","FkPooler":"27"},{"PkTradeItems":"579","FkChoix":"0","FkJoueur":"657","FkTrade":"164","FkPooler":"27"},{"PkTradeItems":"580","FkChoix":"0","FkJoueur":"1107","FkTrade":"165","FkPooler":"23"},{"PkTradeItems":"581","FkChoix":"0","FkJoueur":"676","FkTrade":"165","FkPooler":"23"},{"PkTradeItems":"582","FkChoix":"0","FkJoueur":"1033","FkTrade":"165","FkPooler":"18"},{"PkTradeItems":"583","FkChoix":"0","FkJoueur":"111","FkTrade":"165","FkPooler":"18"},{"PkTradeItems":"584","FkChoix":"253","FkJoueur":"0","FkTrade":"165","FkPooler":"23"},{"PkTradeItems":"585","FkChoix":"0","FkJoueur":"733","FkTrade":"166","FkPooler":"21"},{"PkTradeItems":"586","FkChoix":"0","FkJoueur":"1010","FkTrade":"166","FkPooler":"21"},{"PkTradeItems":"587","FkChoix":"0","FkJoueur":"1105","FkTrade":"166","FkPooler":"21"},{"PkTradeItems":"588","FkChoix":"0","FkJoueur":"1149","FkTrade":"166","FkPooler":"18"},{"PkTradeItems":"589","FkChoix":"0","FkJoueur":"1069","FkTrade":"166","FkPooler":"18"},{"PkTradeItems":"590","FkChoix":"0","FkJoueur":"467","FkTrade":"166","FkPooler":"18"},{"PkTradeItems":"591","FkChoix":"247","FkJoueur":"0","FkTrade":"166","FkPooler":"21"},{"PkTradeItems":"592","FkChoix":"307","FkJoueur":"0","FkTrade":"166","FkPooler":"21"},{"PkTradeItems":"593","FkChoix":"413","FkJoueur":"0","FkTrade":"166","FkPooler":"21"},{"PkTradeItems":"594","FkChoix":"300","FkJoueur":"0","FkTrade":"166","FkPooler":"18"},{"PkTradeItems":"599","FkChoix":"0","FkJoueur":"132","FkTrade":"169","FkPooler":"15"},{"PkTradeItems":"600","FkChoix":"0","FkJoueur":"1260","FkTrade":"169","FkPooler":"15"},{"PkTradeItems":"601","FkChoix":"0","FkJoueur":"1092","FkTrade":"169","FkPooler":"15"},{"PkTradeItems":"602","FkChoix":"0","FkJoueur":"82","FkTrade":"169","FkPooler":"16"},{"PkTradeItems":"603","FkChoix":"294","FkJoueur":"0","FkTrade":"169","FkPooler":"15"},{"PkTradeItems":"604","FkChoix":"399","FkJoueur":"0","FkTrade":"169","FkPooler":"15"},{"PkTradeItems":"605","FkChoix":"403","FkJoueur":"0","FkTrade":"169","FkPooler":"16"}]
+﻿[
+  {
+    "PkTradeItems": "22",
+    "FkChoix": "365",
+    "FkJoueur": "0",
+    "FkTrade": "11",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "23",
+    "FkChoix": "0",
+    "FkJoueur": "295",
+    "FkTrade": "11",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "24",
+    "FkChoix": "0",
+    "FkJoueur": "1083",
+    "FkTrade": "12",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "25",
+    "FkChoix": "117",
+    "FkJoueur": "0",
+    "FkTrade": "12",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "26",
+    "FkChoix": "117",
+    "FkJoueur": "0",
+    "FkTrade": "13",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "27",
+    "FkChoix": "0",
+    "FkJoueur": "1086",
+    "FkTrade": "13",
+    "FkPooler": "24"
+  },
+  {
+    "PkTradeItems": "28",
+    "FkChoix": "0",
+    "FkJoueur": "635",
+    "FkTrade": "14",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "29",
+    "FkChoix": "87",
+    "FkJoueur": "0",
+    "FkTrade": "14",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "30",
+    "FkChoix": "116",
+    "FkJoueur": "0",
+    "FkTrade": "14",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "31",
+    "FkChoix": "0",
+    "FkJoueur": "789",
+    "FkTrade": "15",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "32",
+    "FkChoix": "106",
+    "FkJoueur": "0",
+    "FkTrade": "15",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "33",
+    "FkChoix": "108",
+    "FkJoueur": "0",
+    "FkTrade": "15",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "34",
+    "FkChoix": "0",
+    "FkJoueur": "323",
+    "FkTrade": "15",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "35",
+    "FkChoix": "113",
+    "FkJoueur": "0",
+    "FkTrade": "15",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "36",
+    "FkChoix": "0",
+    "FkJoueur": "102",
+    "FkTrade": "16",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "37",
+    "FkChoix": "0",
+    "FkJoueur": "659",
+    "FkTrade": "16",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "38",
+    "FkChoix": "87",
+    "FkJoueur": "0",
+    "FkTrade": "16",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "39",
+    "FkChoix": "0",
+    "FkJoueur": "825",
+    "FkTrade": "16",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "40",
+    "FkChoix": "125",
+    "FkJoueur": "0",
+    "FkTrade": "16",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "41",
+    "FkChoix": "0",
+    "FkJoueur": "379",
+    "FkTrade": "17",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "42",
+    "FkChoix": "0",
+    "FkJoueur": "115",
+    "FkTrade": "17",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "43",
+    "FkChoix": "107",
+    "FkJoueur": "0",
+    "FkTrade": "17",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "44",
+    "FkChoix": "131",
+    "FkJoueur": "0",
+    "FkTrade": "18",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "45",
+    "FkChoix": "176",
+    "FkJoueur": "0",
+    "FkTrade": "18",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "46",
+    "FkChoix": "113",
+    "FkJoueur": "0",
+    "FkTrade": "19",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "47",
+    "FkChoix": "185",
+    "FkJoueur": "0",
+    "FkTrade": "19",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "48",
+    "FkChoix": "0",
+    "FkJoueur": "27",
+    "FkTrade": "20",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "49",
+    "FkChoix": "366",
+    "FkJoueur": "0",
+    "FkTrade": "20",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "50",
+    "FkChoix": "0",
+    "FkJoueur": "8",
+    "FkTrade": "20",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "51",
+    "FkChoix": "0",
+    "FkJoueur": "125",
+    "FkTrade": "20",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "52",
+    "FkChoix": "130",
+    "FkJoueur": "0",
+    "FkTrade": "20",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "53",
+    "FkChoix": "0",
+    "FkJoueur": "1079",
+    "FkTrade": "21",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "54",
+    "FkChoix": "177",
+    "FkJoueur": "0",
+    "FkTrade": "21",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "55",
+    "FkChoix": "126",
+    "FkJoueur": "0",
+    "FkTrade": "21",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "56",
+    "FkChoix": "0",
+    "FkJoueur": "934",
+    "FkTrade": "22",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "57",
+    "FkChoix": "0",
+    "FkJoueur": "1148",
+    "FkTrade": "22",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "58",
+    "FkChoix": "0",
+    "FkJoueur": "1094",
+    "FkTrade": "23",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "59",
+    "FkChoix": "184",
+    "FkJoueur": "0",
+    "FkTrade": "23",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "60",
+    "FkChoix": "0",
+    "FkJoueur": "669",
+    "FkTrade": "24",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "61",
+    "FkChoix": "0",
+    "FkJoueur": "18",
+    "FkTrade": "24",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "62",
+    "FkChoix": "0",
+    "FkJoueur": "41",
+    "FkTrade": "25",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "63",
+    "FkChoix": "0",
+    "FkJoueur": "376",
+    "FkTrade": "25",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "64",
+    "FkChoix": "0",
+    "FkJoueur": "5",
+    "FkTrade": "26",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "65",
+    "FkChoix": "160",
+    "FkJoueur": "0",
+    "FkTrade": "26",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "66",
+    "FkChoix": "0",
+    "FkJoueur": "589",
+    "FkTrade": "26",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "67",
+    "FkChoix": "0",
+    "FkJoueur": "57",
+    "FkTrade": "27",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "68",
+    "FkChoix": "147",
+    "FkJoueur": "0",
+    "FkTrade": "27",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "69",
+    "FkChoix": "0",
+    "FkJoueur": "657",
+    "FkTrade": "27",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "70",
+    "FkChoix": "0",
+    "FkJoueur": "86",
+    "FkTrade": "28",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "71",
+    "FkChoix": "0",
+    "FkJoueur": "976",
+    "FkTrade": "28",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "72",
+    "FkChoix": "166",
+    "FkJoueur": "0",
+    "FkTrade": "28",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "73",
+    "FkChoix": "367",
+    "FkJoueur": "0",
+    "FkTrade": "28",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "74",
+    "FkChoix": "0",
+    "FkJoueur": "642",
+    "FkTrade": "28",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "75",
+    "FkChoix": "189",
+    "FkJoueur": "0",
+    "FkTrade": "28",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "76",
+    "FkChoix": "0",
+    "FkJoueur": "86",
+    "FkTrade": "29",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "77",
+    "FkChoix": "0",
+    "FkJoueur": "715",
+    "FkTrade": "29",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "78",
+    "FkChoix": "166",
+    "FkJoueur": "0",
+    "FkTrade": "29",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "79",
+    "FkChoix": "0",
+    "FkJoueur": "868",
+    "FkTrade": "29",
+    "FkPooler": "11"
+  },
+  {
+    "PkTradeItems": "80",
+    "FkChoix": "0",
+    "FkJoueur": "375",
+    "FkTrade": "30",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "81",
+    "FkChoix": "188",
+    "FkJoueur": "0",
+    "FkTrade": "30",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "82",
+    "FkChoix": "0",
+    "FkJoueur": "353",
+    "FkTrade": "30",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "83",
+    "FkChoix": "0",
+    "FkJoueur": "755",
+    "FkTrade": "31",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "84",
+    "FkChoix": "0",
+    "FkJoueur": "936",
+    "FkTrade": "31",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "85",
+    "FkChoix": "174",
+    "FkJoueur": "0",
+    "FkTrade": "31",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "86",
+    "FkChoix": "0",
+    "FkJoueur": "132",
+    "FkTrade": "31",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "87",
+    "FkChoix": "0",
+    "FkJoueur": "282",
+    "FkTrade": "31",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "88",
+    "FkChoix": "190",
+    "FkJoueur": "0",
+    "FkTrade": "31",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "89",
+    "FkChoix": "0",
+    "FkJoueur": "282",
+    "FkTrade": "32",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "90",
+    "FkChoix": "190",
+    "FkJoueur": "0",
+    "FkTrade": "32",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "91",
+    "FkChoix": "172",
+    "FkJoueur": "0",
+    "FkTrade": "32",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "92",
+    "FkChoix": "0",
+    "FkJoueur": "191",
+    "FkTrade": "32",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "93",
+    "FkChoix": "236",
+    "FkJoueur": "0",
+    "FkTrade": "32",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "94",
+    "FkChoix": "0",
+    "FkJoueur": "266",
+    "FkTrade": "33",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "95",
+    "FkChoix": "179",
+    "FkJoueur": "0",
+    "FkTrade": "33",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "96",
+    "FkChoix": "0",
+    "FkJoueur": "1069",
+    "FkTrade": "33",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "97",
+    "FkChoix": "0",
+    "FkJoueur": "1149",
+    "FkTrade": "33",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "98",
+    "FkChoix": "0",
+    "FkJoueur": "1073",
+    "FkTrade": "34",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "99",
+    "FkChoix": "0",
+    "FkJoueur": "334",
+    "FkTrade": "34",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "100",
+    "FkChoix": "0",
+    "FkJoueur": "1064",
+    "FkTrade": "34",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "101",
+    "FkChoix": "0",
+    "FkJoueur": "863",
+    "FkTrade": "34",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "102",
+    "FkChoix": "244",
+    "FkJoueur": "0",
+    "FkTrade": "34",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "103",
+    "FkChoix": "0",
+    "FkJoueur": "877",
+    "FkTrade": "34",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "104",
+    "FkChoix": "0",
+    "FkJoueur": "1030",
+    "FkTrade": "35",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "105",
+    "FkChoix": "0",
+    "FkJoueur": "667",
+    "FkTrade": "35",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "106",
+    "FkChoix": "173",
+    "FkJoueur": "0",
+    "FkTrade": "35",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "107",
+    "FkChoix": "0",
+    "FkJoueur": "690",
+    "FkTrade": "35",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "108",
+    "FkChoix": "0",
+    "FkJoueur": "125",
+    "FkTrade": "35",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "109",
+    "FkChoix": "180",
+    "FkJoueur": "0",
+    "FkTrade": "35",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "110",
+    "FkChoix": "0",
+    "FkJoueur": "376",
+    "FkTrade": "36",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "111",
+    "FkChoix": "0",
+    "FkJoueur": "261",
+    "FkTrade": "36",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "112",
+    "FkChoix": "0",
+    "FkJoueur": "1044",
+    "FkTrade": "36",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "113",
+    "FkChoix": "0",
+    "FkJoueur": "1051",
+    "FkTrade": "36",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "114",
+    "FkChoix": "0",
+    "FkJoueur": "566",
+    "FkTrade": "37",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "115",
+    "FkChoix": "0",
+    "FkJoueur": "596",
+    "FkTrade": "37",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "116",
+    "FkChoix": "0",
+    "FkJoueur": "1072",
+    "FkTrade": "37",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "117",
+    "FkChoix": "226",
+    "FkJoueur": "0",
+    "FkTrade": "37",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "118",
+    "FkChoix": "0",
+    "FkJoueur": "106",
+    "FkTrade": "37",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "119",
+    "FkChoix": "240",
+    "FkJoueur": "0",
+    "FkTrade": "37",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "120",
+    "FkChoix": "0",
+    "FkJoueur": "219",
+    "FkTrade": "38",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "121",
+    "FkChoix": "0",
+    "FkJoueur": "18",
+    "FkTrade": "38",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "122",
+    "FkChoix": "233",
+    "FkJoueur": "0",
+    "FkTrade": "38",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "123",
+    "FkChoix": "0",
+    "FkJoueur": "594",
+    "FkTrade": "39",
+    "FkPooler": "7"
+  },
+  {
+    "PkTradeItems": "124",
+    "FkChoix": "153",
+    "FkJoueur": "0",
+    "FkTrade": "39",
+    "FkPooler": "7"
+  },
+  {
+    "PkTradeItems": "125",
+    "FkChoix": "0",
+    "FkJoueur": "447",
+    "FkTrade": "39",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "126",
+    "FkChoix": "0",
+    "FkJoueur": "464",
+    "FkTrade": "39",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "127",
+    "FkChoix": "0",
+    "FkJoueur": "562",
+    "FkTrade": "39",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "128",
+    "FkChoix": "245",
+    "FkJoueur": "0",
+    "FkTrade": "39",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "129",
+    "FkChoix": "0",
+    "FkJoueur": "326",
+    "FkTrade": "40",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "130",
+    "FkChoix": "0",
+    "FkJoueur": "645",
+    "FkTrade": "40",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "131",
+    "FkChoix": "0",
+    "FkJoueur": "649",
+    "FkTrade": "40",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "132",
+    "FkChoix": "154",
+    "FkJoueur": "0",
+    "FkTrade": "40",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "133",
+    "FkChoix": "0",
+    "FkJoueur": "4",
+    "FkTrade": "40",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "134",
+    "FkChoix": "0",
+    "FkJoueur": "242",
+    "FkTrade": "40",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "135",
+    "FkChoix": "0",
+    "FkJoueur": "490",
+    "FkTrade": "41",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "136",
+    "FkChoix": "0",
+    "FkJoueur": "31",
+    "FkTrade": "41",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "137",
+    "FkChoix": "185",
+    "FkJoueur": "0",
+    "FkTrade": "41",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "138",
+    "FkChoix": "167",
+    "FkJoueur": "0",
+    "FkTrade": "41",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "139",
+    "FkChoix": "227",
+    "FkJoueur": "0",
+    "FkTrade": "41",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "140",
+    "FkChoix": "286",
+    "FkJoueur": "0",
+    "FkTrade": "41",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "141",
+    "FkChoix": "288",
+    "FkJoueur": "0",
+    "FkTrade": "41",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "142",
+    "FkChoix": "0",
+    "FkJoueur": "415",
+    "FkTrade": "41",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "143",
+    "FkChoix": "0",
+    "FkJoueur": "266",
+    "FkTrade": "41",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "144",
+    "FkChoix": "0",
+    "FkJoueur": "1006",
+    "FkTrade": "42",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "145",
+    "FkChoix": "0",
+    "FkJoueur": "833",
+    "FkTrade": "42",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "146",
+    "FkChoix": "244",
+    "FkJoueur": "0",
+    "FkTrade": "42",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "147",
+    "FkChoix": "199",
+    "FkJoueur": "0",
+    "FkTrade": "42",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "148",
+    "FkChoix": "0",
+    "FkJoueur": "543",
+    "FkTrade": "43",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "149",
+    "FkChoix": "157",
+    "FkJoueur": "0",
+    "FkTrade": "43",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "150",
+    "FkChoix": "0",
+    "FkJoueur": "105",
+    "FkTrade": "43",
+    "FkPooler": "11"
+  },
+  {
+    "PkTradeItems": "151",
+    "FkChoix": "0",
+    "FkJoueur": "217",
+    "FkTrade": "44",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "152",
+    "FkChoix": "234",
+    "FkJoueur": "0",
+    "FkTrade": "44",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "153",
+    "FkChoix": "0",
+    "FkJoueur": "1073",
+    "FkTrade": "44",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "154",
+    "FkChoix": "188",
+    "FkJoueur": "0",
+    "FkTrade": "44",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "155",
+    "FkChoix": "0",
+    "FkJoueur": "217",
+    "FkTrade": "45",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "156",
+    "FkChoix": "0",
+    "FkJoueur": "137",
+    "FkTrade": "45",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "157",
+    "FkChoix": "190",
+    "FkJoueur": "0",
+    "FkTrade": "45",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "158",
+    "FkChoix": "184",
+    "FkJoueur": "0",
+    "FkTrade": "45",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "159",
+    "FkChoix": "234",
+    "FkJoueur": "0",
+    "FkTrade": "45",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "160",
+    "FkChoix": "0",
+    "FkJoueur": "710",
+    "FkTrade": "45",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "161",
+    "FkChoix": "0",
+    "FkJoueur": "672",
+    "FkTrade": "45",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "162",
+    "FkChoix": "0",
+    "FkJoueur": "574",
+    "FkTrade": "45",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "163",
+    "FkChoix": "0",
+    "FkJoueur": "718",
+    "FkTrade": "46",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "164",
+    "FkChoix": "0",
+    "FkJoueur": "436",
+    "FkTrade": "46",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "165",
+    "FkChoix": "190",
+    "FkJoueur": "0",
+    "FkTrade": "46",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "166",
+    "FkChoix": "220",
+    "FkJoueur": "0",
+    "FkTrade": "46",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "167",
+    "FkChoix": "234",
+    "FkJoueur": "0",
+    "FkTrade": "46",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "168",
+    "FkChoix": "0",
+    "FkJoueur": "466",
+    "FkTrade": "46",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "169",
+    "FkChoix": "0",
+    "FkJoueur": "322",
+    "FkTrade": "47",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "170",
+    "FkChoix": "0",
+    "FkJoueur": "714",
+    "FkTrade": "47",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "171",
+    "FkChoix": "0",
+    "FkJoueur": "372",
+    "FkTrade": "47",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "172",
+    "FkChoix": "0",
+    "FkJoueur": "244",
+    "FkTrade": "47",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "173",
+    "FkChoix": "0",
+    "FkJoueur": "1098",
+    "FkTrade": "47",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "174",
+    "FkChoix": "214",
+    "FkJoueur": "0",
+    "FkTrade": "47",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "175",
+    "FkChoix": "215",
+    "FkJoueur": "0",
+    "FkTrade": "47",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "176",
+    "FkChoix": "274",
+    "FkJoueur": "0",
+    "FkTrade": "47",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "177",
+    "FkChoix": "275",
+    "FkJoueur": "0",
+    "FkTrade": "47",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "178",
+    "FkChoix": "276",
+    "FkJoueur": "0",
+    "FkTrade": "47",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "179",
+    "FkChoix": "0",
+    "FkJoueur": "826",
+    "FkTrade": "48",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "180",
+    "FkChoix": "183",
+    "FkJoueur": "0",
+    "FkTrade": "48",
+    "FkPooler": "19"
+  },
+  {
+    "PkTradeItems": "181",
+    "FkChoix": "0",
+    "FkJoueur": "547",
+    "FkTrade": "49",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "182",
+    "FkChoix": "0",
+    "FkJoueur": "720",
+    "FkTrade": "49",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "183",
+    "FkChoix": "0",
+    "FkJoueur": "921",
+    "FkTrade": "49",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "184",
+    "FkChoix": "0",
+    "FkJoueur": "651",
+    "FkTrade": "49",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "185",
+    "FkChoix": "0",
+    "FkJoueur": "765",
+    "FkTrade": "49",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "186",
+    "FkChoix": "0",
+    "FkJoueur": "103",
+    "FkTrade": "49",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "187",
+    "FkChoix": "0",
+    "FkJoueur": "515",
+    "FkTrade": "49",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "188",
+    "FkChoix": "0",
+    "FkJoueur": "781",
+    "FkTrade": "49",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "189",
+    "FkChoix": "0",
+    "FkJoueur": "532",
+    "FkTrade": "49",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "190",
+    "FkChoix": "146",
+    "FkJoueur": "0",
+    "FkTrade": "49",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "191",
+    "FkChoix": "0",
+    "FkJoueur": "765",
+    "FkTrade": "50",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "192",
+    "FkChoix": "0",
+    "FkJoueur": "103",
+    "FkTrade": "50",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "193",
+    "FkChoix": "207",
+    "FkJoueur": "0",
+    "FkTrade": "50",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "194",
+    "FkChoix": "0",
+    "FkJoueur": "303",
+    "FkTrade": "50",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "195",
+    "FkChoix": "0",
+    "FkJoueur": "490",
+    "FkTrade": "51",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "196",
+    "FkChoix": "0",
+    "FkJoueur": "1075",
+    "FkTrade": "51",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "197",
+    "FkChoix": "0",
+    "FkJoueur": "225",
+    "FkTrade": "51",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "198",
+    "FkChoix": "0",
+    "FkJoueur": "897",
+    "FkTrade": "51",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "199",
+    "FkChoix": "232",
+    "FkJoueur": "0",
+    "FkTrade": "51",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "200",
+    "FkChoix": "0",
+    "FkJoueur": "293",
+    "FkTrade": "52",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "201",
+    "FkChoix": "0",
+    "FkJoueur": "518",
+    "FkTrade": "52",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "202",
+    "FkChoix": "0",
+    "FkJoueur": "522",
+    "FkTrade": "53",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "203",
+    "FkChoix": "0",
+    "FkJoueur": "814",
+    "FkTrade": "53",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "204",
+    "FkChoix": "0",
+    "FkJoueur": "528",
+    "FkTrade": "53",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "205",
+    "FkChoix": "195",
+    "FkJoueur": "0",
+    "FkTrade": "53",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "206",
+    "FkChoix": "0",
+    "FkJoueur": "426",
+    "FkTrade": "54",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "207",
+    "FkChoix": "305",
+    "FkJoueur": "0",
+    "FkTrade": "54",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "208",
+    "FkChoix": "306",
+    "FkJoueur": "0",
+    "FkTrade": "54",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "209",
+    "FkChoix": "0",
+    "FkJoueur": "1144",
+    "FkTrade": "55",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "210",
+    "FkChoix": "177",
+    "FkJoueur": "0",
+    "FkTrade": "55",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "211",
+    "FkChoix": "0",
+    "FkJoueur": "1093",
+    "FkTrade": "56",
+    "FkPooler": "11"
+  },
+  {
+    "PkTradeItems": "212",
+    "FkChoix": "0",
+    "FkJoueur": "146",
+    "FkTrade": "56",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "213",
+    "FkChoix": "195",
+    "FkJoueur": "0",
+    "FkTrade": "57",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "214",
+    "FkChoix": "162",
+    "FkJoueur": "0",
+    "FkTrade": "57",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "215",
+    "FkChoix": "204",
+    "FkJoueur": "0",
+    "FkTrade": "57",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "216",
+    "FkChoix": "0",
+    "FkJoueur": "643",
+    "FkTrade": "58",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "217",
+    "FkChoix": "0",
+    "FkJoueur": "1062",
+    "FkTrade": "58",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "218",
+    "FkChoix": "193",
+    "FkJoueur": "0",
+    "FkTrade": "59",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "219",
+    "FkChoix": "194",
+    "FkJoueur": "0",
+    "FkTrade": "59",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "220",
+    "FkChoix": "0",
+    "FkJoueur": "710",
+    "FkTrade": "59",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "221",
+    "FkChoix": "0",
+    "FkJoueur": "480",
+    "FkTrade": "59",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "222",
+    "FkChoix": "175",
+    "FkJoueur": "0",
+    "FkTrade": "59",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "223",
+    "FkChoix": "0",
+    "FkJoueur": "614",
+    "FkTrade": "60",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "224",
+    "FkChoix": "177",
+    "FkJoueur": "0",
+    "FkTrade": "60",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "225",
+    "FkChoix": "304",
+    "FkJoueur": "0",
+    "FkTrade": "60",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "226",
+    "FkChoix": "0",
+    "FkJoueur": "1083",
+    "FkTrade": "60",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "227",
+    "FkChoix": "0",
+    "FkJoueur": "82",
+    "FkTrade": "61",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "228",
+    "FkChoix": "0",
+    "FkJoueur": "342",
+    "FkTrade": "61",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "229",
+    "FkChoix": "297",
+    "FkJoueur": "0",
+    "FkTrade": "61",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "230",
+    "FkChoix": "0",
+    "FkJoueur": "347",
+    "FkTrade": "62",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "231",
+    "FkChoix": "0",
+    "FkJoueur": "159",
+    "FkTrade": "62",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "232",
+    "FkChoix": "0",
+    "FkJoueur": "377",
+    "FkTrade": "62",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "233",
+    "FkChoix": "0",
+    "FkJoueur": "1129",
+    "FkTrade": "62",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "234",
+    "FkChoix": "185",
+    "FkJoueur": "0",
+    "FkTrade": "62",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "235",
+    "FkChoix": "201",
+    "FkJoueur": "0",
+    "FkTrade": "62",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "236",
+    "FkChoix": "246",
+    "FkJoueur": "0",
+    "FkTrade": "63",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "237",
+    "FkChoix": "183",
+    "FkJoueur": "0",
+    "FkTrade": "63",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "238",
+    "FkChoix": "0",
+    "FkJoueur": "438",
+    "FkTrade": "64",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "239",
+    "FkChoix": "0",
+    "FkJoueur": "594",
+    "FkTrade": "64",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "240",
+    "FkChoix": "0",
+    "FkJoueur": "495",
+    "FkTrade": "65",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "241",
+    "FkChoix": "0",
+    "FkJoueur": "1133",
+    "FkTrade": "65",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "242",
+    "FkChoix": "0",
+    "FkJoueur": "60",
+    "FkTrade": "65",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "243",
+    "FkChoix": "264",
+    "FkJoueur": "0",
+    "FkTrade": "65",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "244",
+    "FkChoix": "0",
+    "FkJoueur": "1113",
+    "FkTrade": "66",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "245",
+    "FkChoix": "0",
+    "FkJoueur": "1044",
+    "FkTrade": "66",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "246",
+    "FkChoix": "0",
+    "FkJoueur": "635",
+    "FkTrade": "67",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "247",
+    "FkChoix": "194",
+    "FkJoueur": "0",
+    "FkTrade": "67",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "248",
+    "FkChoix": "0",
+    "FkJoueur": "438",
+    "FkTrade": "67",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "249",
+    "FkChoix": "0",
+    "FkJoueur": "1040",
+    "FkTrade": "68",
+    "FkPooler": "24"
+  },
+  {
+    "PkTradeItems": "250",
+    "FkChoix": "0",
+    "FkJoueur": "959",
+    "FkTrade": "68",
+    "FkPooler": "24"
+  },
+  {
+    "PkTradeItems": "251",
+    "FkChoix": "0",
+    "FkJoueur": "352",
+    "FkTrade": "68",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "252",
+    "FkChoix": "184",
+    "FkJoueur": "0",
+    "FkTrade": "68",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "253",
+    "FkChoix": "161",
+    "FkJoueur": "0",
+    "FkTrade": "68",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "254",
+    "FkChoix": "143",
+    "FkJoueur": "0",
+    "FkTrade": "69",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "255",
+    "FkChoix": "144",
+    "FkJoueur": "0",
+    "FkTrade": "69",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "256",
+    "FkChoix": "237",
+    "FkJoueur": "0",
+    "FkTrade": "69",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "257",
+    "FkChoix": "281",
+    "FkJoueur": "0",
+    "FkTrade": "69",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "258",
+    "FkChoix": "0",
+    "FkJoueur": "66",
+    "FkTrade": "70",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "259",
+    "FkChoix": "172",
+    "FkJoueur": "0",
+    "FkTrade": "70",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "260",
+    "FkChoix": "0",
+    "FkJoueur": "518",
+    "FkTrade": "70",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "261",
+    "FkChoix": "0",
+    "FkJoueur": "690",
+    "FkTrade": "71",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "262",
+    "FkChoix": "188",
+    "FkJoueur": "0",
+    "FkTrade": "71",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "263",
+    "FkChoix": "148",
+    "FkJoueur": "0",
+    "FkTrade": "71",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "264",
+    "FkChoix": "0",
+    "FkJoueur": "421",
+    "FkTrade": "72",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "265",
+    "FkChoix": "177",
+    "FkJoueur": "0",
+    "FkTrade": "72",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "266",
+    "FkChoix": "296",
+    "FkJoueur": "0",
+    "FkTrade": "72",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "267",
+    "FkChoix": "194",
+    "FkJoueur": "0",
+    "FkTrade": "72",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "268",
+    "FkChoix": "186",
+    "FkJoueur": "0",
+    "FkTrade": "72",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "269",
+    "FkChoix": "146",
+    "FkJoueur": "0",
+    "FkTrade": "73",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "270",
+    "FkChoix": "296",
+    "FkJoueur": "0",
+    "FkTrade": "73",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "271",
+    "FkChoix": "236",
+    "FkJoueur": "0",
+    "FkTrade": "74",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "272",
+    "FkChoix": "293",
+    "FkJoueur": "0",
+    "FkTrade": "74",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "273",
+    "FkChoix": "0",
+    "FkJoueur": "755",
+    "FkTrade": "74",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "274",
+    "FkChoix": "0",
+    "FkJoueur": "1067",
+    "FkTrade": "75",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "275",
+    "FkChoix": "0",
+    "FkJoueur": "1221",
+    "FkTrade": "75",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "278",
+    "FkChoix": "0",
+    "FkJoueur": "877",
+    "FkTrade": "78",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "279",
+    "FkChoix": "0",
+    "FkJoueur": "115",
+    "FkTrade": "78",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "280",
+    "FkChoix": "0",
+    "FkJoueur": "859",
+    "FkTrade": "79",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "281",
+    "FkChoix": "0",
+    "FkJoueur": "714",
+    "FkTrade": "80",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "282",
+    "FkChoix": "0",
+    "FkJoueur": "98",
+    "FkTrade": "80",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "283",
+    "FkChoix": "0",
+    "FkJoueur": "957",
+    "FkTrade": "81",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "284",
+    "FkChoix": "0",
+    "FkJoueur": "110",
+    "FkTrade": "81",
+    "FkPooler": "7"
+  },
+  {
+    "PkTradeItems": "285",
+    "FkChoix": "0",
+    "FkJoueur": "425",
+    "FkTrade": "82",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "286",
+    "FkChoix": "0",
+    "FkJoueur": "468",
+    "FkTrade": "82",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "287",
+    "FkChoix": "0",
+    "FkJoueur": "168",
+    "FkTrade": "83",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "288",
+    "FkChoix": "0",
+    "FkJoueur": "962",
+    "FkTrade": "84",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "289",
+    "FkChoix": "0",
+    "FkJoueur": "494",
+    "FkTrade": "84",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "290",
+    "FkChoix": "0",
+    "FkJoueur": "758",
+    "FkTrade": "85",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "291",
+    "FkChoix": "0",
+    "FkJoueur": "657",
+    "FkTrade": "85",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "292",
+    "FkChoix": "0",
+    "FkJoueur": "267",
+    "FkTrade": "86",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "293",
+    "FkChoix": "0",
+    "FkJoueur": "826",
+    "FkTrade": "87",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "294",
+    "FkChoix": "0",
+    "FkJoueur": "90",
+    "FkTrade": "87",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "295",
+    "FkChoix": "0",
+    "FkJoueur": "495",
+    "FkTrade": "88",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "296",
+    "FkChoix": "0",
+    "FkJoueur": "672",
+    "FkTrade": "89",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "297",
+    "FkChoix": "0",
+    "FkJoueur": "161",
+    "FkTrade": "89",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "298",
+    "FkChoix": "0",
+    "FkJoueur": "683",
+    "FkTrade": "90",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "299",
+    "FkChoix": "0",
+    "FkJoueur": "1084",
+    "FkTrade": "90",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "300",
+    "FkChoix": "0",
+    "FkJoueur": "1158",
+    "FkTrade": "91",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "301",
+    "FkChoix": "0",
+    "FkJoueur": "440",
+    "FkTrade": "92",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "302",
+    "FkChoix": "0",
+    "FkJoueur": "1159",
+    "FkTrade": "93",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "303",
+    "FkChoix": "0",
+    "FkJoueur": "125",
+    "FkTrade": "93",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "304",
+    "FkChoix": "0",
+    "FkJoueur": "268",
+    "FkTrade": "94",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "305",
+    "FkChoix": "0",
+    "FkJoueur": "830",
+    "FkTrade": "94",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "306",
+    "FkChoix": "0",
+    "FkJoueur": "468",
+    "FkTrade": "95",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "307",
+    "FkChoix": "0",
+    "FkJoueur": "645",
+    "FkTrade": "96",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "308",
+    "FkChoix": "0",
+    "FkJoueur": "187",
+    "FkTrade": "96",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "309",
+    "FkChoix": "0",
+    "FkJoueur": "665",
+    "FkTrade": "97",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "310",
+    "FkChoix": "0",
+    "FkJoueur": "329",
+    "FkTrade": "97",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "311",
+    "FkChoix": "0",
+    "FkJoueur": "494",
+    "FkTrade": "98",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "312",
+    "FkChoix": "0",
+    "FkJoueur": "528",
+    "FkTrade": "98",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "313",
+    "FkChoix": "0",
+    "FkJoueur": "919",
+    "FkTrade": "99",
+    "FkPooler": "19"
+  },
+  {
+    "PkTradeItems": "314",
+    "FkChoix": "0",
+    "FkJoueur": "952",
+    "FkTrade": "99",
+    "FkPooler": "19"
+  },
+  {
+    "PkTradeItems": "315",
+    "FkChoix": "0",
+    "FkJoueur": "759",
+    "FkTrade": "100",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "316",
+    "FkChoix": "0",
+    "FkJoueur": "250",
+    "FkTrade": "100",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "317",
+    "FkChoix": "0",
+    "FkJoueur": "166",
+    "FkTrade": "100",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "318",
+    "FkChoix": "0",
+    "FkJoueur": "859",
+    "FkTrade": "100",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "319",
+    "FkChoix": "0",
+    "FkJoueur": "102",
+    "FkTrade": "101",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "320",
+    "FkChoix": "0",
+    "FkJoueur": "77",
+    "FkTrade": "102",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "321",
+    "FkChoix": "0",
+    "FkJoueur": "908",
+    "FkTrade": "102",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "322",
+    "FkChoix": "0",
+    "FkJoueur": "14",
+    "FkTrade": "103",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "323",
+    "FkChoix": "0",
+    "FkJoueur": "672",
+    "FkTrade": "103",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "324",
+    "FkChoix": "0",
+    "FkJoueur": "714",
+    "FkTrade": "103",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "325",
+    "FkChoix": "0",
+    "FkJoueur": "953",
+    "FkTrade": "103",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "326",
+    "FkChoix": "0",
+    "FkJoueur": "889",
+    "FkTrade": "103",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "327",
+    "FkChoix": "0",
+    "FkJoueur": "1074",
+    "FkTrade": "103",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "328",
+    "FkChoix": "0",
+    "FkJoueur": "63",
+    "FkTrade": "104",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "329",
+    "FkChoix": "0",
+    "FkJoueur": "920",
+    "FkTrade": "104",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "330",
+    "FkChoix": "0",
+    "FkJoueur": "519",
+    "FkTrade": "104",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "331",
+    "FkChoix": "0",
+    "FkJoueur": "1054",
+    "FkTrade": "104",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "332",
+    "FkChoix": "0",
+    "FkJoueur": "839",
+    "FkTrade": "104",
+    "FkPooler": "4"
+  },
+  {
+    "PkTradeItems": "333",
+    "FkChoix": "0",
+    "FkJoueur": "444",
+    "FkTrade": "105",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "334",
+    "FkChoix": "0",
+    "FkJoueur": "651",
+    "FkTrade": "105",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "335",
+    "FkChoix": "0",
+    "FkJoueur": "934",
+    "FkTrade": "105",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "336",
+    "FkChoix": "0",
+    "FkJoueur": "955",
+    "FkTrade": "105",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "337",
+    "FkChoix": "0",
+    "FkJoueur": "310",
+    "FkTrade": "105",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "338",
+    "FkChoix": "0",
+    "FkJoueur": "1142",
+    "FkTrade": "105",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "339",
+    "FkChoix": "0",
+    "FkJoueur": "395",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "340",
+    "FkChoix": "0",
+    "FkJoueur": "268",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "341",
+    "FkChoix": "0",
+    "FkJoueur": "1118",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "342",
+    "FkChoix": "0",
+    "FkJoueur": "1154",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "343",
+    "FkChoix": "0",
+    "FkJoueur": "1156",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "344",
+    "FkChoix": "0",
+    "FkJoueur": "549",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "345",
+    "FkChoix": "0",
+    "FkJoueur": "1104",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "346",
+    "FkChoix": "0",
+    "FkJoueur": "1117",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "347",
+    "FkChoix": "0",
+    "FkJoueur": "1127",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "348",
+    "FkChoix": "0",
+    "FkJoueur": "1155",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "349",
+    "FkChoix": "0",
+    "FkJoueur": "817",
+    "FkTrade": "106",
+    "FkPooler": "6"
+  },
+  {
+    "PkTradeItems": "350",
+    "FkChoix": "0",
+    "FkJoueur": "615",
+    "FkTrade": "107",
+    "FkPooler": "7"
+  },
+  {
+    "PkTradeItems": "351",
+    "FkChoix": "0",
+    "FkJoueur": "447",
+    "FkTrade": "107",
+    "FkPooler": "7"
+  },
+  {
+    "PkTradeItems": "352",
+    "FkChoix": "0",
+    "FkJoueur": "1078",
+    "FkTrade": "107",
+    "FkPooler": "7"
+  },
+  {
+    "PkTradeItems": "353",
+    "FkChoix": "0",
+    "FkJoueur": "464",
+    "FkTrade": "107",
+    "FkPooler": "7"
+  },
+  {
+    "PkTradeItems": "354",
+    "FkChoix": "0",
+    "FkJoueur": "562",
+    "FkTrade": "107",
+    "FkPooler": "7"
+  },
+  {
+    "PkTradeItems": "355",
+    "FkChoix": "0",
+    "FkJoueur": "4",
+    "FkTrade": "108",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "356",
+    "FkChoix": "0",
+    "FkJoueur": "329",
+    "FkTrade": "108",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "357",
+    "FkChoix": "0",
+    "FkJoueur": "827",
+    "FkTrade": "108",
+    "FkPooler": "8"
+  },
+  {
+    "PkTradeItems": "358",
+    "FkChoix": "0",
+    "FkJoueur": "215",
+    "FkTrade": "109",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "359",
+    "FkChoix": "0",
+    "FkJoueur": "612",
+    "FkTrade": "109",
+    "FkPooler": "9"
+  },
+  {
+    "PkTradeItems": "360",
+    "FkChoix": "0",
+    "FkJoueur": "751",
+    "FkTrade": "110",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "361",
+    "FkChoix": "0",
+    "FkJoueur": "521",
+    "FkTrade": "111",
+    "FkPooler": "11"
+  },
+  {
+    "PkTradeItems": "362",
+    "FkChoix": "0",
+    "FkJoueur": "777",
+    "FkTrade": "111",
+    "FkPooler": "11"
+  },
+  {
+    "PkTradeItems": "363",
+    "FkChoix": "0",
+    "FkJoueur": "1048",
+    "FkTrade": "111",
+    "FkPooler": "11"
+  },
+  {
+    "PkTradeItems": "364",
+    "FkChoix": "0",
+    "FkJoueur": "1058",
+    "FkTrade": "111",
+    "FkPooler": "11"
+  },
+  {
+    "PkTradeItems": "365",
+    "FkChoix": "0",
+    "FkJoueur": "831",
+    "FkTrade": "111",
+    "FkPooler": "11"
+  },
+  {
+    "PkTradeItems": "366",
+    "FkChoix": "0",
+    "FkJoueur": "342",
+    "FkTrade": "112",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "367",
+    "FkChoix": "0",
+    "FkJoueur": "377",
+    "FkTrade": "112",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "368",
+    "FkChoix": "0",
+    "FkJoueur": "1129",
+    "FkTrade": "112",
+    "FkPooler": "12"
+  },
+  {
+    "PkTradeItems": "369",
+    "FkChoix": "0",
+    "FkJoueur": "645",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "370",
+    "FkChoix": "0",
+    "FkJoueur": "374",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "371",
+    "FkChoix": "0",
+    "FkJoueur": "5",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "372",
+    "FkChoix": "0",
+    "FkJoueur": "109",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "373",
+    "FkChoix": "0",
+    "FkJoueur": "668",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "374",
+    "FkChoix": "0",
+    "FkJoueur": "1085",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "375",
+    "FkChoix": "0",
+    "FkJoueur": "735",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "376",
+    "FkChoix": "0",
+    "FkJoueur": "649",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "377",
+    "FkChoix": "0",
+    "FkJoueur": "1147",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "378",
+    "FkChoix": "0",
+    "FkJoueur": "1056",
+    "FkTrade": "113",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "379",
+    "FkChoix": "0",
+    "FkJoueur": "225",
+    "FkTrade": "114",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "380",
+    "FkChoix": "0",
+    "FkJoueur": "1014",
+    "FkTrade": "114",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "381",
+    "FkChoix": "0",
+    "FkJoueur": "1075",
+    "FkTrade": "114",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "382",
+    "FkChoix": "0",
+    "FkJoueur": "996",
+    "FkTrade": "114",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "383",
+    "FkChoix": "0",
+    "FkJoueur": "1076",
+    "FkTrade": "114",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "384",
+    "FkChoix": "0",
+    "FkJoueur": "1073",
+    "FkTrade": "114",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "385",
+    "FkChoix": "0",
+    "FkJoueur": "1159",
+    "FkTrade": "114",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "386",
+    "FkChoix": "0",
+    "FkJoueur": "574",
+    "FkTrade": "115",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "387",
+    "FkChoix": "0",
+    "FkJoueur": "334",
+    "FkTrade": "115",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "388",
+    "FkChoix": "0",
+    "FkJoueur": "1064",
+    "FkTrade": "115",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "389",
+    "FkChoix": "0",
+    "FkJoueur": "1063",
+    "FkTrade": "115",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "390",
+    "FkChoix": "0",
+    "FkJoueur": "1148",
+    "FkTrade": "115",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "391",
+    "FkChoix": "0",
+    "FkJoueur": "856",
+    "FkTrade": "115",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "392",
+    "FkChoix": "0",
+    "FkJoueur": "863",
+    "FkTrade": "115",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "393",
+    "FkChoix": "0",
+    "FkJoueur": "425",
+    "FkTrade": "116",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "394",
+    "FkChoix": "0",
+    "FkJoueur": "304",
+    "FkTrade": "117",
+    "FkPooler": "19"
+  },
+  {
+    "PkTradeItems": "395",
+    "FkChoix": "0",
+    "FkJoueur": "456",
+    "FkTrade": "117",
+    "FkPooler": "19"
+  },
+  {
+    "PkTradeItems": "396",
+    "FkChoix": "0",
+    "FkJoueur": "819",
+    "FkTrade": "117",
+    "FkPooler": "19"
+  },
+  {
+    "PkTradeItems": "397",
+    "FkChoix": "0",
+    "FkJoueur": "369",
+    "FkTrade": "118",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "398",
+    "FkChoix": "0",
+    "FkJoueur": "166",
+    "FkTrade": "118",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "399",
+    "FkChoix": "0",
+    "FkJoueur": "683",
+    "FkTrade": "118",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "400",
+    "FkChoix": "0",
+    "FkJoueur": "254",
+    "FkTrade": "118",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "401",
+    "FkChoix": "0",
+    "FkJoueur": "630",
+    "FkTrade": "118",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "402",
+    "FkChoix": "0",
+    "FkJoueur": "886",
+    "FkTrade": "118",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "403",
+    "FkChoix": "0",
+    "FkJoueur": "1071",
+    "FkTrade": "118",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "404",
+    "FkChoix": "0",
+    "FkJoueur": "846",
+    "FkTrade": "118",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "405",
+    "FkChoix": "0",
+    "FkJoueur": "689",
+    "FkTrade": "119",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "406",
+    "FkChoix": "0",
+    "FkJoueur": "353",
+    "FkTrade": "119",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "407",
+    "FkChoix": "0",
+    "FkJoueur": "391",
+    "FkTrade": "120",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "408",
+    "FkChoix": "0",
+    "FkJoueur": "732",
+    "FkTrade": "120",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "409",
+    "FkChoix": "0",
+    "FkJoueur": "936",
+    "FkTrade": "120",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "410",
+    "FkChoix": "0",
+    "FkJoueur": "930",
+    "FkTrade": "120",
+    "FkPooler": "22"
+  },
+  {
+    "PkTradeItems": "411",
+    "FkChoix": "0",
+    "FkJoueur": "84",
+    "FkTrade": "121",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "412",
+    "FkChoix": "0",
+    "FkJoueur": "610",
+    "FkTrade": "121",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "413",
+    "FkChoix": "0",
+    "FkJoueur": "198",
+    "FkTrade": "121",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "414",
+    "FkChoix": "0",
+    "FkJoueur": "173",
+    "FkTrade": "121",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "415",
+    "FkChoix": "0",
+    "FkJoueur": "67",
+    "FkTrade": "121",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "416",
+    "FkChoix": "0",
+    "FkJoueur": "849",
+    "FkTrade": "121",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "417",
+    "FkChoix": "0",
+    "FkJoueur": "618",
+    "FkTrade": "122",
+    "FkPooler": "24"
+  },
+  {
+    "PkTradeItems": "418",
+    "FkChoix": "0",
+    "FkJoueur": "981",
+    "FkTrade": "122",
+    "FkPooler": "24"
+  },
+  {
+    "PkTradeItems": "419",
+    "FkChoix": "0",
+    "FkJoueur": "280",
+    "FkTrade": "122",
+    "FkPooler": "24"
+  },
+  {
+    "PkTradeItems": "420",
+    "FkChoix": "0",
+    "FkJoueur": "248",
+    "FkTrade": "123",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "421",
+    "FkChoix": "0",
+    "FkJoueur": "436",
+    "FkTrade": "123",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "422",
+    "FkChoix": "0",
+    "FkJoueur": "1020",
+    "FkTrade": "123",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "423",
+    "FkChoix": "0",
+    "FkJoueur": "818",
+    "FkTrade": "123",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "424",
+    "FkChoix": "0",
+    "FkJoueur": "1037",
+    "FkTrade": "124",
+    "FkPooler": "11"
+  },
+  {
+    "PkTradeItems": "425",
+    "FkChoix": "0",
+    "FkJoueur": "575",
+    "FkTrade": "124",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "426",
+    "FkChoix": "0",
+    "FkJoueur": "1226",
+    "FkTrade": "125",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "427",
+    "FkChoix": "0",
+    "FkJoueur": "1255",
+    "FkTrade": "125",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "428",
+    "FkChoix": "0",
+    "FkJoueur": "14",
+    "FkTrade": "125",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "429",
+    "FkChoix": "0",
+    "FkJoueur": "1261",
+    "FkTrade": "126",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "430",
+    "FkChoix": "0",
+    "FkJoueur": "264",
+    "FkTrade": "127",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "431",
+    "FkChoix": "0",
+    "FkJoueur": "36",
+    "FkTrade": "127",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "432",
+    "FkChoix": "0",
+    "FkJoueur": "1020",
+    "FkTrade": "127",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "433",
+    "FkChoix": "0",
+    "FkJoueur": "1227",
+    "FkTrade": "128",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "434",
+    "FkChoix": "0",
+    "FkJoueur": "1259",
+    "FkTrade": "128",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "435",
+    "FkChoix": "0",
+    "FkJoueur": "612",
+    "FkTrade": "128",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "436",
+    "FkChoix": "0",
+    "FkJoueur": "1244",
+    "FkTrade": "129",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "437",
+    "FkChoix": "0",
+    "FkJoueur": "742",
+    "FkTrade": "129",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "438",
+    "FkChoix": "0",
+    "FkJoueur": "581",
+    "FkTrade": "129",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "439",
+    "FkChoix": "0",
+    "FkJoueur": "1222",
+    "FkTrade": "129",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "440",
+    "FkChoix": "0",
+    "FkJoueur": "1247",
+    "FkTrade": "130",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "441",
+    "FkChoix": "0",
+    "FkJoueur": "951",
+    "FkTrade": "130",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "442",
+    "FkChoix": "0",
+    "FkJoueur": "1232",
+    "FkTrade": "131",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "443",
+    "FkChoix": "0",
+    "FkJoueur": "1221",
+    "FkTrade": "131",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "444",
+    "FkChoix": "0",
+    "FkJoueur": "1263",
+    "FkTrade": "131",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "445",
+    "FkChoix": "0",
+    "FkJoueur": "1223",
+    "FkTrade": "131",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "446",
+    "FkChoix": "0",
+    "FkJoueur": "1205",
+    "FkTrade": "131",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "447",
+    "FkChoix": "0",
+    "FkJoueur": "1229",
+    "FkTrade": "132",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "448",
+    "FkChoix": "0",
+    "FkJoueur": "1238",
+    "FkTrade": "132",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "449",
+    "FkChoix": "0",
+    "FkJoueur": "1239",
+    "FkTrade": "132",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "450",
+    "FkChoix": "0",
+    "FkJoueur": "1246",
+    "FkTrade": "132",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "451",
+    "FkChoix": "0",
+    "FkJoueur": "1249",
+    "FkTrade": "132",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "452",
+    "FkChoix": "0",
+    "FkJoueur": "1200",
+    "FkTrade": "133",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "453",
+    "FkChoix": "0",
+    "FkJoueur": "94",
+    "FkTrade": "133",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "454",
+    "FkChoix": "0",
+    "FkJoueur": "1186",
+    "FkTrade": "133",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "455",
+    "FkChoix": "0",
+    "FkJoueur": "1183",
+    "FkTrade": "133",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "456",
+    "FkChoix": "0",
+    "FkJoueur": "1231",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "457",
+    "FkChoix": "0",
+    "FkJoueur": "1242",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "458",
+    "FkChoix": "0",
+    "FkJoueur": "1250",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "459",
+    "FkChoix": "0",
+    "FkJoueur": "215",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "460",
+    "FkChoix": "0",
+    "FkJoueur": "4",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "461",
+    "FkChoix": "0",
+    "FkJoueur": "391",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "462",
+    "FkChoix": "0",
+    "FkJoueur": "1267",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "463",
+    "FkChoix": "0",
+    "FkJoueur": "1269",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "464",
+    "FkChoix": "0",
+    "FkJoueur": "1271",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "465",
+    "FkChoix": "0",
+    "FkJoueur": "1104",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "466",
+    "FkChoix": "0",
+    "FkJoueur": "494",
+    "FkTrade": "134",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "467",
+    "FkChoix": "0",
+    "FkJoueur": "1228",
+    "FkTrade": "135",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "468",
+    "FkChoix": "0",
+    "FkJoueur": "369",
+    "FkTrade": "135",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "469",
+    "FkChoix": "0",
+    "FkJoueur": "1260",
+    "FkTrade": "135",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "470",
+    "FkChoix": "0",
+    "FkJoueur": "722",
+    "FkTrade": "135",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "471",
+    "FkChoix": "0",
+    "FkJoueur": "1225",
+    "FkTrade": "136",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "472",
+    "FkChoix": "0",
+    "FkJoueur": "1224",
+    "FkTrade": "136",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "473",
+    "FkChoix": "0",
+    "FkJoueur": "1251",
+    "FkTrade": "136",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "474",
+    "FkChoix": "0",
+    "FkJoueur": "1266",
+    "FkTrade": "136",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "475",
+    "FkChoix": "0",
+    "FkJoueur": "1258",
+    "FkTrade": "136",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "476",
+    "FkChoix": "0",
+    "FkJoueur": "1175",
+    "FkTrade": "136",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "477",
+    "FkChoix": "0",
+    "FkJoueur": "1117",
+    "FkTrade": "136",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "478",
+    "FkChoix": "0",
+    "FkJoueur": "1237",
+    "FkTrade": "137",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "479",
+    "FkChoix": "0",
+    "FkJoueur": "1262",
+    "FkTrade": "137",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "480",
+    "FkChoix": "0",
+    "FkJoueur": "1235",
+    "FkTrade": "138",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "481",
+    "FkChoix": "0",
+    "FkJoueur": "1248",
+    "FkTrade": "138",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "482",
+    "FkChoix": "0",
+    "FkJoueur": "955",
+    "FkTrade": "138",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "483",
+    "FkChoix": "0",
+    "FkJoueur": "1268",
+    "FkTrade": "138",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "484",
+    "FkChoix": "0",
+    "FkJoueur": "1270",
+    "FkTrade": "138",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "485",
+    "FkChoix": "0",
+    "FkJoueur": "804",
+    "FkTrade": "139",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "486",
+    "FkChoix": "0",
+    "FkJoueur": "657",
+    "FkTrade": "139",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "487",
+    "FkChoix": "0",
+    "FkJoueur": "1265",
+    "FkTrade": "139",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "488",
+    "FkChoix": "0",
+    "FkJoueur": "982",
+    "FkTrade": "139",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "489",
+    "FkChoix": "0",
+    "FkJoueur": "1240",
+    "FkTrade": "140",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "490",
+    "FkChoix": "0",
+    "FkJoueur": "1241",
+    "FkTrade": "141",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "491",
+    "FkChoix": "0",
+    "FkJoueur": "1253",
+    "FkTrade": "141",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "492",
+    "FkChoix": "0",
+    "FkJoueur": "1264",
+    "FkTrade": "141",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "493",
+    "FkChoix": "0",
+    "FkJoueur": "1252",
+    "FkTrade": "141",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "494",
+    "FkChoix": "0",
+    "FkJoueur": "1230",
+    "FkTrade": "142",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "495",
+    "FkChoix": "0",
+    "FkJoueur": "447",
+    "FkTrade": "142",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "496",
+    "FkChoix": "0",
+    "FkJoueur": "1233",
+    "FkTrade": "143",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "497",
+    "FkChoix": "0",
+    "FkJoueur": "1243",
+    "FkTrade": "143",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "498",
+    "FkChoix": "0",
+    "FkJoueur": "1254",
+    "FkTrade": "143",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "499",
+    "FkChoix": "0",
+    "FkJoueur": "759",
+    "FkTrade": "143",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "500",
+    "FkChoix": "0",
+    "FkJoueur": "830",
+    "FkTrade": "143",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "501",
+    "FkChoix": "0",
+    "FkJoueur": "1256",
+    "FkTrade": "144",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "502",
+    "FkChoix": "0",
+    "FkJoueur": "1236",
+    "FkTrade": "144",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "503",
+    "FkChoix": "0",
+    "FkJoueur": "1245",
+    "FkTrade": "144",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "504",
+    "FkChoix": "0",
+    "FkJoueur": "1257",
+    "FkTrade": "144",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "505",
+    "FkChoix": "0",
+    "FkJoueur": "1115",
+    "FkTrade": "145",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "506",
+    "FkChoix": "0",
+    "FkJoueur": "1120",
+    "FkTrade": "145",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "507",
+    "FkChoix": "0",
+    "FkJoueur": "1110",
+    "FkTrade": "145",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "508",
+    "FkChoix": "0",
+    "FkJoueur": "519",
+    "FkTrade": "145",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "509",
+    "FkChoix": "0",
+    "FkJoueur": "1097",
+    "FkTrade": "146",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "510",
+    "FkChoix": "0",
+    "FkJoueur": "1131",
+    "FkTrade": "146",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "511",
+    "FkChoix": "0",
+    "FkJoueur": "1142",
+    "FkTrade": "146",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "512",
+    "FkChoix": "0",
+    "FkJoueur": "1148",
+    "FkTrade": "146",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "513",
+    "FkChoix": "0",
+    "FkJoueur": "1104",
+    "FkTrade": "147",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "514",
+    "FkChoix": "0",
+    "FkJoueur": "1117",
+    "FkTrade": "147",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "515",
+    "FkChoix": "0",
+    "FkJoueur": "1118",
+    "FkTrade": "147",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "516",
+    "FkChoix": "0",
+    "FkJoueur": "1127",
+    "FkTrade": "147",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "517",
+    "FkChoix": "0",
+    "FkJoueur": "1154",
+    "FkTrade": "147",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "518",
+    "FkChoix": "0",
+    "FkJoueur": "1155",
+    "FkTrade": "147",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "519",
+    "FkChoix": "0",
+    "FkJoueur": "889",
+    "FkTrade": "147",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "520",
+    "FkChoix": "0",
+    "FkJoueur": "1156",
+    "FkTrade": "147",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "521",
+    "FkChoix": "0",
+    "FkJoueur": "1106",
+    "FkTrade": "148",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "522",
+    "FkChoix": "0",
+    "FkJoueur": "1108",
+    "FkTrade": "148",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "523",
+    "FkChoix": "0",
+    "FkJoueur": "1143",
+    "FkTrade": "148",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "524",
+    "FkChoix": "0",
+    "FkJoueur": "1151",
+    "FkTrade": "148",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "525",
+    "FkChoix": "0",
+    "FkJoueur": "1152",
+    "FkTrade": "148",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "526",
+    "FkChoix": "0",
+    "FkJoueur": "1098",
+    "FkTrade": "149",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "527",
+    "FkChoix": "0",
+    "FkJoueur": "329",
+    "FkTrade": "149",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "528",
+    "FkChoix": "0",
+    "FkJoueur": "1133",
+    "FkTrade": "150",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "529",
+    "FkChoix": "0",
+    "FkJoueur": "1112",
+    "FkTrade": "150",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "530",
+    "FkChoix": "0",
+    "FkJoueur": "1113",
+    "FkTrade": "151",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "531",
+    "FkChoix": "0",
+    "FkJoueur": "1140",
+    "FkTrade": "151",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "532",
+    "FkChoix": "0",
+    "FkJoueur": "1144",
+    "FkTrade": "151",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "533",
+    "FkChoix": "0",
+    "FkJoueur": "1150",
+    "FkTrade": "151",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "534",
+    "FkChoix": "0",
+    "FkJoueur": "1153",
+    "FkTrade": "151",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "535",
+    "FkChoix": "0",
+    "FkJoueur": "1095",
+    "FkTrade": "152",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "536",
+    "FkChoix": "0",
+    "FkJoueur": "1128",
+    "FkTrade": "152",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "537",
+    "FkChoix": "0",
+    "FkJoueur": "1123",
+    "FkTrade": "152",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "538",
+    "FkChoix": "0",
+    "FkJoueur": "1137",
+    "FkTrade": "154",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "539",
+    "FkChoix": "0",
+    "FkJoueur": "1130",
+    "FkTrade": "154",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "540",
+    "FkChoix": "0",
+    "FkJoueur": "494",
+    "FkTrade": "154",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "541",
+    "FkChoix": "0",
+    "FkJoueur": "1147",
+    "FkTrade": "154",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "542",
+    "FkChoix": "0",
+    "FkJoueur": "1099",
+    "FkTrade": "155",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "543",
+    "FkChoix": "0",
+    "FkJoueur": "1135",
+    "FkTrade": "155",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "544",
+    "FkChoix": "0",
+    "FkJoueur": "1122",
+    "FkTrade": "155",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "545",
+    "FkChoix": "0",
+    "FkJoueur": "667",
+    "FkTrade": "155",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "546",
+    "FkChoix": "0",
+    "FkJoueur": "936",
+    "FkTrade": "155",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "547",
+    "FkChoix": "0",
+    "FkJoueur": "1101",
+    "FkTrade": "156",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "548",
+    "FkChoix": "0",
+    "FkJoueur": "1136",
+    "FkTrade": "156",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "549",
+    "FkChoix": "0",
+    "FkJoueur": "1132",
+    "FkTrade": "156",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "550",
+    "FkChoix": "0",
+    "FkJoueur": "1094",
+    "FkTrade": "156",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "551",
+    "FkChoix": "0",
+    "FkJoueur": "1145",
+    "FkTrade": "156",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "552",
+    "FkChoix": "0",
+    "FkJoueur": "1100",
+    "FkTrade": "157",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "553",
+    "FkChoix": "0",
+    "FkJoueur": "1114",
+    "FkTrade": "157",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "554",
+    "FkChoix": "0",
+    "FkJoueur": "1134",
+    "FkTrade": "157",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "555",
+    "FkChoix": "0",
+    "FkJoueur": "420",
+    "FkTrade": "157",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "556",
+    "FkChoix": "0",
+    "FkJoueur": "1102",
+    "FkTrade": "158",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "557",
+    "FkChoix": "0",
+    "FkJoueur": "1121",
+    "FkTrade": "158",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "558",
+    "FkChoix": "0",
+    "FkJoueur": "1111",
+    "FkTrade": "158",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "559",
+    "FkChoix": "0",
+    "FkJoueur": "1138",
+    "FkTrade": "159",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "560",
+    "FkChoix": "0",
+    "FkJoueur": "254",
+    "FkTrade": "159",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "561",
+    "FkChoix": "0",
+    "FkJoueur": "863",
+    "FkTrade": "159",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "562",
+    "FkChoix": "0",
+    "FkJoueur": "166",
+    "FkTrade": "159",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "563",
+    "FkChoix": "0",
+    "FkJoueur": "1105",
+    "FkTrade": "160",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "564",
+    "FkChoix": "0",
+    "FkJoueur": "1109",
+    "FkTrade": "160",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "565",
+    "FkChoix": "0",
+    "FkJoueur": "1146",
+    "FkTrade": "161",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "566",
+    "FkChoix": "0",
+    "FkJoueur": "1107",
+    "FkTrade": "162",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "567",
+    "FkChoix": "0",
+    "FkJoueur": "1126",
+    "FkTrade": "162",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "568",
+    "FkChoix": "0",
+    "FkJoueur": "528",
+    "FkTrade": "162",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "569",
+    "FkChoix": "0",
+    "FkJoueur": "1096",
+    "FkTrade": "163",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "570",
+    "FkChoix": "0",
+    "FkJoueur": "1141",
+    "FkTrade": "163",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "571",
+    "FkChoix": "0",
+    "FkJoueur": "1119",
+    "FkTrade": "163",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "572",
+    "FkChoix": "0",
+    "FkJoueur": "1124",
+    "FkTrade": "163",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "573",
+    "FkChoix": "0",
+    "FkJoueur": "1103",
+    "FkTrade": "164",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "574",
+    "FkChoix": "0",
+    "FkJoueur": "1139",
+    "FkTrade": "164",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "575",
+    "FkChoix": "0",
+    "FkJoueur": "1116",
+    "FkTrade": "164",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "576",
+    "FkChoix": "0",
+    "FkJoueur": "1125",
+    "FkTrade": "164",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "577",
+    "FkChoix": "0",
+    "FkJoueur": "1149",
+    "FkTrade": "164",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "578",
+    "FkChoix": "0",
+    "FkJoueur": "1129",
+    "FkTrade": "164",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "579",
+    "FkChoix": "0",
+    "FkJoueur": "657",
+    "FkTrade": "164",
+    "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "580",
+    "FkChoix": "0",
+    "FkJoueur": "1107",
+    "FkTrade": "165",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "581",
+    "FkChoix": "0",
+    "FkJoueur": "676",
+    "FkTrade": "165",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "582",
+    "FkChoix": "0",
+    "FkJoueur": "1033",
+    "FkTrade": "165",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "583",
+    "FkChoix": "0",
+    "FkJoueur": "111",
+    "FkTrade": "165",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "584",
+    "FkChoix": "253",
+    "FkJoueur": "0",
+    "FkTrade": "165",
+    "FkPooler": "23"
+  },
+  {
+    "PkTradeItems": "585",
+    "FkChoix": "0",
+    "FkJoueur": "733",
+    "FkTrade": "166",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "586",
+    "FkChoix": "0",
+    "FkJoueur": "1010",
+    "FkTrade": "166",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "587",
+    "FkChoix": "0",
+    "FkJoueur": "1105",
+    "FkTrade": "166",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "588",
+    "FkChoix": "0",
+    "FkJoueur": "1149",
+    "FkTrade": "166",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "589",
+    "FkChoix": "0",
+    "FkJoueur": "1069",
+    "FkTrade": "166",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "590",
+    "FkChoix": "0",
+    "FkJoueur": "467",
+    "FkTrade": "166",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "591",
+    "FkChoix": "247",
+    "FkJoueur": "0",
+    "FkTrade": "166",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "592",
+    "FkChoix": "307",
+    "FkJoueur": "0",
+    "FkTrade": "166",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "593",
+    "FkChoix": "413",
+    "FkJoueur": "0",
+    "FkTrade": "166",
+    "FkPooler": "21"
+  },
+  {
+    "PkTradeItems": "594",
+    "FkChoix": "300",
+    "FkJoueur": "0",
+    "FkTrade": "166",
+    "FkPooler": "18"
+  },
+  {
+    "PkTradeItems": "599",
+    "FkChoix": "0",
+    "FkJoueur": "132",
+    "FkTrade": "169",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "600",
+    "FkChoix": "0",
+    "FkJoueur": "1260",
+    "FkTrade": "169",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "601",
+    "FkChoix": "0",
+    "FkJoueur": "1092",
+    "FkTrade": "169",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "602",
+    "FkChoix": "0",
+    "FkJoueur": "82",
+    "FkTrade": "169",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "603",
+    "FkChoix": "294",
+    "FkJoueur": "0",
+    "FkTrade": "169",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "604",
+    "FkChoix": "399",
+    "FkJoueur": "0",
+    "FkTrade": "169",
+    "FkPooler": "15"
+  },
+  {
+    "PkTradeItems": "605",
+    "FkChoix": "403",
+    "FkJoueur": "0",
+    "FkTrade": "169",
+    "FkPooler": "16"
+  },
+  {
+    "PkTradeItems": "606",
+    "FkChoix": "0",
+    "FkJoueur": "1087",
+    "FkTrade": "170",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "607",
+    "FkChoix": "0",
+    "FkJoueur": "977",
+    "FkTrade": "170",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "608",
+    "FkChoix": "0",
+    "FkJoueur": "1131",
+    "FkTrade": "170",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "609",
+    "FkChoix": "0",
+    "FkJoueur": "663",
+    "FkTrade": "170",
+    "FkPooler": "5"
+  },
+  {
+    "PkTradeItems": "610",
+    "FkChoix": "0",
+    "FkJoueur": "26",
+    "FkTrade": "170",
+    "FkPooler": "24"
+  },
+  {
+    "PkTradeItems": "611",
+    "FkChoix": "0",
+    "FkJoueur": "528",
+    "FkTrade": "171",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "612",
+    "FkChoix": "0",
+    "FkJoueur": "759",
+    "FkTrade": "171",
+    "FkPooler": "24"
+  },
+  {
+    "PkTradeItems": "613",
+    "FkChoix": "222",
+    "FkJoueur": "0",
+    "FkTrade": "171",
+    "FkPooler": "10"
+  }
+]
