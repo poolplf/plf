@@ -583,7 +583,7 @@
     "FkEquipe": "26",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "4",
+    "FKPLF": "21",
     "FKPLFSalaire": "3",
     "FkStatut": "1"
   },
@@ -6943,7 +6943,7 @@
     "FkEquipe": "6",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "4",
+    "FKPLF": "21",
     "FKPLFSalaire": "7",
     "FkStatut": "1"
   },
@@ -11503,7 +11503,7 @@
     "FkEquipe": "3",
     "FKPays": "3",
     "FKPosition": "8",
-    "FKPLF": "21",
+    "FKPLF": "4",
     "FKPLFSalaire": "8",
     "FkStatut": "1"
   },
@@ -13252,7 +13252,7 @@
     "Prenom": "Christian",
     "Nom": "Kyrou",
     "DateNaissance": "2003-09-16",
-    "FkEquipe": "20",
+    "FkEquipe": "6",
     "FKPays": "2",
     "FKPosition": "7",
     "FKPLF": "25",
@@ -14119,7 +14119,7 @@
     "FkEquipe": "4",
     "FKPays": "3",
     "FKPosition": "2",
-    "FKPLF": "21",
+    "FKPLF": "4",
     "FKPLFSalaire": "1",
     "FkStatut": "1"
   },
