@@ -408,7 +408,6 @@ nav.menu {
 .footer-controls {
   align-items: center;
   gap: 10px;
-  padding: 0.5rem 0;
   font-size: 0.85rem;
 }
 
@@ -417,7 +416,6 @@ nav.menu {
   color: #f1f2f6;
   border: 1px solid #004080;
   border-radius: 6px;
-  padding: 3px 8px;
   cursor: pointer;
 }
 
@@ -444,7 +442,6 @@ nav.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
   color: #f1f2f6;
   font-size: 0.9rem;
   overflow-x: auto;             /* ✅ allow horizontal scroll */
@@ -506,7 +503,6 @@ nav.menu {
   background-color: #3b4251;
   color: #f1f2f6;
   text-align: center;
-  padding: 10px 0;
 }
 
 /* Flex layout only inside footer content, not on tfoot */
@@ -514,7 +510,6 @@ nav.menu {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
   font-size: 0.85rem;
 }
 /* Ensure the cells respect fixed width */
@@ -524,4 +519,25 @@ nav.menu {
 #listJoueurs td {
   word-wrap: break-word;      /* keeps text from expanding cells */
   overflow: hidden;
+}
+
+/* Tighten footer vertical spacing precisely */
+#joueursOptions tfoot td,
+#listJoueurs tfoot td {
+  padding-top: 4;
+  padding-bottom: 4;
+  height: 1px;             /* removes default cell height reserve */
+}
+
+.footer-controls {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  padding-top: 4 !important;
+  padding-bottom: 4 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  height: auto;
 }
