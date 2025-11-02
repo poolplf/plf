@@ -1,182 +1,123 @@
-console.log("🧩 Drafts loader initialized");
+// === draftsLoader.js ===
+Promise.all([
+  fetch("./data/Choix.json").then(r => r.json()),
+  fetch("./data/Annees.json").then(r => r.json()),
+  fetch("./data/Joueurs.json").then(r => r.json()),
+  fetch("./data/PLF.json").then(r => r.json()),
+  fetch("./data/Equipes.json").then(r => r.json())
+])
+.then(([Choix, Annees, Joueurs, PLF, Equipes]) => {
+  const getPkAnnee = a => Number(a.PKAnnee ?? a.PKANNEE ?? a.pkAnnee);
+  const getShortName = (FkPLF) => {
+    const plf = PLF.find(p => Number(p.PkPLF) === Number(FkPLF));
+    if (!plf) return "";
+    const eq = Equipes.find(e => Number(e.PkEquipe) === Number(plf.FkEquipe));
+    return eq ? (eq.ShortName || "") : "";
+  };
+  const getPlayerName = (FkJoueurs) => {
+    const j = Joueurs.find(p => Number(p.PkJoueurs ?? p.PKJOUEUR ?? p.PKJoueurs) === Number(FkJoueurs));
+    return j ? `${j.Prenom || ""} ${j.Nom || ""}`.trim() : "";
+  };
 
-(async function loadDrafts() {
-  try {
-    console.log("⚙️ Entering loadDrafts async block...");
+//console.table(Annees)
+// robust detection of "IsCurrent"
+const currentYear = Annees.find(a => {
+  const val = a.IsCurrent ?? a.isCurrent ?? a.ISCURRENT;
+  return String(val).toLowerCase() === "true";
+});
 
-    // --- 1️⃣ Load JSON data once ---
-    const files = ["Choix", "Annees", "PLF", "Equipes", "Joueurs"];
-    const data = {};
+//console.log("current year", currentYear);
 
-    await Promise.all(
-      files.map(async name => {
-        const res = await fetch(`./data/${name}.json`);
-        if (!res.ok) throw new Error(`Failed to load ${name}.json`);
-        data[name] = await res.json();
-      })
-    );
+if (!currentYear) {
+  console.error("❌ No IsCurrent year in Annees");
+  return;
+}
 
-    const { Choix, Annees, PLF, Equipes, Joueurs } = data;
-    console.log(
-      "✅ Data loaded:",
-      "Choix:", Choix.length,
-      "Annees:", Annees.length,
-      "PLF:", PLF.length,
-      "Equipes:", Equipes.length,
-      "Joueurs:", Joueurs.length
-    );
+const currentPk = getPkAnnee(currentYear);
 
-    // --- 2️⃣ Helpers ---
-    const getPkAnnee = a => Number(a.PKAnnee ?? a.PkAnnee);
+  const yearsAfter = Annees
+    .filter(a => getPkAnnee(a) > currentPk)
+    .sort((a,b) => getPkAnnee(a) - getPkAnnee(b))
+    .slice(0,3);
 
-    const parseYear = str => {
-      if (!str) return 0;
-      const match = String(str).match(/\d{4}/);
-      return match ? Number(match[0]) : 0;
-    };
+    //console.table(yearsAfter)
 
-    const getTeamShortName = fkPLF => {
-      const plf = PLF.find(p => Number(p.PkPLF) === Number(fkPLF));
-      if (!plf) return "";
-      const eq = Equipes.find(e => Number(e.PkEquipe) === Number(plf.FkEquipe));
-      return eq ? (eq.ShortName || eq.Shortname || eq.Nom || "") : "";
-    };
+// Show only past years that actually have picks in Choix
+const yearsBefore = Annees
+  .filter(a =>
+    getPkAnnee(a) < currentPk &&
+    Choix.some(c => Number(c.FkAnnee ?? c.FKANNEE) === getPkAnnee(a))
+  )
+  .sort((a,b) => getPkAnnee(b) - getPkAnnee(a));
 
-    const getPlayerName = fkJoueur => {
-      const j = Joueurs.find(j => Number(j.PKJoueurs || j.PkJoueur) === Number(fkJoueur));
-      return j ? `${j.Prenom || ""} ${j.Nom || ""}`.trim() : "";
-    };
+    //console.table(yearsBefore)
 
-    // --- 3️⃣ Year ordering ---
-    const currentAnnee = Annees.find(a => String(a.IsCurrent).toLowerCase() === "true");
-    if (!currentAnnee) {
-      console.error("❌ No current Annee found (IsCurrent)");
-      return;
-    }
+  // ❌ DO NOT filter by Choix here — we want future years even if empty
+  const displayYears = [...yearsAfter, currentYear, ...yearsBefore];
 
-    const yearsSortedAsc = [...Annees].sort(
-      (a, b) => parseYear(a.Annee) - parseYear(b.Annee)
-    );
+  const base = document.getElementById("draftTable");
+  if (!base) return console.error("draftTable not found");
+  const container = base.parentNode;
 
-    const currentIndex = yearsSortedAsc.findIndex(a => a.Annee === currentAnnee.Annee);
-    const nextTwo = yearsSortedAsc.slice(currentIndex + 1, currentIndex + 3);
-    const futureBlock = [currentAnnee, ...nextTwo];
+  // remove the static template; we'll insert a clone for every year
+  base.remove();
 
-    const remaining = yearsSortedAsc
-      .filter(a => !futureBlock.includes(a))
-      .sort((a, b) => parseYear(b.Annee) - parseYear(a.Annee));
+  const buildMini = (list) => {
+    const mini = document.createElement("table");
+    mini.className = "basicTable";
+    mini.id = "rondeTable";
+    mini.innerHTML = `
+      <thead>
+        <tr><th>OV</th><th>Orig</th><th>New</th><th>Joueur</th></tr>
+      </thead>
+      <tbody></tbody>`;
+    const tbody = mini.querySelector("tbody");
 
-    let finalYears = [...futureBlock, ...remaining];
+    list.slice().sort((a,b)=>Number(a.Overall)-Number(b.Overall)).forEach(c => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${c.Overall ?? ""}</td>
+        <td>${getShortName(c.FKPLF_OR_Owner ?? c.FKPLF_OR_OWNER)}</td>
+        <td>${getShortName(c.FKPLF_NEW_Owner ?? c.FKPLF_NEW_OWNER)}</td>
+        <td>${getPlayerName(c.FkJoueurs ?? c.FKJOUEURS)}</td>`;
+      tbody.appendChild(tr);
+    });
+    return mini;
+  };
 
-    // --- 4️⃣ Keep only years that have Choix entries ---
-    const yearsWithChoix = Choix.map(c => Number(c.FkAnnee ?? c.FKAnnee));
-    finalYears = finalYears.filter(a => yearsWithChoix.includes(getPkAnnee(a)));
+  displayYears.forEach(annee => {
+    const pkAnnee = getPkAnnee(annee);
+    const tbl = base.cloneNode(true);
 
-    console.log("✅ Year order (filtered):", finalYears.map(a => a.Annee));
+    // set year title
+    const yearNode = tbl.querySelector("#year");
+    if (yearNode) yearNode.textContent = annee.Annee;
 
-    // --- 5️⃣ Build the Draft tables ---
-    const wrapper = document.querySelector(".tables-wrapper");
-    wrapper.innerHTML = "";
-
-    finalYears.forEach(annee => {
-      const yearText = annee.Annee;
-      const pkAnnee = getPkAnnee(annee);
-
-      // main structure for that year
-      const table = document.createElement("table");
-      table.className = "mini-player-table";
-      table.innerHTML = `
-        <thead>
-          <tr><th colspan="4">Année: ${yearText}</th></tr>
-          <tr>
-            <td>Ronde 1</td>
-            <td>Ronde 2</td>
-            <td>Ronde 3</td>
-            <td>Ronde extra</td>
-          </tr>
-          <tr>
-            <td id="listRonde1-${pkAnnee}"></td>
-            <td id="listRonde2-${pkAnnee}"></td>
-            <td id="listRonde3-${pkAnnee}"></td>
-            <td id="listRondeX-${pkAnnee}"></td>
-          </tr>
-        </thead>
-      `;
-      wrapper.appendChild(table);
-
-      // Filter Choix for this year
-      const yearChoix = Choix.filter(c => Number(c.FkAnnee ?? c.FKAnnee) === pkAnnee);
-
-      // Group by Ronde
-      const grouped = { 1: [], 2: [], 3: [], X: [] };
-      yearChoix.forEach(chx => {
-        const ronde = Number(chx.Ronde);
-        const key = ronde >= 1 && ronde <= 3 ? ronde : "X";
-        grouped[key].push(chx);
-      });
-
-      // Sort & build mini-tables
-      Object.keys(grouped).forEach(r => {
-        const list = grouped[r];
-        if (!list.length) return;
-
-        list.sort((a, b) => {
-          const oa = Number(a.Overall);
-          const ob = Number(b.Overall);
-          if (!isNaN(oa) && !isNaN(ob)) return oa - ob;
-          if (!isNaN(oa)) return -1;
-          if (!isNaN(ob)) return 1;
-          return Number(a.PkChoix) - Number(b.PkChoix);
-        });
-
-        const mini = document.createElement("table");
-        mini.className = "mini-player-table";
-        mini.style.width = "100%";
-        mini.style.tableLayout = "fixed";
-
-        const thead = document.createElement("thead");
-        thead.innerHTML = `
-          <tr>
-            <th>OV</th>
-            <th>Orig</th>
-            <th>New</th>
-            <th>Joueurs</th>
-          </tr>`;
-        mini.appendChild(thead);
-
-        const tbody = document.createElement("tbody");
-        list.forEach(c => {
-          const tr = document.createElement("tr");
-// 🧩 Debug block – inspect player linkages
-//console.groupCollapsed(`Choix #${c.PkChoix || "?"}`);
-//console.log("FkJoueurs field in Choix:", c.FkJoueurs);
-const sample = Joueurs.find(j =>
-  Number(j.PKJoueurs) === Number(c.FkJoueurs)
-);
-//console.log("Matched Joueur object:", sample);
-//console.groupEnd();
-
-const overall = c.Overall || "";
-const orig = getTeamShortName(c.FKPLF_OR_Owner);
-const newOwner = getTeamShortName(c.FKPLF_NEW_Owner);
-const joueur = getPlayerName(c.FkJoueurs);
-          tr.innerHTML = `
-            <td>${overall}</td>
-            <td>${orig}</td>
-            <td>${newOwner}</td>
-            <td>${joueur}</td>`;
-          tbody.appendChild(tr);
-        });
-        mini.appendChild(tbody);
-
-        const cell = document.getElementById(`listRonde${r}-${pkAnnee}`);
-        if (cell) cell.appendChild(mini);
-      });
+    // uniquify ids for this table
+    [["year","year"],["listRonde1","listRonde1"],["listRonde2","listRonde2"],
+     ["listRonde3","listRonde3"],["listRondeX","listRondeX"]].forEach(([oldId, prefix])=>{
+      const el = tbl.querySelector(`#${oldId}`);
+      if (el) el.id = `${prefix}-${pkAnnee}`;
     });
 
-    console.log("✅ Drafts built successfully");
+    container.appendChild(tbl);
 
-  } catch (err) {
-    console.error("❌ Error in loadDrafts:", err);
-  }
-})();
+    // picks for this year (may be empty for future)
+    const yearChoix = Choix.filter(c => Number(c.FkAnnee ?? c.FKANNEE) === pkAnnee);
+    const grouped = {1:[],2:[],3:[],X:[]};
+    yearChoix.forEach(c => {
+      const r = Number(c.Ronde);
+      (r>=1 && r<=3 ? grouped[r] : grouped.X).push(c);
+    });
+
+    // fill rounds (only append mini table if there are picks)
+    ["1","2","3","X"].forEach(r=>{
+      const cell = tbl.querySelector(`#listRonde${r}-${pkAnnee}`);
+      if (!cell) return;
+      cell.innerHTML = "";
+      if (grouped[r].length) cell.appendChild(buildMini(grouped[r]));
+      // else leave empty cell for future drafts
+    });
+  });
+})
+.catch(err => console.error("Error loading draft data:", err));

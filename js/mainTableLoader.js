@@ -31,6 +31,8 @@ if (!tableBody) return console.error("❌ tbody not found");
     if (eq && eq.Logo) {
       const img = document.createElement('img');
       img.src = `files/${eq.Logo}`;
+      //img.width = 20;  // width in pixels
+      img.height = 20; // height in pixels
       img.alt = pooler.Pooler;
       logoCell.appendChild(img);
     } else {
@@ -169,8 +171,7 @@ function fillLeagueTrades() {
 
         const html = logo
           ? `<img src="${logo}" alt="${name}" 
-               style="height:22px;width:22px;border-radius:50%;
-                      vertical-align:middle;margin-right:6px;">${name}`
+               style="height:18px;width:18px; vertical-align:middle;margin-right:6px;">${name}`
           : name;
 
         return `<span>${html}</span>`;

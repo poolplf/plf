@@ -8,43 +8,37 @@
 </head>
 <body>
 
+
+
+  <div  id="sidebar" class="sidebar">
   <!-- Toggle button (hamburger) -->
-  <button id="toggleSidebar" class="toggle-btn"></button>
 
-  <div class="container">
-    <!-- Sidebar -->
-    <div class="sidebar" id="sidebar">
-      <div class="logo">
-        <a href="index.html">
-          <img src="./files/PLF_Logo.png" alt="Hockey Pool Logo">
-        </a>
-      </div>
-
-      <ul class="menu">
-        <li class="menu-item has-submenu">
-          <a href="#">Équipes ▸</a>
-          <ul class="submenu" id="teamsSubmenu">
-            <!-- Teams will be inserted here -->
-          </ul>
-        </li>
-        <li class="menu-item"><a href="#" id="DraftsMenu">Repêchages</a></li>
-        <li class="menu-item"><a href="#" id="StandingsMenu">Classement</a></li>
-        <li class="menu-item"><a href="#" id="PlayersMenu">Joueurs</a></li>        
-        <li class="menu-item"><a href="#" id="RulesMenu">Règlements</a></li>
-        <li class="menu-item"><a href="#" id="DebutMenu">Début</a></li>
-        <li class="menu-item"><a href="#" id="AideMenu">Aide</a></li>
-      </ul>
+    <div class="logo">
+      <a href="index.html">
+        <img src="./files/PLF_Logo.png" alt="Hockey Pool Logo">
+      </a>
     </div>
 
-    <!-- Main content -->
-    <div class="main-content" id="mainContent">
-      <!-- Dynamic content loads here -->
-    </div>
+      <nav class="menu">
+        <a href="index.html" id="TeamsMenu">Équipes</a>
+        <a href="#" id="DraftsMenu">Repêchages</a>
+        <a href="#" id="StandingsMenu">Classements</a>
+        <a href="#" id="PlayersMenu">Joueurs</a>
+        <a href="#" id="RulesMenu">Règlements</a>
+        <a href="#" id="DebutMenu">Début</a>
+    </nav>
+
+      <button id="toggleSidebar" class="toggle-btn">◀</button>
+ </div>
+
+
+
+
+  <div id="mainContent" class="mainContent">
+    
   </div>
-
-  <!-- Your main JS -->
-  <script type="module" src="./js/main.js"></script>
 </body>
 
+   <script type="module" src="./js/main.js"></script>
+</body>
 </html>
-

@@ -7,10 +7,9 @@
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-  <div class="players-wrapper">
-    <div class="tables-wrapper">      
+
       <!-- === 1st Table === -->
-      <table id="joueursOptions" class="mini-player-table">
+      <table id="joueursOptions" class="basicTable" style="width: 800px;">
         <thead>
           <tr><th colspan="5">Listes des Joueurs</th></tr>
         </thead>
@@ -58,7 +57,7 @@
 </tbody>
 <tfoot>
       <tr>
-        <td colspan="7" id="footerJoueurs">
+        <td id="footerJoueurs" colspan="7" id="footerJoueurs">
           <div class="footer-controls">
             <span class="page-size-label">Afficher:</span>
             <button id="btn50" class="page-size">50</button>
@@ -69,14 +68,14 @@
             <button id="btnNext" class="nav-btn"> ▶</button>
 
             <span id="totalInfo" class="total-info">(Total: 0)</span>
-          </div>
+            </div>
         </td>
       </tr>
     </tfoot>
       </table>
 
       <!-- === 2nd Table === -->
-      <table id="listJoueurs" class="mini-player-table">
+      <table id="listJoueurs" class="basicTable" style="width: 800px;">
         <thead>
           <tr>
             <th>Nom</th>
@@ -94,8 +93,8 @@
         </tbody>
         <tfoot>
         <tr>
-            <td colspan="7" id="footerJoueurs">
-            <div class="footer-controls">
+            <td id="footerJoueurs" colspan="7" id="footerJoueurs">
+              <div class="footer-controls">
                 <span class="page-size-label">Afficher:</span>
                 <button id="btn50_2" class="page-size">50</button>
                 <button id="btn100_2" class="page-size active">100</button>
@@ -105,13 +104,11 @@
                 <button id="btnNext_2" class="nav-btn"> ▶</button>
 
                 <span id="totalInfo_2" class="total-info">(Total: 0)</span>
-            </div>
+                </div>
             </td>
         </tr>
         </tfoot>
       </table>
 
-    </div>
-  </div>
 </body>
 </html>

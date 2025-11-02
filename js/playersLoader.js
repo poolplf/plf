@@ -220,6 +220,7 @@ const searchBox = document.getElementById("playerName");
 cbAll.addEventListener("change", () => {
   if (cbAll.checked) {
     positionCheckboxes.forEach(cb => (cb.checked = false));
+     cbFreeBox.checked = false;   // ✅ clear "Libre"
   }
   searchBox.value = "";  // ✅ clear text search
   filterPlayers();

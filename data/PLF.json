@@ -1,1 +1,170 @@
-﻿[{"PkPLF":"4","Pooler":"Dominique C.","FkEquipe":"14","Courriel":"plf_pool@hotmail.com","LogoString":"tampa-bay-lightning.webp","Titre":"Président"},{"PkPLF":"5","Pooler":"Guillaume P.C.","FkEquipe":"29","Courriel":"guillaumecabana@hotmail.com","LogoString":"san-jose-sharks.webp","Titre":"Vice-Président"},{"PkPLF":"6","Pooler":"Vincent T.","FkEquipe":"25","Courriel":"garagevap.vincent@videotron.ca","LogoString":"anaheim-ducks.webp","Titre":null},{"PkPLF":"7","Pooler":"Patrice V.","FkEquipe":"9","Courriel":"patrice.voss@gmail.com","LogoString":"buffalo-sabres.webp","Titre":null},{"PkPLF":"8","Pooler":"Stéphane L.","FkEquipe":"26","Courriel":"staphanelavoie@me.com","LogoString":"calgary-flames.webp","Titre":null},{"PkPLF":"9","Pooler":"Steven C.","FkEquipe":"1","Courriel":"scky2197@gmail.com","LogoString":"carolina-hurricanes.webp","Titre":null},{"PkPLF":"10","Pooler":"David T.","FkEquipe":"18","Courriel":"raybourquedt@gmail.com","LogoString":"chicago-blackhawks.webp","Titre":null},{"PkPLF":"11","Pooler":"Fabris A.","FkEquipe":"19","Courriel":"fabrisaubin@gmail.com","LogoString":"colorado-avalanche.webp","Titre":null},{"PkPLF":"12","Pooler":"Patrick L.","FkEquipe":"20","Courriel":"patrick-lelievre@outlook.com","LogoString":"dallas-stars.webp","Titre":"Champion en titre"},{"PkPLF":"14","Pooler":"Joaquin P.S.G.","FkEquipe":"27","Courriel":"joaquin.poundja@yahoo.ca","LogoString":"edmonton-oilers.webp","Titre":"Trésorier"},{"PkPLF":"15","Pooler":"Sylvain B.","FkEquipe":"28","Courriel":"sylvainplv@hotmail.com","LogoString":"los-angeles-kings.webp","Titre":null},{"PkPLF":"16","Pooler":"Maxime F.","FkEquipe":"12","Courriel":"faubert.maxime@gmail.com","LogoString":"montreal-canadiens.webp","Titre":null},{"PkPLF":"18","Pooler":"François L.","FkEquipe":"13","Courriel":"djfranky83@hotmail.com","LogoString":"ottawa-senators.webp","Titre":null},{"PkPLF":"19","Pooler":"Michael B.","FkEquipe":"7","Courriel":"blackimike82@gmail.com","LogoString":"pittsburgh-penguins.webp","Titre":null},{"PkPLF":"20","Pooler":"Philippe T.","FkEquipe":"30","Courriel":"philippetrudelle@hotmail.com","LogoString":"seattle-kraken.webp","Titre":null},{"PkPLF":"21","Pooler":"Orianne T.","FkEquipe":"31","Courriel":"oriannethibault@gmail.com","LogoString":"vancouver-canucks.webp","Titre":null},{"PkPLF":"22","Pooler":"Yvon B.","FkEquipe":"32","Courriel":"yvoningo@hotmail.com","LogoString":"vegas-golden-knights.webp","Titre":null},{"PkPLF":"23","Pooler":"Alexandre CV","FkEquipe":"24","Courriel":"alexandrecsuzdivallee@hotmail.ca","LogoString":"winnipeg-jets.webp","Titre":null},{"PkPLF":"24","Pooler":"Donat T.","FkEquipe":"5","Courriel":"donat.theriault@hotmail.com","LogoString":"new-york-rangers.webp","Titre":null},{"PkPLF":"25","Pooler":"Alex G.","FkEquipe":"36","Courriel":"alexg717@gmail.com","LogoString":"utah-mammoth.webp","Titre":null},{"PkPLF":"27","Pooler":"Libre","FkEquipe":"34","Courriel":"Joueur Libre","LogoString":"libre.png","Titre":null}]
+﻿[
+  {
+    "PkPLF": "4",
+    "Pooler": "Dominique C.",
+    "FkEquipe": "14",
+    "Courriel": "plf_pool@hotmail.com",
+    "LogoString": "tampa-bay-lightning.webp",
+    "Titre": "Président"
+  },
+  {
+    "PkPLF": "5",
+    "Pooler": "Guillaume P.C.",
+    "FkEquipe": "29",
+    "Courriel": "guillaumecabana@hotmail.com",
+    "LogoString": "san-jose-sharks.webp",
+    "Titre": "Vice-Président"
+  },
+  {
+    "PkPLF": "6",
+    "Pooler": "Vincent T.",
+    "FkEquipe": "25",
+    "Courriel": "garagevap.vincent@videotron.ca",
+    "LogoString": "anaheim-ducks.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "7",
+    "Pooler": "Patrice V.",
+    "FkEquipe": "9",
+    "Courriel": "patrice.voss@gmail.com",
+    "LogoString": "buffalo-sabres.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "8",
+    "Pooler": "Stéphane L.",
+    "FkEquipe": "26",
+    "Courriel": "staphanelavoie@me.com",
+    "LogoString": "calgary-flames.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "9",
+    "Pooler": "Steven C.",
+    "FkEquipe": "1",
+    "Courriel": "scky2197@gmail.com",
+    "LogoString": "carolina-hurricanes.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "10",
+    "Pooler": "David T.",
+    "FkEquipe": "18",
+    "Courriel": "raybourquedt@gmail.com",
+    "LogoString": "chicago-blackhawks.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "11",
+    "Pooler": "Fabris A.",
+    "FkEquipe": "19",
+    "Courriel": "fabrisaubin@gmail.com",
+    "LogoString": "colorado-avalanche.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "12",
+    "Pooler": "Patrick L.",
+    "FkEquipe": "20",
+    "Courriel": "patrick-lelievre@outlook.com",
+    "LogoString": "dallas-stars.webp",
+    "Titre": "Champion en titre"
+  },
+  {
+    "PkPLF": "14",
+    "Pooler": "Joaquin P.S.G.",
+    "FkEquipe": "27",
+    "Courriel": "joaquin.poundja@yahoo.ca",
+    "LogoString": "edmonton-oilers.webp",
+    "Titre": "Trésorier"
+  },
+  {
+    "PkPLF": "15",
+    "Pooler": "Sylvain B.",
+    "FkEquipe": "28",
+    "Courriel": "sylvainplv@hotmail.com",
+    "LogoString": "los-angeles-kings.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "16",
+    "Pooler": "Maxime F.",
+    "FkEquipe": "12",
+    "Courriel": "faubert.maxime@gmail.com",
+    "LogoString": "montreal-canadiens.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "18",
+    "Pooler": "François L.",
+    "FkEquipe": "13",
+    "Courriel": "djfranky83@hotmail.com",
+    "LogoString": "ottawa-senators.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "19",
+    "Pooler": "Michael B.",
+    "FkEquipe": "7",
+    "Courriel": "blackimike82@gmail.com",
+    "LogoString": "pittsburgh-penguins.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "20",
+    "Pooler": "Philippe T.",
+    "FkEquipe": "30",
+    "Courriel": "philippetrudelle@hotmail.com",
+    "LogoString": "seattle-kraken.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "21",
+    "Pooler": "Orianne T.",
+    "FkEquipe": "31",
+    "Courriel": "oriannethibault@gmail.com",
+    "LogoString": "vancouver-canucks.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "22",
+    "Pooler": "Yvon B.",
+    "FkEquipe": "32",
+    "Courriel": "yvoningo@hotmail.com",
+    "LogoString": "vegas-golden-knights.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "23",
+    "Pooler": "Alexandre CV",
+    "FkEquipe": "24",
+    "Courriel": "alexandrecsuzdivallee@hotmail.ca",
+    "LogoString": "winnipeg-jets.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "24",
+    "Pooler": "Donat T.",
+    "FkEquipe": "5",
+    "Courriel": "donat.theriault@hotmail.com",
+    "LogoString": "new-york-rangers.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "25",
+    "Pooler": "Alex G.",
+    "FkEquipe": "36",
+    "Courriel": "alexg717@gmail.com",
+    "LogoString": "utah-mammoth.webp",
+    "Titre": null
+  },
+  {
+    "PkPLF": "27",
+    "Pooler": "Libre",
+    "FkEquipe": "34",
+    "Courriel": "Joueur Libre",
+    "LogoString": "libre.png",
+    "Titre": null
+  }
+]

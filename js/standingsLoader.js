@@ -39,7 +39,8 @@ const yearsSorted = [...Annees]
 
       // Create table for this year
       const table = document.createElement("table");
-      table.className = "mini-player-table";
+      table.className = "basicTable";
+      table.id ="standingsTable";
       table.innerHTML = `
         <thead>
           <tr><th colspan="3">Année: ${yearText}</th></tr>
@@ -58,10 +59,11 @@ const yearsSorted = [...Annees]
         // Resolve Pooler short name
         const plf = PLF.find(p => Number(p.PkPLF) === Number(c.FkPooler));
         let shortName = "?";
+       
         if (plf) {
           const eq = Equipes.find(e => Number(e.PkEquipe) === Number(plf.FkEquipe));
-          if (eq && (eq.ShortName || eq.Shortname)) {
-            shortName = eq.ShortName || eq.Shortname;
+          if (eq && eq.Ville && eq.Nom) {
+            shortName = eq.Ville + " " + eq.Nom;
           }
         }
 
@@ -73,6 +75,13 @@ const yearsSorted = [...Annees]
         `;
         tbody.appendChild(tr);
       });
+
+          const emptyRow = document.createElement("tr");
+      const emptyCell = document.createElement("td");
+      emptyCell.colSpan = 100;       // covers all columns
+      emptyCell.innerHTML = "&nbsp;"; // adds a tiny visible space
+      emptyRow.appendChild(emptyCell);
+      tbody.appendChild(emptyRow);
 
       wrapper.appendChild(table);
     });

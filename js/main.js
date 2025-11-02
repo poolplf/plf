@@ -6,23 +6,23 @@ if (typeof window.currentPkPLF === "undefined") {
 
 
 
-import { loadTeamsMenu } from "./menuLoader.js";
+//import { loadTeamsMenu } from "./menuLoader.js";
 
 
 // Toggle submenu on click
-const teamsMenuLink = document.querySelector(".menu-item.has-submenu > a");
+//const teamsMenuLink = document.querySelector(".menu-item.has-submenu > a");
 
-teamsMenuLink.addEventListener("click", (e) => {
+/*teamsMenuLink.addEventListener("click", (e) => {
   e.preventDefault();
   const parentLi = teamsMenuLink.parentElement;
   parentLi.classList.toggle("open"); // this will show/hide submenu
-});
+});*/
 
 
 // Load Teams submenu
-loadTeamsMenu("./data/PLF.json","./data/Equipes.json", "teamsSubmenu", (key, name) => {
-  const display = document.getElementById("selectedTeam");
-});
+//oadTeamsMenu("./data/PLF.json","./data/Equipes.json", "teamsSubmenu", (key, name) => {
+//  const display = document.getElementById("selectedTeam");
+//});
 
 const sidebar = document.getElementById("sidebar");
 const toggleBtn = document.getElementById("toggleSidebar");
@@ -102,10 +102,10 @@ document.getElementById('DebutMenu').addEventListener('click', e => {
   loadPage('./content/debut.html');
 });
 
-document.getElementById('AideMenu').addEventListener('click', e => {
+/*document.getElementById('AideMenu').addEventListener('click', e => {
   e.preventDefault();
   loadPage('./content/aide.html');
-});
+});*/
 
 window.pkPLF = Number(window.currentPkPLF) || Number(window.pkPLF) || null;
 // 🔹 Make it accessible everywhere

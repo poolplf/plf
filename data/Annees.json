@@ -1,1 +1,257 @@
-﻿[{"PKAnnee":"1","Annee":"1980-81","IsCurrent":"False"},{"PKAnnee":"2","Annee":"1981-82","IsCurrent":"False"},{"PKAnnee":"3","Annee":"1982-83","IsCurrent":"False"},{"PKAnnee":"4","Annee":"1983-84","IsCurrent":"False"},{"PKAnnee":"5","Annee":"1984-85","IsCurrent":"False"},{"PKAnnee":"6","Annee":"1985-86","IsCurrent":"False"},{"PKAnnee":"7","Annee":"1986-87","IsCurrent":"False"},{"PKAnnee":"8","Annee":"1987-88","IsCurrent":"False"},{"PKAnnee":"9","Annee":"1988-89","IsCurrent":"False"},{"PKAnnee":"10","Annee":"1989-90","IsCurrent":"False"},{"PKAnnee":"11","Annee":"1990-91","IsCurrent":"False"},{"PKAnnee":"12","Annee":"1991-92","IsCurrent":"False"},{"PKAnnee":"13","Annee":"1992-93","IsCurrent":"False"},{"PKAnnee":"14","Annee":"1993-94","IsCurrent":"False"},{"PKAnnee":"15","Annee":"1994-95","IsCurrent":"False"},{"PKAnnee":"16","Annee":"1995-96","IsCurrent":"False"},{"PKAnnee":"17","Annee":"1996-97","IsCurrent":"False"},{"PKAnnee":"18","Annee":"1997-98","IsCurrent":"False"},{"PKAnnee":"19","Annee":"1998-99","IsCurrent":"False"},{"PKAnnee":"20","Annee":"1999-00","IsCurrent":"False"},{"PKAnnee":"21","Annee":"2000-01","IsCurrent":"False"},{"PKAnnee":"22","Annee":"2001-02","IsCurrent":"False"},{"PKAnnee":"23","Annee":"2002-03","IsCurrent":"False"},{"PKAnnee":"24","Annee":"2003-04","IsCurrent":"False"},{"PKAnnee":"25","Annee":"2004-05","IsCurrent":"False"},{"PKAnnee":"26","Annee":"2005-06","IsCurrent":"False"},{"PKAnnee":"27","Annee":"2006-07","IsCurrent":"False"},{"PKAnnee":"28","Annee":"2007-08","IsCurrent":"False"},{"PKAnnee":"29","Annee":"2008-09","IsCurrent":"False"},{"PKAnnee":"30","Annee":"2009-10","IsCurrent":"False"},{"PKAnnee":"31","Annee":"2010-11","IsCurrent":"False"},{"PKAnnee":"32","Annee":"2011-12","IsCurrent":"False"},{"PKAnnee":"33","Annee":"2012-13","IsCurrent":"False"},{"PKAnnee":"34","Annee":"2013-14","IsCurrent":"False"},{"PKAnnee":"35","Annee":"2014-15","IsCurrent":"False"},{"PKAnnee":"36","Annee":"2015-16","IsCurrent":"False"},{"PKAnnee":"37","Annee":"2016-17","IsCurrent":"False"},{"PKAnnee":"38","Annee":"2017-18","IsCurrent":"False"},{"PKAnnee":"39","Annee":"2018-19","IsCurrent":"False"},{"PKAnnee":"40","Annee":"2019-20","IsCurrent":"False"},{"PKAnnee":"41","Annee":"2020-21","IsCurrent":"False"},{"PKAnnee":"42","Annee":"2021-22","IsCurrent":"False"},{"PKAnnee":"43","Annee":"2022-23","IsCurrent":"False"},{"PKAnnee":"44","Annee":"2023-24","IsCurrent":"False"},{"PKAnnee":"45","Annee":"2024-25","IsCurrent":"False"},{"PKAnnee":"46","Annee":"2025-26","IsCurrent":"True"},{"PKAnnee":"47","Annee":"2026-27","IsCurrent":"False"},{"PKAnnee":"48","Annee":"2027-28","IsCurrent":"False"},{"PKAnnee":"49","Annee":"2028-29","IsCurrent":"False"},{"PKAnnee":"50","Annee":"2029-30","IsCurrent":"False"},{"PKAnnee":"51","Annee":"2030-31","IsCurrent":"False"}]
+﻿[
+  {
+    "PKAnnee": "1",
+    "Annee": "1980-81",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "2",
+    "Annee": "1981-82",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "3",
+    "Annee": "1982-83",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "4",
+    "Annee": "1983-84",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "5",
+    "Annee": "1984-85",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "6",
+    "Annee": "1985-86",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "7",
+    "Annee": "1986-87",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "8",
+    "Annee": "1987-88",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "9",
+    "Annee": "1988-89",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "10",
+    "Annee": "1989-90",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "11",
+    "Annee": "1990-91",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "12",
+    "Annee": "1991-92",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "13",
+    "Annee": "1992-93",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "14",
+    "Annee": "1993-94",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "15",
+    "Annee": "1994-95",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "16",
+    "Annee": "1995-96",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "17",
+    "Annee": "1996-97",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "18",
+    "Annee": "1997-98",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "19",
+    "Annee": "1998-99",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "20",
+    "Annee": "1999-00",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "21",
+    "Annee": "2000-01",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "22",
+    "Annee": "2001-02",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "23",
+    "Annee": "2002-03",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "24",
+    "Annee": "2003-04",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "25",
+    "Annee": "2004-05",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "26",
+    "Annee": "2005-06",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "27",
+    "Annee": "2006-07",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "28",
+    "Annee": "2007-08",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "29",
+    "Annee": "2008-09",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "30",
+    "Annee": "2009-10",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "31",
+    "Annee": "2010-11",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "32",
+    "Annee": "2011-12",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "33",
+    "Annee": "2012-13",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "34",
+    "Annee": "2013-14",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "35",
+    "Annee": "2014-15",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "36",
+    "Annee": "2015-16",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "37",
+    "Annee": "2016-17",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "38",
+    "Annee": "2017-18",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "39",
+    "Annee": "2018-19",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "40",
+    "Annee": "2019-20",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "41",
+    "Annee": "2020-21",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "42",
+    "Annee": "2021-22",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "43",
+    "Annee": "2022-23",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "44",
+    "Annee": "2023-24",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "45",
+    "Annee": "2024-25",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "46",
+    "Annee": "2025-26",
+    "IsCurrent": "True"
+  },
+  {
+    "PKAnnee": "47",
+    "Annee": "2026-27",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "48",
+    "Annee": "2027-28",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "49",
+    "Annee": "2028-29",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "50",
+    "Annee": "2029-30",
+    "IsCurrent": "False"
+  },
+  {
+    "PKAnnee": "51",
+    "Annee": "2030-31",
+    "IsCurrent": "False"
+  }
+]

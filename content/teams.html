@@ -13,12 +13,12 @@
     <div class="team-left">
 
       <!-- Top menu -->
-      <table id="teamTopMenu" class="team-page-top">
+      <table id="teamTopMenu" class="team-page-top basicTable">
         <tr><td id="topMenu"></td></tr>
       </table>
 
       <!-- Team Header -->
-      <table id="teamHeader" class="team-page-table">
+      <table id="teamHeader" class="team-page-table basicTable">
         <tr>
           <td class="logo-cell" rowspan="3" id="teamLogo"></td>
           <td>
@@ -27,14 +27,14 @@
             <div id="teamExtra" class="team-info"></div>
           </td>
           <td>
-            <table class="mini-table">
+            <table class="mini-table basicTable">
               <tr><td>Nombre de joueurs :</td><td id="nbPlayersValue"></td></tr>
               <tr><td>Masse salariale :</td><td id="capValue"></td></tr>
               <tr><td id="Ajustement">Ajustement pour blessé(s) :</td><td id="capInjured"></td></tr>
             </table>
           </td>
           <td>
-            <table class="mini-table">
+            <table class="mini-table basicTable">
               <tr><td>Listes des blessés :</td><td id="Injured"></td><td></td></tr>
             </table>
           </td>
@@ -42,32 +42,35 @@
       </table>
 
       <!-- Players + Picks + Archive -->
-      <table id="playerSections" class="team-page-table">
+      <!--table id="playerSections" class="team-page-table basicTable"-->
+      <div class="playerSectionsWrapper">
+        <table id="playerSections" class="basicTable">
         <thead>
           <tr>
             <th>Attaquants (<span id="forwardsTotal"></span>)</th>
             <th>Défenseurs (<span id="defenseTotal"></span>)</th>
             <th>Gardiens (<span id="goalersTotal"></span>)</th>
-            <th id="picksHeader"></th>
-            <th>Historique</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><table id="forwardsTable" class="mini-player-table"><tbody id="forwardsList"></tbody></table></td>
-            <td><table id="defenseTable" class="mini-player-table"><tbody id="defenseList"></tbody></table></td>
-            <td><table id="goalersTable" class="mini-player-table"><tbody id="goalersList"></tbody></table></td>
-            <td><table id="picksArchives" class="mini-player-table"><tbody id="picksList"></tbody></table></td>
-            <td><table id="archive" class="mini-player-table"><tbody id="archiveList"></tbody></table></td>
+            <td><table id="forwardsTable" class="basicTable"><tbody id="forwardsList"></tbody></table></td>
+            <td><table id="defenseTable" class="basicTable"><tbody id="defenseList"></tbody></table></td>
+            <td><table id="goalersTable" class="basicTable"><tbody id="goalersList"></tbody></table></td>
           </tr>
         </tbody>
       </table>
+          <div class="sideTables">
+            <div id="picksArchives"></div>
+            <table id="archive" class="basicTable"><thead><th>Historique</th></thead><tbody id="archiveList"></tbody></table>
+          </div>
 
+    </div>
     </div>
 
     <!-- RIGHT SIDE (transactions) -->
     <div class="team-right">
-      <table id="tradesTable" class="team-page-table">
+      <table id="tradesTable" class="team-page-table basicTable">
         <thead><tr><th>Transactions</th></tr></thead>
         <tbody id="tradesList"></tbody>
       </table>

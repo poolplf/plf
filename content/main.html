@@ -6,41 +6,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Accueil</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
-   
-<div class="team-layout">
-
-  <!-- LEFT: Poolers summary -->
-  <div class="team-left">
-    <table id="mainPoolerTable" class="mini-player-table team-page-table">
-      <thead>
-        <tr>
-          <th></th>
-          <th>Pooler</th>
-          <th>Masse</th>
-          <th>ATT</th>
-          <th>DEF</th>
-          <th>G</th>
-          <th>TOT</th>
-          <th>Courriel</th>
-        </tr>
-      </thead>
-      <tbody id="plfTableBody"></tbody>
-    </table>
+  <div id="importantBanner" class="important-banner">
+    🚨 1er ballottage le 15 décembre. Tirage pour les 5 derniers la veille. L'ordre sera le même le 15 janvier pour ceux qui décident de passer leur tour. 
   </div>
+  <table>
+    <tr>
+      <td style="vertical-align: top;"> 
+        <table id="mainPoolerTable" class="basicTable">
+            <thead>
+              <tr>
+                <th></th>
+                <th>POOLER</th>
+                <th>MASSE</th>
+                <th>ATT</th>
+                <th>DEF</th>
+                <th>G</th>
+                <th>TOT</th>
+                <th>COURRIEL</th>
+              </tr>
+            </thead>
+            <tbody id="plfTableBody"></tbody>
+          </table>
+      </td>
+      <td style> 
+        <table id="leagueTradesTable" class="basicTable">
+          <thead><tr><th colspan="2" style="width: 270px;">Dernières transactions (20)</th></tr></thead>
+          <tbody id="leagueTradesList">
 
-  <!-- RIGHT: League transactions -->
-   <div class="trade-block">
-  <div class="team-right">
-    <table id="leagueTradesTable" class="team-page-table">
-      <thead><tr><th colspan="2">Dernières transactions (20)</th></tr></thead>
-      <tbody id="leagueTradesList">
-      </tbody>
-    </table>
-  </div></div>
-
-</div>
+          </tbody>
+        </table>
+      </td> 
+    </tr>
+  </table>
 </body>
 </html>

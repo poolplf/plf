@@ -7,20 +7,31 @@
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-  <div class="drafts-wrapper">
-    <div class="tables-wrapper">
-      <table id="plfTable" class="mini-player-table">
-        <thead>
-          <tr>
-            <th colspan="4">Année: <span id="year"></span></th>
-          </tr>
-          <tr><td>Ronde 1</td><td>Ronde 2</td><td>Ronde 3</td><td>Ronde Extra</td></tr>
-          <tr><td id="listRonde1"></td><td id="listRonde2"></td><td id="listRonde3"></td><td id="listRondeX"></td></tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </div>
+
+<table id="draftTable" class="basicTable">
+  <thead>
+    <tr>
+      <th colspan="4"><span id="year"></span></th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th>Ronde 1</th>
+      <th>Ronde 2</th>
+      <th>Ronde 3</th>
+      <th>Ronde Extra</th>
+    </tr>
+    <tr>
+      <td id="listRonde1"></td>
+      <td id="listRonde2"></td>
+      <td id="listRonde3"></td>
+      <td id="listRondeX"></td>
+    </tr>
+  </tbody>
+</table>
+
+
   <script src="./js/draftsLoader.js" defer></script>
 </body>
 </html>
