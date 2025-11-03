@@ -13099,7 +13099,7 @@
     "FkEquipe": "7",
     "FKPays": "4",
     "FKPosition": "1",
-    "FKPLF": "10",
+    "FKPLF": "20",
     "FKPLFSalaire": "1",
     "FkStatut": "1"
   },
@@ -13399,7 +13399,7 @@
     "FkEquipe": "18",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "20",
+    "FKPLF": "10",
     "FKPLFSalaire": "1",
     "FkStatut": "1"
   },

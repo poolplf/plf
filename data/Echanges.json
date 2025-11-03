@@ -1118,5 +1118,12 @@
     "FkPooler2": "10",
     "DateEchange": "2025-11-02",
     "FkAnnee": "46"
+  },
+  {
+    "PkEchange": "175",
+    "FkPooler1": "20",
+    "FkPooler2": "10",
+    "DateEchange": "2025-11-02",
+    "FkAnnee": "46"
   }
 ]
