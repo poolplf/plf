@@ -979,7 +979,7 @@
     "FkEquipe": "15",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "5",
+    "FKPLF": "22",
     "FKPLFSalaire": "7",
     "FkStatut": "1"
   },
@@ -7387,7 +7387,7 @@
     "FkEquipe": "4",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "22",
+    "FKPLF": "5",
     "FKPLFSalaire": "8",
     "FkStatut": "1"
   },
@@ -9196,7 +9196,7 @@
     "Prenom": "Calle",
     "Nom": "Rosen",
     "DateNaissance": "1994-02-02",
-    "FkEquipe": "15",
+    "FkEquipe": "23",
     "FKPays": "3",
     "FKPosition": "7",
     "FKPLF": "27",
