@@ -7,9 +7,10 @@ Promise.all([
   fetch('data/PLF.json').then(r => r.json()),
   fetch('data/Equipes.json').then(r => r.json()),
   fetch('data/Joueurs.json').then(r => r.json()),
+  fetch('data/Injured.json').then(r => r.json()),
   fetch('data/Salaires.json').then(r => r.json())
 ])
-.then(([plf, equipes, joueurs, salaires]) => {
+.then(([plf, equipes, joueurs,injured, salaires]) => {
   //console.log("✅ JSONs loaded:", plf.length, equipes.length, joueurs.length, salaires.length);
 
   // Remove unwanted entries
@@ -60,6 +61,11 @@ if (!tableBody) return console.error("❌ tbody not found");
         totalSalary += isNaN(clean) ? 0 : clean;
       }
     });
+
+    const totalInjured = getTotalInjuredSalaryByPLF(pooler.PkPLF, injured, joueurs, salaires);
+    //console.log("total avant", totalInjured)
+    totalSalary = totalSalary - totalInjured
+    //console.log("total apres", totalSalary)
 
     const salaryCell = row.insertCell();    
     salaryCell.textContent = totalSalary.toLocaleString();
@@ -200,5 +206,28 @@ function fillLeagueTrades() {
   })
   .catch(err => console.error("Error loading league trades:", err));
 }
+
+function getTotalInjuredSalaryByPLF(pkPLF, Injured, Joueurs, Salaires) {
+  if (!Array.isArray(Injured) || !Array.isArray(Joueurs) || !Array.isArray(Salaires)) {
+    console.warn("Missing arrays in getTotalInjuredSalaryByPLF");
+    return 0;
+  }
+
+  const injuredPlayers = Injured.filter(inj => inj.FkPooler === pkPLF);
+  let total = 0;
+
+  for (const inj of injuredPlayers) {
+    const joueur = Joueurs.find(j => j.PKJoueurs === inj.FkJoueur);
+    if (joueur && joueur.FKPLFSalaire) {
+      const salaireObj = Salaires.find(s => s.PKSalaire === joueur.FKPLFSalaire);
+      if (salaireObj && !isNaN(Number(salaireObj.Salaire))) {
+        total += Number(salaireObj.Salaire);
+      }
+    }
+  }
+
+  return total > 10 ? 10 : total;
+}
+
 
 fillLeagueTrades();
