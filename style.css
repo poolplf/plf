@@ -342,9 +342,11 @@ nav.menu {
 
 .team-layout {
   display: grid;
-  grid-template-columns: 3fr 1fr; 
+  grid-template-columns: 78% 22%;
   align-items: start;
   width: 100%;
+  overflow-x: auto;      /* ✅ allow horizontal scroll */
+  width: max-content;    /* ✅ prevents columns from shrinking too much */
 }
 
 
@@ -372,13 +374,13 @@ nav.menu {
   display: flex;
   flex-direction: row; /* <— make sure it's row, not row-reverse */
   width: 100%;
-  overflow-x: auto; /* allows scroll on smaller screens */
+
   gap: 10px;
 }
 
 #playerSections {
-  flex: 0 0 72%;   /* makes players section about 3/4 of total width */
-  min-width: 800px; /* ensures proper layout, can adjust if needed */
+flex: 1;           /* allow it to scale freely */
+  min-width: 718px;  /* optional, lower if you want it tighter */
 }
 
 .sideTables {
@@ -524,8 +526,9 @@ nav.menu {
 /* Tighten footer vertical spacing precisely */
 #joueursOptions tfoot td,
 #listJoueurs tfoot td {
-  padding-top: 4;
-  padding-bottom: 4;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1;          /* neutralize extra vertical spacing from text */
   height: 1px;             /* removes default cell height reserve */
 }
 
@@ -535,9 +538,11 @@ nav.menu {
   justify-content: center;
   gap: 10px;
   font-size: 0.85rem;
-  padding-top: 4 !important;
-  padding-bottom: 4 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+  line-height: 1;
   height: auto;
 }
+
