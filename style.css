@@ -548,13 +548,17 @@ flex: 1;           /* allow it to scale freely */
 
 .tables-wrapper {
   display: flex;
-  flex-wrap: wrap;         /* allows them to go on multiple rows if needed */
-  gap: 1rem;               /* space between each table */
-  justify-content: flex-start;  /* left aligned; change to center if preferred */
+  flex-wrap: nowrap;       /* ❌ no wrapping */
+  overflow-x: auto;        /* ✅ horizontal scroll when too wide */
+  overflow-y: hidden;
+  gap: 1rem;
+  align-items: flex-start; /* keeps them top-aligned */
+  padding-bottom: 0.5rem;  /* a bit of space under scrollbar */
 }
 
+/* Optional: make sure tables don't shrink */
 .tables-wrapper table {
-  flex: 0 0 auto;          /* prevent tables from stretching */
+  flex: 0 0 auto;
 }
 
 .tables-wrapper table {
