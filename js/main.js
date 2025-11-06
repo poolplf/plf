@@ -82,6 +82,26 @@ document.getElementById('StandingsMenu').addEventListener('click', e => {
   }, 300);
 });
 
+document.getElementById('WaiversMenu').addEventListener('click', e => {
+  e.preventDefault();
+  loadPage('./content/waivers.html');
+  setTimeout(() => {
+    const script = document.createElement("script");
+    script.src = "./js/waiversLoader.js";
+    document.body.appendChild(script);
+  }, 300);
+});
+
+document.getElementById('DropsMenu').addEventListener('click', e => {
+  e.preventDefault();
+  loadPage('./content/drops.html');
+  setTimeout(() => {
+    const script = document.createElement("script");
+    script.src = "./js/dropsLoader.js";
+    document.body.appendChild(script);
+  }, 300);
+});
+
 document.getElementById('PlayersMenu').addEventListener('click', e => {
   e.preventDefault();
   loadPage('./content/players.html');

@@ -1,0 +1,18 @@
+﻿[
+  {
+    "PkStatutTrade": "1",
+    "Description": "Trade"
+  },
+  {
+    "PkStatutTrade": "2",
+    "Description": "Waivers"
+  },
+  {
+    "PkStatutTrade": "3",
+    "Description": "Drop"
+  },
+  {
+    "PkStatutTrade": "4",
+    "Description": "Draft"
+  }
+]

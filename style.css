@@ -546,3 +546,19 @@ flex: 1;           /* allow it to scale freely */
   height: auto;
 }
 
+.tables-wrapper {
+  display: flex;
+  flex-wrap: wrap;         /* allows them to go on multiple rows if needed */
+  gap: 1rem;               /* space between each table */
+  justify-content: flex-start;  /* left aligned; change to center if preferred */
+}
+
+.tables-wrapper table {
+  flex: 0 0 auto;          /* prevent tables from stretching */
+}
+
+.tables-wrapper table {
+  align-self: flex-start !important;
+  height: auto !important;
+  flex: 0 0 auto !important;
+}

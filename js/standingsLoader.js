@@ -43,7 +43,7 @@ const yearsSorted = [...Annees]
       table.id ="standingsTable";
       table.innerHTML = `
         <thead>
-          <tr><th colspan="3">Année: ${yearText}</th></tr>
+          <tr><th colspan="3">${yearText}</th></tr>
           <tr><th>Rang</th><th>Pooler</th><th>Points</th></tr>
         </thead>
         <tbody></tbody>
