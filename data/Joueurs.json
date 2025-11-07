@@ -8887,7 +8887,7 @@
     "FkEquipe": "29",
     "FKPays": "1",
     "FKPosition": "1",
-    "FKPLF": "4",
+    "FKPLF": "27",
     "FKPLFSalaire": "2",
     "FkStatut": "1"
   },
@@ -13075,7 +13075,7 @@
     "FkEquipe": "30",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "27",
+    "FKPLF": "4",
     "FKPLFSalaire": "1",
     "FkStatut": "1"
   },
