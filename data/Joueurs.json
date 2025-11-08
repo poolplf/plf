@@ -1948,7 +1948,7 @@
     "Prenom": "Michael",
     "Nom": "Carcone",
     "DateNaissance": "1996-05-19",
-    "FkEquipe": "34",
+    "FkEquipe": "36",
     "FKPays": "2",
     "FKPosition": "3",
     "FKPLF": "27",
@@ -2188,7 +2188,7 @@
     "Prenom": "Jeff",
     "Nom": "Skinner",
     "DateNaissance": "1992-05-16",
-    "FkEquipe": "34",
+    "FkEquipe": "29",
     "FKPays": "2",
     "FKPosition": "3",
     "FKPLF": "27",
@@ -6717,7 +6717,7 @@
     "FKPosition": "2",
     "FKPLF": "27",
     "FKPLFSalaire": "5",
-    "FkStatut": "1"
+    "FkStatut": "2"
   },
   {
     "PKJoueurs": "570",
@@ -7677,7 +7677,7 @@
     "FKPosition": "7",
     "FKPLF": "27",
     "FKPLFSalaire": "6",
-    "FkStatut": "1"
+    "FkStatut": "2"
   },
   {
     "PKJoueurs": "651",
