@@ -70,7 +70,7 @@ const yearsSorted = [...Annees]
         const tr = document.createElement("tr");
         tr.innerHTML = `
           <td>${rang}</td>
-          <td>${shortName}</td>
+          <td><a href="#" onclick="loadTeams(${c.FkPooler})">${shortName}</a></td>
           <td>${points}</td>
         `;
         tbody.appendChild(tr);

@@ -77,8 +77,8 @@ const yearsBefore = Annees
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td>${c.Overall ?? ""}</td>
-        <td>${getShortName(c.FKPLF_OR_Owner ?? c.FKPLF_OR_OWNER)}</td>
-        <td>${getShortName(c.FKPLF_NEW_Owner ?? c.FKPLF_NEW_OWNER)}</td>
+        <td><a href="#" onclick="loadTeams(${c.FKPLF_OR_Owner})">${getShortName(c.FKPLF_OR_Owner)}</a></td>
+        <td><a href="#" onclick="loadTeams(${c.FKPLF_NEW_Owner})">${getShortName(c.FKPLF_NEW_Owner)}</a></td>
         <td>${getPlayerName(c.FkJoueurs ?? c.FKJOUEURS)}</td>`;
       tbody.appendChild(tr);
     });

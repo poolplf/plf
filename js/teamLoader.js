@@ -574,16 +574,22 @@ function fillTradesTable() {
 
         const header = document.createElement("div");
         header.className = "trade-teams";
+
         const logoHTML = oppLogo
           ? `<img src="${oppLogo}" alt="${oppName}"
-               style="height:22px;width:22px;border-radius:50%;
+              style="height:22px;width:22px;border-radius:50%;
                       vertical-align:middle;margin-right:6px;">`
           : "";
 
+        // clickable opponent logo + name
         header.innerHTML = `
           <span style="font-weight:600;">${trade.DateEchange}</span>
-          <span>${logoHTML}${oppName}</span>
+          <a href="#" onclick="loadTeams(${otherPk})"
+            style="text-decoration:none;color:inherit;">
+            ${logoHTML}${oppName}
+          </a>
         `;
+
 
         const playersDiv = document.createElement("div");
         playersDiv.className = "trade-players";

@@ -83,7 +83,9 @@ console.log("🗑️ Drops loader initialized (stable grouping by pooler)");
 
         const tr = document.createElement("tr");
         tr.innerHTML = `
-          <td style="text-align:left;">${poolerTxt}</td>
+          <td style="text-align:left;">
+            <a href="#" onclick="loadTeams(${poolerId})">${poolerTxt}</a>
+          </td>
           <td style="text-align:left;">${droppedNames.join("<br>")}</td>
         `;
         tbody.appendChild(tr);

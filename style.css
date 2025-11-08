@@ -566,3 +566,9 @@ flex: 1;           /* allow it to scale freely */
   height: auto !important;
   flex: 0 0 auto !important;
 }
+
+a[href^="#"][onclick^="loadTeams"] img:hover {
+  filter: brightness(1.15);
+  transform: scale(1.05);
+  transition: 0.2s;
+}

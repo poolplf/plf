@@ -32,12 +32,11 @@ if (!tableBody) return console.error("❌ tbody not found");
     if (eq && eq.Logo) {
       const img = document.createElement('img');
       img.src = `files/${eq.Logo}`;
-      //img.width = 20;  // width in pixels
-      img.height = 20; // height in pixels
+      img.height = 20;
       img.alt = pooler.Pooler;
+      img.style.cursor = "pointer";
+      img.addEventListener('click', () => loadTeams(pooler.PkPLF));
       logoCell.appendChild(img);
-    } else {
-      logoCell.textContent = '—';
     }
 
     // 2. Pooler link
@@ -176,9 +175,12 @@ function fillLeagueTrades() {
         const logo = plf.LogoString ? `files/${plf.LogoString}` : null;
 
         const html = logo
-          ? `<img src="${logo}" alt="${name}" 
-               style="height:18px;width:18px; vertical-align:middle;margin-right:6px;">${name}`
-          : name;
+          ? `<a href="#" onclick="loadTeams(${pk})">
+              <img src="${logo}" alt="${name}"
+                style="height:18px;width:18px;vertical-align:middle;margin-right:6px;">
+              ${name}
+            </a>`
+          : `<a href="#" onclick="loadTeams(${pk})">${name}</a>`;
 
         return `<span>${html}</span>`;
       }

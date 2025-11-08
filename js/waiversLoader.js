@@ -79,7 +79,9 @@ console.log("🔁 Trades loader initialized (fixed filtering order)");
 
         const tr = document.createElement("tr");
         tr.innerHTML = `
-          <td style="text-align:left;">${poolerTxt}</td>
+          <td style="text-align:left;">
+            <a href="#" onclick="loadTeams(${N(ech.FkPooler1)})">${poolerTxt}</a>
+          </td>
           <td style="text-align:left;">${joueurIn}</td>
           <td style="text-align:left;">${joueurOut}</td>
         `;

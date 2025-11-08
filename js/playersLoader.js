@@ -198,7 +198,7 @@ function renderFooter() {
           <td>${games}</td>
           <td>${points}</td>
           <td>${salary}</td>
-          <td>${owner}</td>
+          <td><a href="#" onclick="loadTeams(${p.j.FKPLF})">${owner}</a></td>
         `;
         tbody.appendChild(tr);
       });
