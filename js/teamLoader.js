@@ -111,9 +111,27 @@ if (extraDiv) {
 }
 
     // --- PROCESS PLAYERS ---
-    const teamPlayers = (Joueurs || []).filter(
-      j => String(j.FKPLF) === String(currentPLF.PkPLF)
-    );
+    let teamPlayers;
+
+    // Special case: Free Players team (PkPLF = 27)
+    if (Number(currentPLF.PkPLF) === 27) {
+      // Show only active players (FkStatut = 1) in the main list
+      // but keep full Joueurs available for transactions
+      teamPlayers = (Joueurs || []).filter(j =>
+        String(j.FKPLF) === "27" && Number(j.FkStatut) === 1
+      );
+
+      // Keep a separate reference for the full set (used by trades)
+      window.fullFreePlayers = (Joueurs || []).filter(j =>
+        String(j.FKPLF) === "27"
+      );
+    } else {
+      // Normal team: show everyone linked to this PLF
+      teamPlayers = (Joueurs || []).filter(
+        j => String(j.FKPLF) === String(currentPLF.PkPLF)
+      );
+    }
+
 
     teamPlayers.sort((a, b) =>
       Number(b.FKPLFSalaire || b.FkPLFSalaire || 0) -
