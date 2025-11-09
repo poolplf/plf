@@ -77,7 +77,12 @@ console.log("🗑️ Drops loader initialized (stable grouping by pooler)");
           );
           items.forEach(ti => {
             const j = Joueurs.find(x => N(x.PKJoueurs ?? x.PkJoueur) === N(ti.FkJoueur));
-            if (j) droppedNames.push(`${j.Prenom} ${j.Nom}`);
+            if (j) {
+            const nameHtml = j.LienElite
+              ? `<a href="${j.LienElite}" target="_blank">${j.Prenom} ${j.Nom}</a>`
+              : `${j.Prenom} ${j.Nom}`;
+            droppedNames.push(nameHtml);
+          }
           });
         });
 

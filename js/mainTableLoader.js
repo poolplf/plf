@@ -137,7 +137,9 @@ function fillLeagueTrades() {
         const fkJ = getNum(it, ["FkJoueur"]);
         if (fkJ) {
           const j = Joueurs.find(j => numEq(getNum(j, ["PkJoueur", "PKJoueurs"]), fkJ));
-          if (j) text = `${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}`;
+          if (j) text = j.LienElite
+            ? `<a href="${j.LienElite}" target="_blank">${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}</a>`
+            : `${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}`;
         }
         const fkC = getNum(it, ["FkChoix"]);
         if (fkC) {

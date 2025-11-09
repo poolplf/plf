@@ -189,10 +189,12 @@ function renderFooter() {
       tbody.innerHTML = "";
       list.forEach(p => {
         const { j, teamShort, owner, age, games, points, salary } = p;
-        const name = `${j.Prenom || ""} ${j.Nom || ""}`.trim();
+        const nameHtml = j.LienElite
+        ? `<a href="${j.LienElite}" target="_blank">${j.Prenom} ${j.Nom}</a>`
+        : `${j.Prenom} ${j.Nom}`;
         const tr = document.createElement("tr");
         tr.innerHTML = `
-          <td style="text-align:left;">${name}</td>
+          <td style="text-align:left;">${nameHtml}</td>
           <td>${teamShort}</td>
           <td>${age}</td>
           <td>${games}</td>

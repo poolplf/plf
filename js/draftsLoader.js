@@ -14,10 +14,6 @@ Promise.all([
     const eq = Equipes.find(e => Number(e.PkEquipe) === Number(plf.FkEquipe));
     return eq ? (eq.ShortName || "") : "";
   };
-  const getPlayerName = (FkJoueurs) => {
-    const j = Joueurs.find(p => Number(p.PkJoueurs ?? p.PKJOUEUR ?? p.PKJoueurs) === Number(FkJoueurs));
-    return j ? `${j.Prenom || ""} ${j.Nom || ""}`.trim() : "";
-  };
 
 //console.table(Annees)
 // robust detection of "IsCurrent"
@@ -61,6 +57,18 @@ const yearsBefore = Annees
 
   // remove the static template; we'll insert a clone for every year
   base.remove();
+
+  function getPlayerName(FkJoueurs) {
+  const j = Joueurs.find(p =>
+    Number(p.PkJoueurs ?? p.PKJOUEUR ?? p.PKJoueurs) === Number(FkJoueurs)
+  );
+  if (!j) return "";
+
+  const name = `${j.Prenom || ""} ${j.Nom || ""}`.trim();
+  return j.LienElite
+    ? `<a href="${j.LienElite}" target="_blank" rel="noopener noreferrer">${name}</a>`
+    : name;
+}
 
   const buildMini = (list) => {
     const mini = document.createElement("table");

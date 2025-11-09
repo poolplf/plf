@@ -66,7 +66,9 @@ console.log("🔁 Trades loader initialized (fixed filtering order)");
         const inItem = items.find(ti => N(ti.FkPooler) === 27);
         if (inItem) {
           const j = Joueurs.find(x => N(x.PKJoueurs) === N(inItem.FkJoueur));
-          if (j) joueurIn = `${j.Prenom} ${j.Nom}`;
+          if (j) joueurIn = j.LienElite
+            ? `<a href="${j.LienElite}" target="_blank">${j.Prenom} ${j.Nom}</a>`
+            : `${j.Prenom} ${j.Nom}`;
         }
 
         // Column 3 (OUT): the other item (if exists)
@@ -74,7 +76,9 @@ console.log("🔁 Trades loader initialized (fixed filtering order)");
         const outItem = items.find(ti => N(ti.FkPooler) !== 27);
         if (outItem) {
           const j = Joueurs.find(x => N(x.PKJoueurs) === N(outItem.FkJoueur));
-          if (j) joueurOut = `${j.Prenom} ${j.Nom}`;
+        if (j) joueurOut = j.LienElite
+          ? `<a href="${j.LienElite}" target="_blank">${j.Prenom} ${j.Nom}</a>`
+          : `${j.Prenom} ${j.Nom}`;
         }
 
         const tr = document.createElement("tr");

@@ -183,8 +183,11 @@ if (extraDiv) {
       tbody.innerHTML = "";
       players.forEach(p => {
         const row = document.createElement("tr");
+        const nameHtml = p.LienElite
+          ? `<a href="${p.LienElite}" target="_blank">${p.Prenom} ${p.Nom}</a>`
+          : `${p.Prenom} ${p.Nom}`;
         row.innerHTML = `
-          <td>${p.Prenom || ""} ${p.Nom || ""}</td>
+          <td>${nameHtml}</td>
           <td>${p.EquipeName || ""}</td>
           <td>${p.SalaireValue || ""}</td>`;
         tbody.appendChild(row);
@@ -354,8 +357,11 @@ function fillInjured(id, InjuredArray, JoueursArray, SalairesArray) {
     totalInjuredSalary -= salaireValue;
 
     const row = document.createElement("tr");
+    const nameHtml = joueur.LienElite
+      ? `<a href="${joueur.LienElite}" target="_blank">${joueur.Prenom} ${joueur.Nom}</a>`
+      : `${joueur.Prenom} ${joueur.Nom}`;
     row.innerHTML = `
-      <td>${joueur.Prenom} ${joueur.Nom}</td>
+      <td>${nameHtml}</td>
       <td>${inj.WhenPlaced}</td>
     `;
     table.appendChild(row);
@@ -562,7 +568,9 @@ function fillTradesTable() {
           const fkJ = getNum(it, ["FkJoueur"]);
           if (fkJ) {
             const j = Joueurs.find(j => numEq(getNum(j, ["PkJoueur", "PKJoueurs"]), fkJ));
-            if (j) text = `${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}`;
+            if (j) text = j.LienElite
+              ? `<a href="${j.LienElite}" target="_blank">${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}</a>`
+              : `${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}`;
           }
 
           const fkC = getNum(it, ["FkChoix"]);
