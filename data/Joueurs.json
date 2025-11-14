@@ -228,7 +228,7 @@
     "FkEquipe": "8",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "18",
+    "FKPLF": "10",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/497121/mason-lohrei"
@@ -1736,7 +1736,7 @@
     "FkEquipe": "23",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "10",
+    "FKPLF": "18",
     "FKPLFSalaire": "9",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/31261/cam-fowler"
@@ -5610,7 +5610,7 @@
     "FkEquipe": "12",
     "FKPays": "2",
     "FKPosition": "2",
-    "FKPLF": "10",
+    "FKPLF": "18",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/483757/joshua-roy"
@@ -8262,7 +8262,7 @@
     "FkEquipe": "30",
     "FKPays": "1",
     "FKPosition": "1",
-    "FKPLF": "18",
+    "FKPLF": "10",
     "FKPLFSalaire": "4",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/201739/matty-beniers"
@@ -9367,7 +9367,7 @@
     "FkEquipe": "30",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "18",
+    "FKPLF": "10",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/60726/chandler-stephenson"
@@ -9705,7 +9705,7 @@
     "FkEquipe": "7",
     "FKPays": "2",
     "FKPosition": "2",
-    "FKPLF": "10",
+    "FKPLF": "18",
     "FKPLFSalaire": "5",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/104045/anthony-mantha"
@@ -13956,7 +13956,7 @@
     "FkEquipe": "18",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "10",
+    "FKPLF": "18",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/670126/sam-rinzel"
@@ -14229,7 +14229,7 @@
     "FkEquipe": "4",
     "FKPays": "1",
     "FKPosition": "3",
-    "FKPLF": "18",
+    "FKPLF": "10",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/597619/cole-eiserman"
