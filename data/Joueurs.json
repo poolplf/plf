@@ -1671,7 +1671,7 @@
     "FkEquipe": "25",
     "FKPays": "1",
     "FKPosition": "2",
-    "FKPLF": "16",
+    "FKPLF": "10",
     "FKPLFSalaire": "6",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/59733/frank-vatrano"
@@ -6715,7 +6715,7 @@
     "FkEquipe": "5",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "10",
+    "FKPLF": "16",
     "FKPLFSalaire": "5",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/351820/braden-schneider"
@@ -9718,7 +9718,7 @@
     "FkEquipe": "15",
     "FKPays": "15",
     "FKPosition": "1",
-    "FKPLF": "10",
+    "FKPLF": "16",
     "FKPLFSalaire": "4",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/517438/alexei-protas"
@@ -13254,7 +13254,7 @@
     "FkEquipe": "31",
     "FKPays": "3",
     "FKPosition": "7",
-    "FKPLF": "16",
+    "FKPLF": "10",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/599426/tom-willander"
