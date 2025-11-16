@@ -7,6 +7,13 @@
     "FkAnnee": "46"
   },
   {
+    "PkInjured": "6",
+    "FkPooler": "0",
+    "FkJoueur": "0",
+    "WhenPlaced": "2025-11-07",
+    "FkAnnee": "0"
+  },
+  {
     "PkInjured": "7",
     "FkPooler": "6",
     "FkJoueur": "541",
@@ -14,10 +21,17 @@
     "FkAnnee": "46"
   },
   {
-    "PkInjured": "6",
+    "PkInjured": "8",
     "FkPooler": "0",
     "FkJoueur": "0",
-    "WhenPlaced": "2025-11-07",
+    "WhenPlaced": "2025-11-16",
     "FkAnnee": "0"
+  },
+  {
+    "PkInjured": "9",
+    "FkPooler": "20",
+    "FkJoueur": "421",
+    "WhenPlaced": "2025-11-16",
+    "FkAnnee": "46"
   }
 ]

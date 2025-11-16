@@ -4338,5 +4338,19 @@
     "FkJoueur": "0",
     "FkTrade": "184",
     "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "650",
+    "FkChoix": "0",
+    "FkJoueur": "977",
+    "FkTrade": "185",
+    "FkPooler": "24"
+  },
+  {
+    "PkTradeItems": "651",
+    "FkChoix": "280",
+    "FkJoueur": "0",
+    "FkTrade": "185",
+    "FkPooler": "20"
   }
 ]
