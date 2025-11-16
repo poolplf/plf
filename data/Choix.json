@@ -1200,7 +1200,7 @@
     "PkChoix": "221",
     "FkAnnee": "47",
     "FKPLF_OR_Owner": "10",
-    "FKPLF_NEW_Owner": "10",
+    "FKPLF_NEW_Owner": "22",
     "Overall": "25",
     "Ronde": "2",
     "FkJoueurs": null
@@ -1956,7 +1956,7 @@
     "PkChoix": "305",
     "FkAnnee": "48",
     "FKPLF_OR_Owner": "20",
-    "FKPLF_NEW_Owner": "10",
+    "FKPLF_NEW_Owner": "22",
     "Overall": "34",
     "Ronde": "2",
     "FkJoueurs": null

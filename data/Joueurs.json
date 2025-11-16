@@ -527,7 +527,7 @@
     "FkEquipe": "11",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "10",
+    "FKPLF": "22",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/49042/aaron-ekblad"
@@ -1385,7 +1385,7 @@
     "FkEquipe": "1",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "22",
+    "FKPLF": "10",
     "FKPLFSalaire": "9",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/122787/shayne-gostisbehere"
@@ -2763,7 +2763,7 @@
     "FkEquipe": "8",
     "FKPays": "3",
     "FKPosition": "1",
-    "FKPLF": "10",
+    "FKPLF": "22",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/33387/elias-lindholm"
@@ -5649,7 +5649,7 @@
     "FkEquipe": "22",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "22",
+    "FKPLF": "10",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/14371/ryan-o-reilly"
@@ -14736,7 +14736,7 @@
     "FkEquipe": "21",
     "FKPays": "2",
     "FKPosition": "2",
-    "FKPLF": "10",
+    "FKPLF": "22",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/617230/ryder-ritchie"
@@ -15633,7 +15633,7 @@
     "FkEquipe": "24",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "10",
+    "FKPLF": "22",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/8792/jonathan-toews"
