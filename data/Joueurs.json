@@ -212,7 +212,7 @@
     "Prenom": "John",
     "Nom": "Beecher",
     "DateNaissance": "2001-04-05",
-    "FkEquipe": "8",
+    "FkEquipe": "26",
     "FKPays": "1",
     "FKPosition": "1",
     "FKPLF": "27",
@@ -4999,7 +4999,7 @@
     "FkEquipe": "21",
     "FKPays": "3",
     "FKPosition": "1",
-    "FKPLF": "22",
+    "FKPLF": "15",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/139633/joel-eriksson-ek"
@@ -9224,7 +9224,7 @@
     "FkEquipe": "23",
     "FKPays": "8",
     "FKPosition": "1",
-    "FKPLF": "15",
+    "FKPLF": "22",
     "FKPLFSalaire": "6",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/135775/pius-suter"
@@ -13228,7 +13228,7 @@
     "FkEquipe": "24",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "15",
+    "FKPLF": "22",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/565757/brayden-yager"
@@ -13748,7 +13748,7 @@
     "FkEquipe": "6",
     "FKPays": "2",
     "FKPosition": "8",
-    "FKPLF": "15",
+    "FKPLF": "22",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/646947/carson-bjarnason"
