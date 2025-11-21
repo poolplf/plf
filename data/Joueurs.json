@@ -98,7 +98,7 @@
     "FkEquipe": "8",
     "FKPays": "7",
     "FKPosition": "1",
-    "FKPLF": "18",
+    "FKPLF": "10",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/130786/pavel-zacha"
@@ -1671,7 +1671,7 @@
     "FkEquipe": "25",
     "FKPays": "1",
     "FKPosition": "2",
-    "FKPLF": "10",
+    "FKPLF": "18",
     "FKPLFSalaire": "6",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/59733/frank-vatrano"
@@ -12279,7 +12279,7 @@
     "FkEquipe": "24",
     "FKPays": "4",
     "FKPosition": "1",
-    "FKPLF": "10",
+    "FKPLF": "18",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/414961/brad-lambert"
