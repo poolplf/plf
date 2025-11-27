@@ -11,23 +11,18 @@ Promise.all([
   fetch('data/Salaires.json').then(r => r.json())
 ])
 .then(([plf, equipes, joueurs,injured, salaires]) => {
-  //console.log("✅ JSONs loaded:", plf.length, equipes.length, joueurs.length, salaires.length);
 
-  // Remove unwanted entries
   plf = plf.filter(item => Number(item.PkPLF) !== 27);
-
-  // Sort alphabetically
   plf.sort((a, b) => (a.LogoString || '').localeCompare(b.LogoString || ''));
 
-const tableBody = document.getElementById("plfTableBody");
-if (!tableBody) return console.error("❌ tbody not found");
-
+  const tableBody = document.getElementById("plfTableBody");
+  if (!tableBody) return console.error("❌ tbody not found");
 
   plf.forEach(pooler => {
     const row = tableBody.insertRow();
     const eq = equipes.find(e => e.PkEquipe === pooler.FkEquipe);
 
-    // 1. Logo
+    // Logo
     const logoCell = row.insertCell();
     if (eq && eq.Logo) {
       const img = document.createElement('img');
@@ -39,7 +34,7 @@ if (!tableBody) return console.error("❌ tbody not found");
       logoCell.appendChild(img);
     }
 
-    // 2. Pooler link
+    // Pooler link
     const poolerCell = row.insertCell();
     const link = document.createElement('a');
     link.textContent = pooler.Pooler;
@@ -50,7 +45,7 @@ if (!tableBody) return console.error("❌ tbody not found");
     });
     poolerCell.appendChild(link);
 
-    // 3. Salary
+    // Salary
     const poolerPlayers = joueurs.filter(j => j.FKPLF === pooler.PkPLF);
     let totalSalary = 0;
     poolerPlayers.forEach(j => {
@@ -62,22 +57,20 @@ if (!tableBody) return console.error("❌ tbody not found");
     });
 
     const totalInjured = getTotalInjuredSalaryByPLF(pooler.PkPLF, injured, joueurs, salaires);
-    //console.log("total avant", totalInjured)
-    totalSalary = totalSalary - totalInjured
-    //console.log("total apres", totalSalary)
+    totalSalary = totalSalary - totalInjured;
 
     const salaryCell = row.insertCell();    
     salaryCell.textContent = totalSalary.toLocaleString();
 
-if (totalSalary > 100 || totalSalary < 70) {
-  salaryCell.style.color = '#ff6b6b'; // bright red
-  salaryCell.style.fontWeight = 'bold';
-} else {
-  salaryCell.style.color = '#51cf66'; // bright green
-  salaryCell.style.fontWeight = 'normal';
-}
+    if (totalSalary > 100 || totalSalary < 70) {
+      salaryCell.style.color = '#ff6b6b';
+      salaryCell.style.fontWeight = 'bold';
+    } else {
+      salaryCell.style.color = '#51cf66';
+      salaryCell.style.fontWeight = 'normal';
+    }
 
-    // 4–6: Player counts
+    // Player counts
     const forwards = poolerPlayers.filter(j => [1, 2, 3, 6].includes(Number(j.FKPosition))).length;
     const defense  = poolerPlayers.filter(j => [4, 5, 7].includes(Number(j.FKPosition))).length;
     const goalies  = poolerPlayers.filter(j => Number(j.FKPosition) === 8).length;
@@ -86,15 +79,19 @@ if (totalSalary > 100 || totalSalary < 70) {
     row.insertCell().textContent = defense;
     row.insertCell().textContent = goalies;
 
-    // 7. Total
+    // Total players
     row.insertCell().textContent = poolerPlayers.length;
 
-    // 8. Email
+    // Email
     const emailCell = row.insertCell();
-    emailCell.textContent = pooler.Courriel;
+    emailCell.textContent = pooler.CCourriel;
   });
 })
 .catch(err => console.error('Error loading data:', err));
+
+/* --------------------------------------------------------------------------
+   LEAGUE TRADES — UPDATED WITH ORIGINAL OWNER SHORT NAME FOR PICKS
+-------------------------------------------------------------------------- */
 
 function fillLeagueTrades() {
   const tbody = document.getElementById("leagueTradesList");
@@ -111,8 +108,9 @@ function fillLeagueTrades() {
   ])
   .then(([Echanges, TradeItems, PLF, Equipes, Choix, Annees, Joueurs]) => {
 
-    // Sort latest first, keep last 20
-    const trades = Echanges.sort((a, b) => new Date(b.DateEchange) - new Date(a.DateEchange)).slice(0, 20);
+    const trades = Echanges.sort((a, b) =>
+      new Date(b.DateEchange) - new Date(a.DateEchange)
+    ).slice(0, 20);
 
     const numEq = (a, b) => Number(a) === Number(b);
     const getNum = (o, keys) => {
@@ -131,16 +129,23 @@ function fillLeagueTrades() {
 
       const itemsByTeam = { [p1]: [], [p2]: [] };
 
-      // Build text for each traded item
+      // Build text for traded items
       items.forEach(it => {
         let text = "";
+
+        // Player
         const fkJ = getNum(it, ["FkJoueur"]);
         if (fkJ) {
           const j = Joueurs.find(j => numEq(getNum(j, ["PkJoueur", "PKJoueurs"]), fkJ));
-          if (j) text = j.LienElite
-            ? `<a href="${j.LienElite}" target="_blank">${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}</a>`
-            : `${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}`;
+          if (j) {
+            const short = `${(j.Prenom || "").charAt(0)}. ${j.Nom || ""}`;
+            text = j.LienElite
+              ? `<a href="${j.LienElite}" target="_blank">${short}</a>`
+              : short;
+          }
         }
+
+        // Pick
         const fkC = getNum(it, ["FkChoix"]);
         if (fkC) {
           const c = Choix.find(c => numEq(getNum(c, ["PkChoix"]), fkC));
@@ -149,22 +154,31 @@ function fillLeagueTrades() {
             const year = a?.Annee?.slice(0, 4) || "";
             const r = Number(c.Ronde);
             const rondeTxt = isNaN(r) ? "" : `${r}${r === 1 ? "er" : "e"}`;
-            text = `${rondeTxt} ${year}`;
+
+            // ⭐ NEW: original owner short name
+            let ownerShort = "?";
+            const plfOwner = PLF.find(p => numEq(getNum(p, ["PkPLF"]), getNum(c, ["FKPLF_OR_Owner"])));
+            if (plfOwner) {
+              const ownerEq = Equipes.find(e => numEq(getNum(e, ["PkEquipe"]), getNum(plfOwner, ["FkEquipe"])));
+              if (ownerEq) ownerShort = ownerEq.ShortName || ownerEq.Shortname || ownerEq.Nom || ownerShort;
+            }
+
+            text = `${rondeTxt} ${year} (${ownerShort})`;
           }
         }
-        if (text) itemsByTeam[getNum(it, ["FkPooler"])].push(text);
+
+        if (text)
+          itemsByTeam[getNum(it, ["FkPooler"])].push(text);
       });
 
-      // --- new styled layout block ---
+      // Build the HTML block
       const block = document.createElement("div");
       block.className = "trade-block";
 
-      // Date
       const dateDiv = document.createElement("div");
       dateDiv.className = "trade-date";
       dateDiv.textContent = trade.DateEchange;
 
-      // Teams (Equipe.ShortName + PLF.LogoString)
       const teamsDiv = document.createElement("div");
       teamsDiv.className = "trade-teams";
 
@@ -176,23 +190,16 @@ function fillLeagueTrades() {
         const name = eq?.ShortName || eq?.Shortname || eq?.Nom || `PLF#${pk}`;
         const logo = plf.LogoString ? `files/${plf.LogoString}` : null;
 
-        const html = logo
+        return logo
           ? `<a href="#" onclick="loadTeams(${pk})">
-              <img src="${logo}" alt="${name}"
-                style="height:18px;width:18px;vertical-align:middle;margin-right:6px;">
+              <img src="${logo}" height="18" width="18" style="vertical-align:middle;margin-right:6px;">
               ${name}
             </a>`
           : `<a href="#" onclick="loadTeams(${pk})">${name}</a>`;
-
-        return `<span>${html}</span>`;
       }
 
-      teamsDiv.innerHTML = `
-        ${buildTeamBlock(p1)}
-        ${buildTeamBlock(p2)}
-      `;
+      teamsDiv.innerHTML = `${buildTeamBlock(p1)} ${buildTeamBlock(p2)}`;
 
-      // Players
       const playersDiv = document.createElement("div");
       playersDiv.className = "trade-players";
       playersDiv.innerHTML = `
@@ -201,10 +208,10 @@ function fillLeagueTrades() {
           <div style="text-align:right;">${itemsByTeam[p2].join("<br>") || "&nbsp;"}</div>
         </div>`;
 
-      // Assemble and append
       block.appendChild(dateDiv);
       block.appendChild(teamsDiv);
       block.appendChild(playersDiv);
+
       tbody.appendChild(block);
     });
   })
@@ -223,15 +230,14 @@ function getTotalInjuredSalaryByPLF(pkPLF, Injured, Joueurs, Salaires) {
   for (const inj of injuredPlayers) {
     const joueur = Joueurs.find(j => j.PKJoueurs === inj.FkJoueur);
     if (joueur && joueur.FKPLFSalaire) {
-      const salaireObj = Salaires.find(s => s.PKSalaire === joueur.FKPLFSalaire);
-      if (salaireObj && !isNaN(Number(salaireObj.Salaire))) {
-        total += Number(salaireObj.Salaire);
+      const sal = Salaires.find(s => s.PKSalaire === joueur.FKPLFSalaire);
+      if (sal && !isNaN(Number(sal.Salaire))) {
+        total += Number(sal.Salaire);
       }
     }
   }
 
   return total > 10 ? 10 : total;
 }
-
 
 fillLeagueTrades();

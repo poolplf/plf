@@ -1,4 +1,3 @@
-
 // Full loader: fetch data, find current PLF, insert logo & info, build player lists
 //console.clear();
 
@@ -210,7 +209,7 @@ if (extraDiv) {
     console.log("✅ Team data processed for PkPLF:", window.pkPLF);
   })
   .catch(err => console.error("Error loading or processing team data:", err));
-
+  
 
 // new part 25-10-15
 
@@ -384,7 +383,7 @@ function loadArchiveTable() {
   // Clear any existing rows
   tbody.innerHTML = "";
 
-  // Filter Classement by the selected team
+  // FilterClassement by the selected team
   const filtered = Classement.filter(c => Number(c.FkPooler) === Number(window.pkPLF));
 
   // Loop through each matching record
@@ -583,7 +582,16 @@ function fillTradesTable() {
               const year = a?.Annee?.slice(0, 4) || "";
               const r = Number(c.Ronde);
               const rondeTxt = isNaN(r) ? "" : `${r}${r === 1 ? "er" : "e"}`;
-              text = `${rondeTxt} ${year}`;
+
+              // --- ORIGINAL OWNER SHORT NAME (new) ---
+              let ownerShort = "?";
+              const plfOwner = PLF.find(p => numEq(getNum(p, ["PkPLF"]), getNum(c, ["FKPLF_OR_Owner"])));
+              if (plfOwner) {
+                const ownerEq = Equipes.find(e => numEq(getNum(e, ["PkEquipe"]), getNum(plfOwner, ["FkEquipe"])));
+                if (ownerEq) ownerShort = ownerEq.ShortName || ownerEq.Shortname || ownerEq.Nom || ownerShort;
+              }
+
+              text = `${rondeTxt} ${year} (${ownerShort})`;
             }
           }
 
