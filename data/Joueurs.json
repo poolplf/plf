@@ -1034,7 +1034,7 @@
     "FkEquipe": "32",
     "FKPays": "2",
     "FKPosition": "2",
-    "FKPLF": "6",
+    "FKPLF": "8",
     "FKPLFSalaire": "10",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/223194/mitchell-marner"
@@ -1060,7 +1060,7 @@
     "FkEquipe": "16",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "6",
+    "FKPLF": "8",
     "FKPLFSalaire": "9",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/41184/morgan-rielly"
@@ -2399,7 +2399,7 @@
     "FkEquipe": "9",
     "FKPays": "1",
     "FKPosition": "1",
-    "FKPLF": "8",
+    "FKPLF": "6",
     "FKPLFSalaire": "6",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/301349/tage-thompson"
@@ -2776,7 +2776,7 @@
     "FkEquipe": "26",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "8",
+    "FKPLF": "6",
     "FKPLFSalaire": "9",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/97908/mackenzie-weegar"
