@@ -11798,7 +11798,7 @@
     "FkEquipe": "9",
     "FKPays": "1",
     "FKPosition": "2",
-    "FKPLF": "18",
+    "FKPLF": "10",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/201817/josh-doan"
@@ -13254,7 +13254,7 @@
     "FkEquipe": "31",
     "FKPays": "3",
     "FKPosition": "7",
-    "FKPLF": "10",
+    "FKPLF": "18",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/599426/tom-willander"
