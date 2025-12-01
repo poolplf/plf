@@ -12279,7 +12279,7 @@
     "FkEquipe": "24",
     "FKPays": "4",
     "FKPosition": "1",
-    "FKPLF": "18",
+    "FKPLF": "16",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/414961/brad-lambert"
@@ -14268,7 +14268,7 @@
     "FkEquipe": "25",
     "FKPays": "13",
     "FKPosition": "7",
-    "FKPLF": "16",
+    "FKPLF": "18",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/619175/stian-solberg"
@@ -16075,7 +16075,7 @@
     "FkEquipe": "6",
     "FKPays": "1",
     "FKPosition": "3",
-    "FKPLF": "16",
+    "FKPLF": "18",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/783165/jack-murtagh"
