@@ -75,5 +75,19 @@
     "FkJoueur": "324",
     "WhenPlaced": "2025-11-29",
     "FkAnnee": "46"
+  },
+  {
+    "PkInjured": "16",
+    "FkPooler": "0",
+    "FkJoueur": "0",
+    "WhenPlaced": "2025-12-05",
+    "FkAnnee": "0"
+  },
+  {
+    "PkInjured": "17",
+    "FkPooler": "7",
+    "FkJoueur": "331",
+    "WhenPlaced": "2025-12-05",
+    "FkAnnee": "46"
   }
 ]
