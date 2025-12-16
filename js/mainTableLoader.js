@@ -108,9 +108,13 @@ function fillLeagueTrades() {
   ])
   .then(([Echanges, TradeItems, PLF, Equipes, Choix, Annees, Joueurs]) => {
 
-    const trades = Echanges.sort((a, b) =>
-      new Date(b.DateEchange) - new Date(a.DateEchange)
-    ).slice(0, 20);
+    const trades = Echanges
+      .sort((a, b) => {
+        const d = new Date(b.DateEchange) - new Date(a.DateEchange);
+        if (d !== 0) return d;
+        return Number(b.PkEchange) - Number(a.PkEchange);
+      })
+      .slice(0, 20);
 
     const numEq = (a, b) => Number(a) === Number(b);
     const getNum = (o, keys) => {

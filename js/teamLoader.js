@@ -539,9 +539,13 @@ function fillTradesTable() {
   function renderTrades(trades) {
     tbody.innerHTML = "";
 
-    trades
-      .sort((a, b) => new Date(b.DateEchange) - new Date(a.DateEchange))
-      .forEach(trade => {
+      trades
+        .sort((a, b) => {
+          const d = new Date(b.DateEchange) - new Date(a.DateEchange);
+          if (d !== 0) return d;
+          return Number(b.PkEchange) - Number(a.PkEchange);
+        })
+        .forEach(trade => {
         const tradePk = getNum(trade, ["PkEchange"]);
         const items = (TradeItems || []).filter(it =>
           numEq(getNum(it, ["FkTrade"]), tradePk)
