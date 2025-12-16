@@ -84,7 +84,7 @@ Promise.all([
 
     // Email
     const emailCell = row.insertCell();
-    emailCell.textContent = pooler.CCourriel;
+    emailCell.textContent = pooler.Courriel;
   });
 })
 .catch(err => console.error('Error loading data:', err));
