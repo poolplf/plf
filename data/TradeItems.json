@@ -4905,5 +4905,12 @@
     "FkJoueur": "0",
     "FkTrade": "216",
     "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "731",
+    "FkChoix": "0",
+    "FkJoueur": "354",
+    "FkTrade": "199",
+    "FkPooler": "25"
   }
 ]
