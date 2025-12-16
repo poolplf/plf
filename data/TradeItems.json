@@ -4835,5 +4835,75 @@
     "FkJoueur": "63",
     "FkTrade": "213",
     "FkPooler": "27"
+  },
+  {
+    "PkTradeItems": "721",
+    "FkChoix": "0",
+    "FkJoueur": "1273",
+    "FkTrade": "214",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "722",
+    "FkChoix": "386",
+    "FkJoueur": "0",
+    "FkTrade": "214",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "723",
+    "FkChoix": "261",
+    "FkJoueur": "0",
+    "FkTrade": "214",
+    "FkPooler": "25"
+  },
+  {
+    "PkTradeItems": "724",
+    "FkChoix": "0",
+    "FkJoueur": "1276",
+    "FkTrade": "215",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "725",
+    "FkChoix": "410",
+    "FkJoueur": "0",
+    "FkTrade": "215",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "726",
+    "FkChoix": "230",
+    "FkJoueur": "0",
+    "FkTrade": "215",
+    "FkPooler": "14"
+  },
+  {
+    "PkTradeItems": "727",
+    "FkChoix": "0",
+    "FkJoueur": "657",
+    "FkTrade": "216",
+    "FkPooler": "20"
+  },
+  {
+    "PkTradeItems": "728",
+    "FkChoix": "0",
+    "FkJoueur": "261",
+    "FkTrade": "216",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "729",
+    "FkChoix": "0",
+    "FkJoueur": "1165",
+    "FkTrade": "216",
+    "FkPooler": "10"
+  },
+  {
+    "PkTradeItems": "730",
+    "FkChoix": "204",
+    "FkJoueur": "0",
+    "FkTrade": "216",
+    "FkPooler": "10"
   }
 ]
