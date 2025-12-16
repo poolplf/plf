@@ -813,7 +813,7 @@
     "FkEquipe": "27",
     "FKPays": "1",
     "FKPosition": "1",
-    "FKPLF": "27",
+    "FKPLF": "11",
     "FKPLFSalaire": "6",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/226309/jack-roslovic"
@@ -865,7 +865,7 @@
     "FkEquipe": "22",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "27",
+    "FKPLF": "24",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/233484/nick-blankenburg"
@@ -1255,7 +1255,7 @@
     "FkEquipe": "29",
     "FKPays": "3",
     "FKPosition": "7",
-    "FKPLF": null,
+    "FKPLF": "27",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/21717/john-klingberg"
@@ -3205,7 +3205,7 @@
     "FkEquipe": "29",
     "FKPays": "6",
     "FKPosition": "7",
-    "FKPLF": "27",
+    "FKPLF": "23",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/17758/dmitri-orlov"
@@ -3959,7 +3959,7 @@
     "FkEquipe": "19",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "27",
+    "FKPLF": "20",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/381044/sam-malinski"
@@ -4466,7 +4466,7 @@
     "FkEquipe": "31",
     "FKPays": "2",
     "FKPosition": "3",
-    "FKPLF": "24",
+    "FKPLF": "27",
     "FKPLFSalaire": "5",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/14657/evander-kane"
@@ -5051,7 +5051,7 @@
     "FkEquipe": "21",
     "FKPays": "3",
     "FKPosition": "3",
-    "FKPLF": "27",
+    "FKPLF": "8",
     "FKPLFSalaire": "5",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/6225/marcus-johansson"
@@ -6403,7 +6403,7 @@
     "FkEquipe": "4",
     "FKPays": "6",
     "FKPosition": "7",
-    "FKPLF": "6",
+    "FKPLF": "27",
     "FKPLFSalaire": "5",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/396529/alexander-romanov"
@@ -6949,7 +6949,7 @@
     "FkEquipe": "21",
     "FKPays": "6",
     "FKPosition": "2",
-    "FKPLF": "11",
+    "FKPLF": "27",
     "FKPLFSalaire": "6",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/24787/vladimir-tarasenko"
@@ -8249,7 +8249,7 @@
     "FkEquipe": "30",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "27",
+    "FKPLF": "18",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/33907/jaden-schwartz"
@@ -9224,7 +9224,7 @@
     "FkEquipe": "23",
     "FKPays": "8",
     "FKPosition": "1",
-    "FKPLF": "22",
+    "FKPLF": "27",
     "FKPLFSalaire": "6",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/135775/pius-suter"
@@ -9601,7 +9601,7 @@
     "FkEquipe": "32",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "27",
+    "FKPLF": "6",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/201780/lukas-cormier"
@@ -10537,7 +10537,7 @@
     "FkEquipe": "19",
     "FKPays": "2",
     "FKPosition": "8",
-    "FKPLF": "27",
+    "FKPLF": "19",
     "FKPLFSalaire": "5",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/30921/scott-wedgewood"
@@ -10576,7 +10576,7 @@
     "FkEquipe": "31",
     "FKPays": "4",
     "FKPosition": "8",
-    "FKPLF": "19",
+    "FKPLF": "27",
     "FKPLFSalaire": "5",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/50662/kevin-lankinen"
@@ -10602,7 +10602,7 @@
     "FkEquipe": "36",
     "FKPays": "7",
     "FKPosition": "8",
-    "FKPLF": "27",
+    "FKPLF": "9",
     "FKPLFSalaire": "5",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/189829/karel-vejmelka"
@@ -10758,9 +10758,9 @@
     "FkEquipe": "34",
     "FKPays": "2",
     "FKPosition": "8",
-    "FKPLF": "27",
+    "FKPLF": "22",
     "FKPLFSalaire": "6",
-    "FkStatut": "2",
+    "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/161850/carter-hart"
   },
   {
@@ -13683,7 +13683,7 @@
     "FkEquipe": "24",
     "FKPays": "4",
     "FKPosition": "7",
-    "FKPLF": "18",
+    "FKPLF": "27",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/428795/ville-heinola"
@@ -14606,7 +14606,7 @@
     "FkEquipe": "26",
     "FKPays": "2",
     "FKPosition": "2",
-    "FKPLF": "7",
+    "FKPLF": "27",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/597679/jacob-battaglia"
@@ -14697,7 +14697,7 @@
     "FkEquipe": "6",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "16",
+    "FKPLF": "27",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/716274/spencer-gill"
@@ -14879,7 +14879,7 @@
     "FkEquipe": "27",
     "FKPays": "1",
     "FKPosition": "2",
-    "FKPLF": "27",
+    "FKPLF": "10",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/201721/quinn-hutson"
@@ -15620,7 +15620,7 @@
     "FkEquipe": "31",
     "FKPays": "6",
     "FKPosition": "2",
-    "FKPLF": "8",
+    "FKPLF": "27",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/379749/vitali-kravtsov"
@@ -16248,5 +16248,70 @@
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/326877/atro-leppanen"
+  },
+  {
+    "PKJoueurs": "1272",
+    "Prenom": "Emmitt",
+    "Nom": "Finnie",
+    "DateNaissance": "2005-06-27",
+    "FkEquipe": "10",
+    "FKPays": "2",
+    "FKPosition": "1",
+    "FKPLF": "16",
+    "FKPLFSalaire": "1",
+    "FkStatut": "1",
+    "LienElite": "https://www.eliteprospects.com/player/647529/emmitt-finnie"
+  },
+  {
+    "PKJoueurs": "1273",
+    "Prenom": "Nick",
+    "Nom": "Lardis",
+    "DateNaissance": "2005-07-08",
+    "FkEquipe": "18",
+    "FKPays": "2",
+    "FKPosition": "2",
+    "FKPLF": "25",
+    "FKPLFSalaire": "1",
+    "FkStatut": "1",
+    "LienElite": "https://www.eliteprospects.com/player/603122/nick-lardis"
+  },
+  {
+    "PKJoueurs": "1274",
+    "Prenom": "Braeden",
+    "Nom": "Bowman",
+    "DateNaissance": "2003-06-26",
+    "FkEquipe": "32",
+    "FKPays": "2",
+    "FKPosition": "2",
+    "FKPLF": "4",
+    "FKPLFSalaire": "1",
+    "FkStatut": "1",
+    "LienElite": "https://www.eliteprospects.com/player/582646/braeden-bowman"
+  },
+  {
+    "PKJoueurs": "1275",
+    "Prenom": "Max",
+    "Nom": "Plante",
+    "DateNaissance": "2006-02-20",
+    "FkEquipe": "10",
+    "FKPays": "1",
+    "FKPosition": "3",
+    "FKPLF": "7",
+    "FKPLFSalaire": "1",
+    "FkStatut": "1",
+    "LienElite": "https://www.eliteprospects.com/player/597566/max-plante"
+  },
+  {
+    "PKJoueurs": "1276",
+    "Prenom": "Bryce",
+    "Nom": "Pickford",
+    "DateNaissance": "2006-04-02",
+    "FkEquipe": "12",
+    "FKPays": "2",
+    "FKPosition": "7",
+    "FKPLF": "14",
+    "FKPLFSalaire": "1",
+    "FkStatut": "1",
+    "LienElite": "https://www.eliteprospects.com/player/733570/bryce-pickford"
   }
 ]
