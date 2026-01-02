@@ -1762,7 +1762,7 @@
     "FkEquipe": "25",
     "FKPays": "6",
     "FKPosition": "7",
-    "FKPLF": "11",
+    "FKPLF": "24",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/527453/pavel-mintyukov"
@@ -6000,7 +6000,7 @@
     "FkEquipe": "3",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "24",
+    "FKPLF": "11",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/526979/luke-hughes"
@@ -6598,7 +6598,7 @@
     "FkEquipe": "25",
     "FKPays": "1",
     "FKPosition": "3",
-    "FKPLF": "24",
+    "FKPLF": "11",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/37998/chris-kreider"
@@ -9133,7 +9133,7 @@
     "FkEquipe": "16",
     "FKPays": "1",
     "FKPosition": "1",
-    "FKPLF": "11",
+    "FKPLF": "24",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/194948/dakota-joshua"
@@ -11967,7 +11967,7 @@
     "FkEquipe": "28",
     "FKPays": "1",
     "FKPosition": "1",
-    "FKPLF": "24",
+    "FKPLF": "11",
     "FKPLFSalaire": "2",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/290043/alex-turcotte"
