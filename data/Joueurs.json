@@ -1203,7 +1203,7 @@
     "FkEquipe": "16",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "14",
+    "FKPLF": "12",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/108467/bobby-mcmann"
@@ -8210,7 +8210,7 @@
     "FkEquipe": "30",
     "FKPays": "2",
     "FKPosition": "3",
-    "FKPLF": "12",
+    "FKPLF": "19",
     "FKPLFSalaire": "8",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/189369/jared-mccann"
