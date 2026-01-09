@@ -1566,5 +1566,13 @@
     "DateEchange": "2026-01-04",
     "FkAnnee": "46",
     "FkStatutTrade": "1"
+  },
+  {
+    "PkEchange": "220",
+    "FkPooler1": "16",
+    "FkPooler2": "14",
+    "DateEchange": "2026-01-09",
+    "FkAnnee": "46",
+    "FkStatutTrade": "1"
   }
 ]
