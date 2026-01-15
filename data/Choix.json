@@ -1281,7 +1281,7 @@
     "PkChoix": "230",
     "FkAnnee": "47",
     "FKPLF_OR_Owner": "14",
-    "FKPLF_NEW_Owner": "20",
+    "FKPLF_NEW_Owner": "5",
     "Overall": "28",
     "Ronde": "2",
     "FkJoueurs": null
@@ -1884,7 +1884,7 @@
     "PkChoix": "297",
     "FkAnnee": "48",
     "FKPLF_OR_Owner": "16",
-    "FKPLF_NEW_Owner": "12",
+    "FKPLF_NEW_Owner": "24",
     "Overall": "50",
     "Ronde": "3",
     "FkJoueurs": null
