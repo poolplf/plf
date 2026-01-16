@@ -1598,5 +1598,45 @@
     "DateEchange": "2026-01-15",
     "FkAnnee": "46",
     "FkStatutTrade": "1"
+  },
+  {
+    "PkEchange": "225",
+    "FkPooler1": "21",
+    "FkPooler2": "27",
+    "DateEchange": "2026-01-15",
+    "FkAnnee": "46",
+    "FkStatutTrade": "2"
+  },
+  {
+    "PkEchange": "226",
+    "FkPooler1": "15",
+    "FkPooler2": "27",
+    "DateEchange": "2026-01-15",
+    "FkAnnee": "46",
+    "FkStatutTrade": "2"
+  },
+  {
+    "PkEchange": "230",
+    "FkPooler1": "12",
+    "FkPooler2": "4",
+    "DateEchange": "2026-01-15",
+    "FkAnnee": "46",
+    "FkStatutTrade": "1"
+  },
+  {
+    "PkEchange": "233",
+    "FkPooler1": "12",
+    "FkPooler2": "27",
+    "DateEchange": "2026-01-15",
+    "FkAnnee": "46",
+    "FkStatutTrade": "2"
+  },
+  {
+    "PkEchange": "235",
+    "FkPooler1": "5",
+    "FkPooler2": "27",
+    "DateEchange": "2026-01-15",
+    "FkAnnee": "46",
+    "FkStatutTrade": "2"
   }
 ]

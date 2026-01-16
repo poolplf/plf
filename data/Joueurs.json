@@ -1255,7 +1255,7 @@
     "FkEquipe": "29",
     "FKPays": "3",
     "FKPosition": "7",
-    "FKPLF": "27",
+    "FKPLF": "12",
     "FKPLFSalaire": "7",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/21717/john-klingberg"
@@ -2542,7 +2542,7 @@
     "FkEquipe": "9",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "27",
+    "FKPLF": "21",
     "FKPLFSalaire": "4",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/325127/mattias-samuelsson"
@@ -4700,7 +4700,7 @@
     "FkEquipe": "28",
     "FKPays": "9",
     "FKPosition": "1",
-    "FKPLF": "15",
+    "FKPLF": "27",
     "FKPLFSalaire": "9",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/4233/anze-kopitar"
@@ -6806,7 +6806,7 @@
     "FkEquipe": "9",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "12",
+    "FKPLF": "4",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/364649/zac-jones"
@@ -10108,7 +10108,7 @@
     "FkEquipe": "24",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "21",
+    "FKPLF": "27",
     "FKPLFSalaire": "8",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/196583/neal-pionk"
@@ -11759,7 +11759,7 @@
     "FkEquipe": "23",
     "FKPays": "16",
     "FKPosition": "1",
-    "FKPLF": "27",
+    "FKPLF": "15",
     "FKPLFSalaire": "3",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/296904/alexandre-texier"
@@ -13605,7 +13605,7 @@
     "FkEquipe": "30",
     "FKPays": "2",
     "FKPosition": "7",
-    "FKPLF": "4",
+    "FKPLF": "27",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/607323/caden-price"
@@ -15152,7 +15152,7 @@
     "FkEquipe": "26",
     "FKPays": "2",
     "FKPosition": "1",
-    "FKPLF": "12",
+    "FKPLF": "4",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/504297/rory-kerins"
@@ -16023,7 +16023,7 @@
     "FkEquipe": "28",
     "FKPays": "1",
     "FKPosition": "7",
-    "FKPLF": "12",
+    "FKPLF": "4",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/576953/henry-brzustewicz"
@@ -16313,5 +16313,18 @@
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/733570/bryce-pickford"
+  },
+  {
+    "PKJoueurs": "1277",
+    "Prenom": "Benjamin",
+    "Nom": "Rautiainen",
+    "DateNaissance": "2005-06-12",
+    "FkEquipe": "14",
+    "FKPays": "4",
+    "FKPosition": "1",
+    "FKPLF": "5",
+    "FKPLFSalaire": "1",
+    "FkStatut": "1",
+    "LienElite": null
   }
 ]
