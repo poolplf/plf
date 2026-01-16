@@ -152,5 +152,19 @@
     "FkJoueur": "438",
     "WhenPlaced": "2026-01-16",
     "FkAnnee": "46"
+  },
+  {
+    "PkInjured": "27",
+    "FkPooler": "0",
+    "FkJoueur": "0",
+    "WhenPlaced": "2026-01-16",
+    "FkAnnee": "0"
+  },
+  {
+    "PkInjured": "28",
+    "FkPooler": "20",
+    "FkJoueur": "261",
+    "WhenPlaced": "2026-01-16",
+    "FkAnnee": "46"
   }
 ]
