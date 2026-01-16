@@ -14567,7 +14567,7 @@
     "FkEquipe": "25",
     "FKPays": "2",
     "FKPosition": "2",
-    "FKPLF": "16",
+    "FKPLF": "6",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
     "LienElite": "https://www.eliteprospects.com/player/724380/maxim-masse"
@@ -16325,6 +16325,6 @@
     "FKPLF": "5",
     "FKPLFSalaire": "1",
     "FkStatut": "1",
-    "LienElite": null
+    "LienElite": "https://www.eliteprospects.com/player/710221/benjamin-rautiainen"
   }
 ]
